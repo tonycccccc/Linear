@@ -2,6 +2,7 @@
 //#include "csv.h"
 #include "sstream"
 #include <iostream>
+#include <fstream>
 //#include <json/value.h>
 
 using namespace std;
@@ -136,6 +137,10 @@ int main()
     //int Wt_X = layer_info['Wtx'];
     //int Wt_Y = layer_info['Wty'];
 
+	X = 1;
+	Y = 2048;
+	Wt_X = 2048;
+	Wt_Y = 1000
     long double mse = 0.0;
     std::cout <<"Program Starts!!!!!" <<std::endl;
     read_bin_files(X, Y, Wt_X, Wt_Y);  //readin input files
@@ -243,7 +248,8 @@ int main()
 
     //perform loop tiling
     data_t output[X][Wt_Y];
-    LINEAR(ifc, ifc, ifc, ifc, ifc, ifc, output_ifc, X, Y, Wt_X, Wt_Y);
+    ap_uint<HP_IFC_BANDWIDTH> output_ifc[2048];
+    LINEAR(ifc, ifc, ifc, ifc, ifc, ifc, output_ifc, X, Y, Wt_X, Wt_Y, 0);
     for (int i = 0; i < X; ++i) {
         for (int j = 0; j < Wt_Y/4; j+=4) {
             output[i][j] = output_ifc[overall_addr].range((j+1) * OACTS_DATAWIDTH -1, j *OACTS_DATAWIDTH);
@@ -259,7 +265,7 @@ int main()
     {
         for (int j = 0; j < Wt_Y; ++j)
         {
-            std::cout << output[i][j] << ' ,';
+            std::cout << output[i][j] << " ,";
         }
         std::cout << std::endl;
     }
