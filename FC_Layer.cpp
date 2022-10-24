@@ -182,7 +182,7 @@ void CreateBitMask(hls::stream<ap_uint<WEIGHTS_DATAWIDTH>> weights_stream[Parall
     { 
         ap_uint<PARALLEL_N*WEIGHTS_DATAWIDTH> payload = 0;
         ap_uint<PARALLEL_N> bitmask = 0;
-        for (int j = 0; j < PARALLEL_N) {
+        for (int j = 0; j < PARALLEL_N;++j) {
 #pragma HLS PIPELINE II = 1
             ap_uint<WEIGHTS_DATAWIDTH> data = weights_stream[i].read();
             payload.range((j+1)*WEIGHTS_DATAWIDTH-1, j*WEIGHTS_DATAWIDTH) = data;
