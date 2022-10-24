@@ -244,7 +244,7 @@ void OutputBuffer(
     int X,
     int Wt_Y,
     int address,
-    ap_uint<OACTS_DATAWIDTH> output_buf[Wt_Y/PARALLEL_N][PARALLEL_N])
+    ap_uint<OACTS_DATAWIDTH> output_buf[MAX_WT_Y/PARALLEL_N][PARALLEL_N])
 {
     int overall_addr = address;
     int loop_count = X * Wt_Y;

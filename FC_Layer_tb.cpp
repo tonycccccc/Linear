@@ -4,6 +4,7 @@
 #include <iostream>
 #include <fstream>
 //#include <json/value.h>
+#include <cmath>
 
 using namespace std;
 
@@ -13,9 +14,9 @@ constexpr int MAX_Y = 2048;
 constexpr int MAX_Wt_X = 2048;
 constexpr int MAX_Wt_Y = 1000;
 
-float iacts_intput[MAX_X*MAX_Y];
+float iacts_input[MAX_X*MAX_Y];
 float weights_input[MAX_Wt_X*MAX_Wt_Y];
-float oacts_intput[MAX_X*MAX_Wt_Y];
+float oacts_input[MAX_X*MAX_Wt_Y];
 float bias_input[MAX_X*MAX_Wt_Y];
 
 data_t iacts[MAX_X*MAX_Y];
@@ -137,11 +138,10 @@ int main()
     //int Wt_X = layer_info['Wtx'];
     //int Wt_Y = layer_info['Wty'];
 
-	X = 1;
-	Y = 2048;
-	Wt_X = 2048;
-	Wt_Y = 1000
-    long double mse = 0.0;
+	int X = 1;
+	int Y = 2048;
+	int Wt_X = 2048;
+	int Wt_Y = 1000;
     std::cout <<"Program Starts!!!!!" <<std::endl;
     read_bin_files(X, Y, Wt_X, Wt_Y);  //readin input files
     convert_data_type(X, Y, Wt_X, Wt_Y);  //convert data type 
@@ -168,18 +168,23 @@ int main()
     int weight_loop_count_Y = Wt_Y / PARALLEL_N;
     int weight_loop_residual = Wt_X * Wt_Y % weight_parallel_transmission; 
     int weight_addr_offset = 0;
+    int weight_complete_loop_count = weight_loop_count_X * weight_loop_count_Y;
     //Read 32 * 20 / 4 = 160 block a time
+    int count = 0;
     for (int i = 0; i < weight_loop_count_X; i++) {
         for (int j = 0; j < weight_loop_count_Y; j++) {
             for (int row = 0; row < PARALLEL_K; ++row) {
-                for (int col = 0; col < PARALLEL_N / weight_parallel_transmission; ++row) {
-                    ap_uint<HP_IFC_BANDWIDTH> temp;
-                    int idx_x = i*PARALLEL_K+row;
-                    int idx_y = j*PARALLEL_N+col;
-                    temp.range(j*WEIGHTS_DATAWIDTH, (j+1)*WEIGHTS_DATAWIDTH-1) = weights[idx_x][idx_y];
+                for (int col = 0; col < PARALLEL_N / weight_parallel_transmission; ++col) {
+                	ap_uint<HP_IFC_BANDWIDTH> temp;
+                	for (int idx = 0; idx < weight_parallel_transmission; ++idx) {
+                		int idx_x = i*PARALLEL_K+row;
+                		int idx_y = j*PARALLEL_N+col*weight_parallel_transmission+idx;
+                		temp.range(j*WEIGHTS_DATAWIDTH, (j+1)*WEIGHTS_DATAWIDTH-1) = weights[idx_x][idx_y];
+                	}
+                	ifc[overall_addr + count] = temp;
+                	count++;
+                	weight_addr_offset++;
                 }
-                ifc[overall_addr + i] = temp;
-                weight_addr_offset++;
             }   
         }
             
@@ -194,10 +199,11 @@ int main()
 
     if (weight_loop_residual != 0) {
     //address the residual elements (Should not trigger the following part)
+    	ap_uint<HP_IFC_BANDWIDTH> temp;
         for (int i = 0; i < weight_parallel_transmission; ++i) {
             if (i < weight_loop_residual) {
-                int idx_x = (weight_complete_loop_count*weight_parallel_transmission+j) / Wt_X;
-                int idx_y = (weight_complete_loop_count*weight_parallel_transmission+j) % Wt_X;
+                int idx_x = (weight_complete_loop_count*weight_parallel_transmission+i) / Wt_X;
+                int idx_y = (weight_complete_loop_count*weight_parallel_transmission+i) % Wt_X;
                 temp.range(i*WEIGHTS_DATAWIDTH, (i+1)*WEIGHTS_DATAWIDTH-1) = weights[idx_x][idx_y];
             }
             else
@@ -205,6 +211,7 @@ int main()
                 temp.range(i*WEIGHTS_DATAWIDTH, (i+1)*WEIGHTS_DATAWIDTH-1) = 0;
             }
         }
+        ifc[overall_addr] = temp;
         weight_addr_offset++;
     }
 
@@ -228,17 +235,20 @@ int main()
     if (iact_loop_residual != 0) {
         //address the residual elements
         for (int i = 0; i < iact_parallel_transmission; ++i) {
+        	ap_uint<HP_IFC_BANDWIDTH> temp;
             if (i < iact_loop_residual) {
-                int idx_x = (iact_complete_loop_count*iact_parallel_transmission+j) / X;
-                int idx_y = (iact_complete_loop_count*iact_parallel_transmission+j) % X;
+                int idx_x = (iact_complete_loop_count*iact_parallel_transmission+i) / X;
+                int idx_y = (iact_complete_loop_count*iact_parallel_transmission+i) % X;
                 temp.range(i*IACTS_DATAWIDTH, (i+1)*IACTS_DATAWIDTH-1) = iacts[idx_x][idx_y];
             }
             else
             {
                 temp.range(i*IACTS_DATAWIDTH, (i+1)*IACTS_DATAWIDTH-1) = 0;
             }
+            ifc[overall_addr + i] = temp;
+            iact_addr_offset++;
         }
-        iact_addr_offset++;
+
     }
 
     overall_addr += iact_addr_offset;
@@ -269,14 +279,14 @@ int main()
         }
         std::cout << std::endl;
     }
-    
+    long double mse = 0.0;
     //Compute MSE
     for (int i = 0; i < X; ++i)
     {
         for (int j = 0; j < Wt_Y; ++j)
         {
             mse += std::pow((output[i][j]
-                    - (data_t)oacts[i][j]), 2);
+                    - (data_t)oacts[i][j]), 2.0);
         }
     }
     

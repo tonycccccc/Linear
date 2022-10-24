@@ -112,6 +112,7 @@ void LINEAR(
     ap_uint<HP_IFC_BANDWIDTH>               ifc4[MAX_IFC_ENTRY],
     ap_uint<HP_IFC_BANDWIDTH>               ifc5[MAX_IFC_ENTRY],
     ap_uint<HP_IFC_BANDWIDTH>               ifc6[MAX_IFC_ENTRY],
+	ap_uint<HP_IFC_BANDWIDTH>				ifc7[X*Y],
     int X, //Input Shape X
     int Y, //Input Shape Y
     int Wt_X, //Weight Shape X
