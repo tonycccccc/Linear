@@ -8,9 +8,9 @@ void ReadFromMem(
     ap_uint<HP_IFC_BANDWIDTH> *ifc5,
     ap_uint<HP_IFC_BANDWIDTH> *ifc6,
     ap_uint<WEIGHT_URAM_WIDTH> weight_buffer[MAX_WEIGHT_URAM_ROW],
-    hls::stream<ap_uint<WEIGHTS_DATAWIDTH>> weights_stream[Parallel_K],
+    hls::stream<ap_uint<WEIGHTS_DATAWIDTH>> weights_stream[PARALLEL_K],
     ap_uint<IACT_BRAM_WIDTH> iact_buffer[MAX_IACT_BRAM_ROW],
-    hls::stream<ap_uint<IACTS_DATAWIDTH>> iacts_stream,
+    hls::stream<ap_uint<IACTS_DATAWIDTH>> &iacts_stream,
     int X,
     int Y,
     int Wt_X,
@@ -89,11 +89,11 @@ void ReadFromMem(
         ap_uint<3*MAX_OFF_CHIP_BW> payload = 0;
         for (size_t i = 0; i < full_cycles; ++i) {
             ap_uint<MAX_OFF_CHIP_BW> temp = 0;
-            int addr_offset_1 = BLOCK_WEIGHT_URAM_ROW * i + WEIGHT_PER_THREE_CYCLE * inner_loop_count + i * WEIGHT_NUM_PER_CYCLE;
+            int addr_offset_1 = BLOCK_WEIGHT_URAM_ROW * i + WEIGHT_PER_THREE_CYCLE * inner_loop_count + i * WEIGHT_PER_CYCLE;
             for (int j = 0; j < 6; ++j) {
                 if (count >= residual) break;
                 temp.range((j+1) * HP_IFC_BANDWIDTH - 1, j * HP_IFC_BANDWIDTH) = ifc1[addr_offset_1 + j];
-                count++
+                count++;
             }
             payload.range((i+1)*MAX_OFF_CHIP_BW-1, i*MAX_OFF_CHIP_BW) = temp;
         }
@@ -115,12 +115,12 @@ void ReadFromMem(
     }
 
     int iact_count = ceildiv(X*Y, IACT_PER_CYCLE) - 1;
-    int residual = X*Y - iact_count * IACT_PER_CYCLE;
+    residual = X*Y - iact_count * IACT_PER_CYCLE;
     for (int i = 0; i < iact_count; ++i) {
         ap_uint<MAX_OFF_CHIP_BW> payload = 0;
         int addr_offset = BLOCK_WEIGHT_TOTAL_IFC + i * NUM_HP_IFC;
         for (int j = 0; j < NUM_HP_IFC; ++j) {
-            payload.range((j+1) * HP_IFC_BANDWIDTH - 1, j*HP_IFC_BANDWIDTH) = ifc6[addr_offset_+j];
+            payload.range((j+1) * HP_IFC_BANDWIDTH - 1, j*HP_IFC_BANDWIDTH) = ifc6[addr_offset+j];
         }
         int buffer_offset = i * IACT_PER_CYCLE;
         for (int j = 0; j < IACT_PER_CYCLE; ++j) {
@@ -149,7 +149,7 @@ void ReadFromMem(
         for (int block_y = 0; block_y < block_num_y; ++block_y)
         {
             int base_offset = (block_x * block_num_y + block_y) * BLOCK_WEIGHT_URAM_ROW;
-            for (int i = 0; i < Parallel_K; ++i)
+            for (int i = 0; i < PARALLEL_K; ++i)
             {
                 for (int j = 0; j < PARALLEL_N; ++j)
                 {
@@ -171,12 +171,12 @@ void ReadFromMem(
 }
 
 //Use double buffer for this function
-void CreateBitMask(hls::stream<ap_uint<WEIGHTS_DATAWIDTH>> weights_stream[Parallel_K], ap_uint<PARALLEL_N * WEIGHTS_DATAWIDTH> processing_buffer[PARALLEL_K],
+void CreateBitMask(hls::stream<ap_uint<WEIGHTS_DATAWIDTH>> weights_stream[PARALLEL_K], ap_uint<PARALLEL_N * WEIGHTS_DATAWIDTH> processing_buffer[PARALLEL_K],
             ap_uint<PARALLEL_N> bit_buffer_weights[PARALLEL_K])
 {
-    if (weights_stream.empty()) {
-        return;
-    }
+//    if (weights_stream.empty()) {
+//        return;
+//    }
     //change loop order to smooth the pipeline
     for (int i = 0; i < PARALLEL_K; ++i)
     { 
@@ -213,8 +213,8 @@ void DPEUnit(ap_uint<IACTS_DATAWIDTH> iact_value, int iact_idx, ap_uint<PARALLEL
 }
 
 //batch_num here is for recording how many groups of PARALLEL_K we have processed
-void DPEComputation(ap_uint<IACTS_DATAWIDTH> IACT_TEMP_BUFFER[PARALLEL_K], int block_idx_x, int block_idx_y,  ap_uint<PARALLEL_N * WEIGHTS_DATAWIDTH> processing_buffer[PARALLEL_K],
-                    ap_uint<PARALLEL_N> bit_buffer_weights[PARALLEL_K],  ap_uint<OACTS_DATAWIDTH> buffer_out[Wt_Y/PARALLEL_N][PARALLEL_N], int Wt_X, int Wt_Y) {
+void DPEComputation(int batch_num, ap_uint<IACTS_DATAWIDTH> IACT_TEMP_BUFFER[PARALLEL_K], int block_idx_x, int block_idx_y,  ap_uint<PARALLEL_N * WEIGHTS_DATAWIDTH> processing_buffer[PARALLEL_K],
+                    ap_uint<PARALLEL_N> bit_buffer_weights[PARALLEL_K],  ap_uint<OACTS_DATAWIDTH> buffer_out[MAX_WT_Y/PARALLEL_N][PARALLEL_N], int Wt_X, int Wt_Y) {
     //broadcast nonzero iact values
     int broadcast_idx = 0;
     ap_uint<OACTS_DATAWIDTH> local_output_buf[PARALLEL_K][PARALLEL_N]; //should be a global value
@@ -230,8 +230,8 @@ void DPEComputation(ap_uint<IACTS_DATAWIDTH> IACT_TEMP_BUFFER[PARALLEL_K], int b
     }
     for (int i = 0; i < PARALLEL_K; ++i) {
 #pragma HLS PIPELINE
-        broadcast_idx = iact_value[i] == 0 ? -1:i;
-        DPEUnit(iact_value[i], broadcast_idx, processing_buffer, bit_buffer_weights, local_output_buf);
+        broadcast_idx = IACT_TEMP_BUFFER[i] == 0 ? -1:i;
+        DPEUnit(IACT_TEMP_BUFFER[i], broadcast_idx, processing_buffer, bit_buffer_weights, local_output_buf, i);
     }
     for (int i = 0; i < PARALLEL_N; ++i) {
         buffer_out[batch_num][i] = local_output_buf[PARALLEL_K-1][i];
@@ -240,7 +240,7 @@ void DPEComputation(ap_uint<IACTS_DATAWIDTH> IACT_TEMP_BUFFER[PARALLEL_K], int b
 
 void OutputBuffer(
     ap_uint<HP_IFC_BANDWIDTH> *oacts_ifc,
-    hls::stream<ap_int<OACTS_DATAWIDTH>> output_stream,
+    hls::stream<ap_uint<OACTS_DATAWIDTH>> &output_stream,
     int X,
     int Wt_Y,
     int address,
@@ -248,7 +248,7 @@ void OutputBuffer(
 {
     int overall_addr = address;
     int loop_count = X * Wt_Y;
-    for (int i = 0; i < loop_count / Parallel_N; ++i)
+    for (int i = 0; i < loop_count / PARALLEL_N; ++i)
     {
         for (int idx = 0; idx < PARALLEL_N; ++idx)
         {
@@ -259,13 +259,13 @@ void OutputBuffer(
     for (int i = 0; i < Wt_Y * X / (HP_IFC_BANDWIDTH / OACTS_DATAWIDTH); ++i) {
         ap_uint<HP_IFC_BANDWIDTH> payload = 0;
         for (int j = 0; j < HP_IFC_BANDWIDTH / OACTS_DATAWIDTH; ++j) {
-            payload.range((j+1) * OACTS_DATAWIDTH-1, j*OACTS_DATAWIDTH) = outputstream.read();
+            payload.range((j+1) * OACTS_DATAWIDTH-1, j*OACTS_DATAWIDTH) = output_stream.read();
         }
-        oacts_ifc[overall_address++] = payload;
+        oacts_ifc[overall_addr++] = payload;
     }
 }
 
-inline void ReadIactBuff(hls::stream<ap_uint<IACTS_DATAWIDTH>> iacts_stream, ap_uint<IACTS_DATAWIDTH> IACT_TEMP_BUFFER[PARALLEL_K]) {
+inline void ReadIactBuff(hls::stream<ap_uint<IACTS_DATAWIDTH>> &iacts_stream, ap_uint<IACTS_DATAWIDTH> IACT_TEMP_BUFFER[PARALLEL_K]) {
     for (int i = 0; i < PARALLEL_K; ++i) {
         IACT_TEMP_BUFFER[i] = iacts_stream.read();
     }
@@ -278,7 +278,7 @@ void LINEAR(
     ap_uint<HP_IFC_BANDWIDTH> ifc4[MAX_IFC_ENTRY],
     ap_uint<HP_IFC_BANDWIDTH> ifc5[MAX_IFC_ENTRY],
     ap_uint<HP_IFC_BANDWIDTH> ifc6[MAX_IFC_ENTRY],
-    ap_uint<HP_IFC_BANDWIDTH> ifc7[MAX_IFC_ENTRY],
+    ap_uint<HP_IFC_BANDWIDTH> ifc7[X*Y],
     int X, // Input Shape X
     int Y,                                               // Input Shape Y
     int Wt_X,                                            // Weight Shape X
@@ -321,18 +321,18 @@ void LINEAR(
 
     ap_uint<IACT_BRAM_WIDTH> iact_buffer[MAX_IACT_BRAM_ROW]; // need 4 brams (8 * 2k) in total
 #pragma HLS BIND_STORAGE variable = iact_buffer type = ram_t2p impl = bram latency = 1
-#pragma HLS array_partition variable = iact_buffer type = cyclic factor = Parallel_K dim = 1 // read 32 elements at one time
+//#pragma HLS array_partition variable = iact_buffer type = cyclic factor = PARALLEL_K dim = 1 // read 32 elements at one time
 
     hls::stream<ap_uint<IACTS_DATAWIDTH>> iacts_stream;
 #pragma HLS STREAM variable = iacts_stream depth = PARALLEL_K type = fifo
 
-    hls::stream<ap_uint<WEIGHTS_DATAWIDTH>> weights_stream[Parallel_K];
+    hls::stream<ap_uint<WEIGHTS_DATAWIDTH>> weights_stream[PARALLEL_K];
 #pragma HLS STREAM variable = weights_stream depth = PARALLEL_N type = fifo
 
     hls::stream<ap_uint<OACTS_DATAWIDTH>> output_stream;
-#pragma HLS STREAM variable = output_stream depth = Parallel_N type = fifo
+#pragma HLS STREAM variable = output_stream depth = PARALLEL_N type = fifo
 
-    ap_uint<OACTS_DATAWIDTH> output_buf[Wt_Y/PARALLEL_N][PARALLEL_N];
+    ap_uint<OACTS_DATAWIDTH> output_buf[MAX_WT_Y/PARALLEL_N][PARALLEL_N];
 #pragma HLS BIND_STORAGE variable = iact_buffer type = ram_t2p impl = bram latency = 1
 #pragma HLS array_partition variable = iact_buffer type = complete dim = 1 // read 32 elements at one time
 
@@ -342,25 +342,25 @@ void LINEAR(
 
     int address_ifc = block_num_x * block_num_y * BLOCK_WEIGHT_TOTAL_IFC;
     #pragma HLS DATAFLOW
-    ReadFromMem(ifc1, ifc2, ifc3, ifc4, ifc5, ifc6, ifc7, weight_buffer, weights_stream, iact_buffer, iacts_stream, X, Y, Wt_X, Wt_Y);
+    ReadFromMem(ifc1, ifc2, ifc3, ifc4, ifc5, ifc6, weight_buffer, weights_stream, iact_buffer, iacts_stream, X, Y, Wt_X, Wt_Y);
     //compute_systolic(iacts_stream, weights_stream, bias, output_stream, X, Y, Wt_X, Wt_Y);
 
     for (int i = 0; i < block_num_x; ++i) {
         ReadIactBuff(iacts_stream, IACT_TEMP_BUFFER);
-        CreateBitMask(weight_stream, second_processing_buffer, second_bit_buffer_weights);
+        CreateBitMask(weights_stream, second_processing_buffer, second_bit_buffer_weights);
         for (int j = 0; j < block_num_y; ++j) {
             int batch = i * block_num_y + j;
             if (batch != block_num_x*block_num_y - 1) {
                 if (batch % 2== 0) {
-                    CreateBitMask(weight_stream, second_processing_buffer, second_bit_buffer_weights);
-                    DPEComputation(IACT_TEMP_BUFFER, i, j, first_processing_buffer, first_bit_buffer_weights, output_buf, Wt_X, Wt_Y);
+                    CreateBitMask(weights_stream, second_processing_buffer, second_bit_buffer_weights);
+                    DPEComputation(batch, IACT_TEMP_BUFFER, i, j, first_processing_buffer, first_bit_buffer_weights, output_buf, Wt_X, Wt_Y);
                 } else {
-                    CreateBitMask(weight_stream, first_processing_buffer, first_bit_buffer_weights);
-                    DPEComputation(IACT_TEMP_BUFFER, i, j, second_processing_buffer, second_bit_buffer_weights, output_buf, Wt_X, Wt_Y);
+                    CreateBitMask(weights_stream, first_processing_buffer, first_bit_buffer_weights);
+                    DPEComputation(batch, IACT_TEMP_BUFFER, i, j, second_processing_buffer, second_bit_buffer_weights, output_buf, Wt_X, Wt_Y);
                 }
             }
             else {
-                DPEComputation(IACT_TEMP_BUFFER, i, j, second_processing_buffer, second_bit_buffer_weights, output_buf, Wt_X, Wt_Y); //depends on batch_num
+                DPEComputation(batch, IACT_TEMP_BUFFER, i, j, second_processing_buffer, second_bit_buffer_weights, output_buf, Wt_X, Wt_Y); //depends on batch_num
             }
         }
     }

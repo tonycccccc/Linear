@@ -8,10 +8,10 @@
 using namespace std;
 
 // only test 1*2048 + 2048*1000 for now
-int MAX_X = 1;
-int MAX_Y = 2048;
-int MAX_Wt_X = 2048;
-int MAX_Wt_Y = 1000;
+constexpr int MAX_X = 1;
+constexpr int MAX_Y = 2048;
+constexpr int MAX_Wt_X = 2048;
+constexpr int MAX_Wt_Y = 1000;
 
 float iacts_intput[MAX_X*MAX_Y];
 float weights_input[MAX_Wt_X*MAX_Wt_Y];
@@ -28,10 +28,10 @@ data_t bias[MAX_X*MAX_Wt_Y];
 //ap_int<OACTS_QUANT_WIDTH> oacts[X * Wt_Y];
 
 void read_bin_files(int X, int Y, int Wt_X, int Wt_Y){
-    std::ifstream iacts_file("D:\linear_lineary\data\linear_input_5.pth", ios::in);
-    std::ifstream weights_file("D:\linear_linear\data\linear_weights_5.pth", ios::in);
-    std::ifstream reference_oacts_file("D:\linear_linear\data\linear_oActs_5.pth", ios::in);
-    std::ifstream bias_file("D:\linear_linear\data\linear_bias_5.pth", ios::in);
+    std::ifstream iacts_file("/nethome/zchen752/data/linear_input_5.pth", ios::in);
+    std::ifstream weights_file("/nethome/zchen752/data/linear_weights_5.pth", ios::in);
+    std::ifstream reference_oacts_file("/nethome/zchen752/data/linear_oActs_5.pth", ios::in);
+    std::ifstream bias_file("/nethome/zchen752/data/linear_bias_5.pth", ios::in);
     std::cout <<"Import data" <<std::endl;
     std::cout << "iacts data: " << std::endl;
     for(int i = 0; i < X; ++i){
