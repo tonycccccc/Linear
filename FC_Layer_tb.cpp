@@ -9,30 +9,31 @@
 using namespace std;
 
 // only test 1*2048 + 2048*1000 for now
-constexpr int MAX_X = 1;
-constexpr int MAX_Y = 2048;
-constexpr int MAX_Wt_X = 2048;
-constexpr int MAX_Wt_Y = 1000;
+// constexpr int MAX_X = 1;
+// constexpr int MAX_Y = 2048;
+// constexpr int MAX_Wt_X = 2048;
+// constexpr int MAX_Wt_Y = 1000;
 
 float iacts_input[MAX_X*MAX_Y];
-float weights_input[MAX_Wt_X*MAX_Wt_Y];
-float oacts_input[MAX_X*MAX_Wt_Y];
-float bias_input[MAX_X*MAX_Wt_Y];
+float weights_input[MAX_WT_X*MAX_WT_Y];
+float oacts_input[MAX_X*MAX_WT_Y];
+float bias_input[MAX_X*MAX_WT_Y];
 
 data_t iacts[MAX_X*MAX_Y];
-data_t weights[MAX_Wt_X*MAX_Wt_Y];
-data_t oacts[MAX_X*MAX_Wt_Y];
-data_t bias[MAX_X*MAX_Wt_Y];
+data_t weights[MAX_WT_X*MAX_WT_Y];
+data_t oacts[MAX_X*MAX_WT_Y];
+data_t bias[MAX_X*MAX_WT_Y];
 
 //ap_int<IACTS_DATAWIDTH> iacts[X * Y];
 //ap_int<WEIGHTS_DATAWIDTH> weights[Wt_X * Wt_Y];
 //ap_int<OACTS_QUANT_WIDTH> oacts[X * Wt_Y];
 
 void read_bin_files(int X, int Y, int Wt_X, int Wt_Y){
-    std::ifstream iacts_file("/nethome/zchen752/data/linear_input_5.pth", ios::in);
-    std::ifstream weights_file("/nethome/zchen752/data/linear_weights_5.pth", ios::in);
-    std::ifstream reference_oacts_file("/nethome/zchen752/data/linear_oActs_5.pth", ios::in);
-    std::ifstream bias_file("/nethome/zchen752/data/linear_bias_5.pth", ios::in);
+    std::ifstream iacts_file("/nethome/zchen752/temp/input5.csv", ios::in);
+    std::ifstream weights_file("/nethome/zchen752/temp/temp.csv", ios::in);
+//    std::ifstream weights_file("/nethome/zchen752/Linear/data/linear_weights_5.csv", ios::in);
+    std::ifstream reference_oacts_file("/nethome/zchen752/temp/oact5.csv", ios::in);
+    //std::ifstream bias_file("/nethome/zchen752/Linear/data/linear_bias_5.pth", ios::in);
     std::cout <<"Import data" <<std::endl;
     std::cout << "iacts data: " << std::endl;
     for(int i = 0; i < X; ++i){
@@ -40,18 +41,19 @@ void read_bin_files(int X, int Y, int Wt_X, int Wt_Y){
             std::string temp_data;
             std::stringstream ss;
             std::getline(iacts_file, temp_data, ',');
-            iacts_input[i*Y+j] = std::stoi(temp_data);
+            iacts_input[i*Y+j] = std::stof(temp_data);
+            //std::cout<<iacts_input[i*Y+j]<<", ";
         }
     }
     std::cout << std::endl;
     
     std::cout << "weights data: " << std::endl;
-    for(int i = 0; i < Wt_X; i++){
-        for (int j = 0; j < Wt_Y; j++) {
+    for(int i = 0; i < Wt_X; i++){ //1000 or 2048?
+        for (int j = 0; j < Wt_Y; j++) { //2048
             std::string temp_data;
             std::stringstream ss;
             std::getline(weights_file, temp_data, ',');
-            weights_input[i*Wt_Y+j] = std::stoi(temp_data);
+            weights_input[i*1000+j] = std::stof(temp_data);
         }
     }
     std::cout << std::endl;
@@ -62,19 +64,20 @@ void read_bin_files(int X, int Y, int Wt_X, int Wt_Y){
             std::string temp_data;
             std::stringstream ss;
             std::getline(reference_oacts_file, temp_data, ',');
-            oacts_input[i*Wt_Y+j] = std::stoi(temp_data);
+            oacts_input[i*Wt_Y+j] = std::stof(temp_data);
+           //std::cout<<oacts_input[i*Wt_Y+j]<<", ";
         }
     }
 
-    std::cout << "bias data: " << std::endl;
-    for(int i = 0; i < X; i++){
-        for (int j = 0; j < Wt_Y; j++) {
-            std::string temp_data;
-            std::stringstream ss;
-            std::getline(bias_file, temp_data, ',');
-            bias_input[i*Wt_Y+j] = std::stoi(temp_data);
-        }
-    }
+//    std::cout << "bias data: " << std::endl;
+//    for(int i = 0; i < X; i++){
+//        for (int j = 0; j < Wt_Y; j++) {
+//            std::string temp_data;
+//            std::stringstream ss;
+//            std::getline(bias_file, temp_data, ',');
+//            bias_input[i*Wt_Y+j] = std::stof(temp_data);
+//        }
+//    }
 
     std::cout << std::endl;
     //iacts_file.read((char*)(***iacts_input), X*Y*sizeof(float));
@@ -89,19 +92,19 @@ void read_bin_files(int X, int Y, int Wt_X, int Wt_Y){
 void convert_data_type(int X, int Y, int Wt_X, int Wt_Y){
     std::cout << "Input Activation" << std::endl;
     for (int i = 0; i < X; ++i) {
-        std::cout << std::endl;
+        //std::cout << std::endl;
         for (int j = 0; j < Y; ++j) {
-            std::cout << iacts_input[i*Y+j] << ", ";
+            //std::cout << iacts_input[i*Y+j] << ", ";
             iacts[i*Y+j] = (data_t)iacts_input[i*Y+j];
         }
     }
 
     std::cout << "Weight Activation" << std::endl;
     for (int i = 0; i < Wt_X; ++i) {
-        std::cout << std::endl;
+        //std::cout << std::endl;
         for (int j = 0; j < Wt_Y; ++j) {
-            std::cout << weights_input[i*Wt_Y+j] << ", ";
             weights[i*Wt_Y+j] = (data_t)weights_input[i*Wt_Y+j];
+            //std::cout << weights[i*Wt_Y+j] << ", ";
         }
     }
 
@@ -109,19 +112,19 @@ void convert_data_type(int X, int Y, int Wt_X, int Wt_Y){
     for (int i = 0; i < X; ++i) {
         std::cout << std::endl;
         for (int j = 0; j < Wt_Y; ++j) {
-            std::cout << oacts_input[i*Wt_Y+j] << ", ";
+            //std::cout << oacts_input[i*Wt_Y+j] << ", ";
             oacts[i*Wt_Y+j] = (data_t)oacts_input[i*Wt_Y+j];
         }
     }
 
-    std::cout << "Bias" << std::endl;
-    for (int i = 0; i < X; ++i) {
-        std::cout << std::endl;
-        for (int j = 0; j < Wt_Y; ++j) {
-            std::cout << bias_input[i*Wt_Y+j] << ", ";
-            bias[i*Wt_Y+j] = (data_t)bias_input[i*Wt_Y+j];
-        }
-    }
+//    std::cout << "Bias" << std::endl;
+//    for (int i = 0; i < X; ++i) {
+//        std::cout << std::endl;
+//        for (int j = 0; j < Wt_Y; ++j) {
+//            std::cout << bias_input[i*Wt_Y+j] << ", ";
+//            bias[i*Wt_Y+j] = (data_t)bias_input[i*Wt_Y+j];
+//        }
+//    }
     //bias = (data_t)bias_input;
 }
 
@@ -153,37 +156,45 @@ int main()
     uint64_t weight_matrix_size_bits = WEIGHTS_DATAWIDTH * Wt_X * Wt_Y;
     uint64_t iact_matrix_size_bits = IACTS_DATAWIDTH * X * Y;
     uint64_t bias_matrix_size_bits = BIAS_DATAWIDTH * X * Wt_Y;   //QUESTION: WHY BIAS IS A MATRIX
-    uint64_t total_num_ifc_entries = (weight_matrix_size_bits + iact_matrix_size_bits + bias_matrix_size_bits) / HP_IFC_BANDWIDTH;
+    uint64_t total_num_ifc_entries = (weight_matrix_size_bits + iact_matrix_size_bits) / HP_IFC_BANDWIDTH;
+    //uint64_t total_num_ifc_entries = (weight_matrix_size_bits + iact_matrix_size_bits + bias_matrix_size_bits) / HP_IFC_BANDWIDTH;
 
     assert(HP_IFC_BANDWIDTH % WEIGHTS_DATAWIDTH == 0); //check if datawidth is divisible by the IFC_Bandwidth
     assert(HP_IFC_BANDWIDTH % BIAS_DATAWIDTH == 0);
     assert(HP_IFC_BANDWIDTH % IACTS_DATAWIDTH == 0);
+    assert(total_num_ifc_entries == MAX_IFC_ENTRY);
 
-    ap_uint<HP_IFC_BANDWIDTH> ifc[total_num_ifc_entries];
+    ap_uint<HP_IFC_BANDWIDTH> ifc[MAX_IFC_ENTRY];
     
 
     //weight data should be read column by column plus tiling in column dimension (2048 elements per column needs to be read; depends on how many columns get read at a time)
-    int weight_parallel_transmission = HP_IFC_BANDWIDTH / WEIGHTS_DATAWIDTH;
-    int weight_loop_count_X = Wt_X / PARALLEL_K;
-    int weight_loop_count_Y = Wt_Y / PARALLEL_N;
+    int weight_parallel_transmission = HP_IFC_BANDWIDTH / WEIGHTS_DATAWIDTH; //4
+    int weight_loop_count_X = Wt_X / PARALLEL_K; //2048 / 32 = 64
+    int weight_loop_count_Y = Wt_Y / PARALLEL_N; //1000 / 20 = 50
     int weight_loop_residual = Wt_X * Wt_Y % weight_parallel_transmission; 
     int weight_addr_offset = 0;
     int weight_complete_loop_count = weight_loop_count_X * weight_loop_count_Y;
     //Read 32 * 20 / 4 = 160 block a time
     int count = 0;
-    for (int i = 0; i < weight_loop_count_X; i++) {
-        for (int j = 0; j < weight_loop_count_Y; j++) {
-            for (int row = 0; row < PARALLEL_K; ++row) {
-                for (int col = 0; col < PARALLEL_N / weight_parallel_transmission; ++col) {
-                	ap_uint<HP_IFC_BANDWIDTH> temp;
+    std::cout << "start transferring weights" << std::endl;
+    for (int i = 0; i < weight_loop_count_X; i++) { //64
+        for (int j = 0; j < weight_loop_count_Y; j++) { //50
+            //std::cout << "Weights block" << std::endl;
+            for (int row = 0; row < PARALLEL_K; ++row) { //32 
+                for (int col = 0; col < PARALLEL_N / weight_parallel_transmission; ++col) { //20/4 = 5  50 is not divisible
+                	ap_uint<HP_IFC_BANDWIDTH> temp = 0;
                 	for (int idx = 0; idx < weight_parallel_transmission; ++idx) {
                 		int idx_x = i*PARALLEL_K+row;
                 		int idx_y = j*PARALLEL_N+col*weight_parallel_transmission+idx;
-                		temp.range(j*WEIGHTS_DATAWIDTH, (j+1)*WEIGHTS_DATAWIDTH-1) = weights[idx_x][idx_y];
+                		temp.range((idx+1)*WEIGHTS_DATAWIDTH-1, idx*WEIGHTS_DATAWIDTH) = weights[idx_x*Wt_Y+idx_y].range(31, 0);
+                        //std::cout << "idx_x: " << idx_x << " idx_y" << idx_y << " temp:" << temp << std::endl;
+                        //std::cout << weights[idx_x*Wt_Y+idx_y] << ", " << std::endl;
                 	}
-                	ifc[overall_addr + count] = temp;
+                	ifc[overall_addr + count] = temp.range(HP_IFC_BANDWIDTH-1, 0);
+                    //std::cout << "ifc: " << ifc[overall_addr + count] << std::endl;
                 	count++;
                 	weight_addr_offset++;
+                    //std::cout << "Count" << count << std::endl;
                 }
             }   
         }
@@ -199,12 +210,13 @@ int main()
 
     if (weight_loop_residual != 0) {
     //address the residual elements (Should not trigger the following part)
+        std::cout << "Weight residual happens!! Check what happens" << std::endl;
     	ap_uint<HP_IFC_BANDWIDTH> temp;
         for (int i = 0; i < weight_parallel_transmission; ++i) {
             if (i < weight_loop_residual) {
                 int idx_x = (weight_complete_loop_count*weight_parallel_transmission+i) / Wt_X;
                 int idx_y = (weight_complete_loop_count*weight_parallel_transmission+i) % Wt_X;
-                temp.range(i*WEIGHTS_DATAWIDTH, (i+1)*WEIGHTS_DATAWIDTH-1) = weights[idx_x][idx_y];
+                temp.range(i*WEIGHTS_DATAWIDTH, (i+1)*WEIGHTS_DATAWIDTH-1) = weights[idx_x*Wt_Y+idx_y].range(31, 0);
             }
             else
             {
@@ -218,28 +230,32 @@ int main()
     overall_addr += weight_addr_offset;
 
     //Layout Iact data
-    int iact_parallel_transmission = HP_IFC_BANDWIDTH / IACTS_DATAWIDTH;
-    int iact_complete_loop_count = X * Y / iact_parallel_transmission;
+    std::cout << "Start layout input activation data" << std::endl;
+    int iact_parallel_transmission = HP_IFC_BANDWIDTH / IACTS_DATAWIDTH; //128 / 32 = 4
+    int iact_complete_loop_count = X * Y / iact_parallel_transmission; //2048 / 4
     int iact_loop_residual = X * Y % iact_parallel_transmission; 
     int iact_addr_offset = 0;
     for (int i = 0; i < iact_complete_loop_count; ++i) {
         ap_uint<HP_IFC_BANDWIDTH> temp;
         for (int j = 0; j < iact_parallel_transmission; ++j) {
-            int idx_x = (i*iact_parallel_transmission+j) / X;
-            int idx_y = (i*iact_parallel_transmission+j) % X;
-            temp.range(j*IACTS_DATAWIDTH, (j+1)*IACTS_DATAWIDTH-1) = iacts[idx_x][idx_y]; //QUESTION: BIG_ENDIAN OR SMALL_ENGIAN READ
+            int idx = i*iact_parallel_transmission+j;
+            //int idx_y = (i*iact_parallel_transmission+j) % X;
+            temp.range((j+1)*IACTS_DATAWIDTH-1, j*IACTS_DATAWIDTH) = iacts[idx].range(31, 0); //QUESTION: BIG_ENDIAN OR SMALL_ENGIAN READ
+            //std::cout << "idx: " << idx << " temp:" << temp << std::endl;
         }
         ifc[overall_addr + i] = temp;
         iact_addr_offset++;
     }
     if (iact_loop_residual != 0) {
         //address the residual elements
+        std::cout << "IACT residual happens!! Check what happens" << std::endl;
         for (int i = 0; i < iact_parallel_transmission; ++i) {
         	ap_uint<HP_IFC_BANDWIDTH> temp;
             if (i < iact_loop_residual) {
-                int idx_x = (iact_complete_loop_count*iact_parallel_transmission+i) / X;
-                int idx_y = (iact_complete_loop_count*iact_parallel_transmission+i) % X;
-                temp.range(i*IACTS_DATAWIDTH, (i+1)*IACTS_DATAWIDTH-1) = iacts[idx_x][idx_y];
+                int idx = iact_complete_loop_count * iact_parallel_transmission + i;
+                // int idx_x = (iact_complete_loop_count*iact_parallel_transmission+i) / X;
+                // int idx_y = (iact_complete_loop_count*iact_parallel_transmission+i) % X;
+                temp.range(i*IACTS_DATAWIDTH, (i+1)*IACTS_DATAWIDTH-1) = iacts[idx].range(31, 0);
             }
             else
             {
@@ -258,15 +274,21 @@ int main()
 
     //perform loop tiling
     data_t output[X][Wt_Y];
-    ap_uint<HP_IFC_BANDWIDTH> output_ifc[2048];
+    ap_uint<HP_IFC_BANDWIDTH> output_ifc[MAX_WT_Y];
+    std::cout << "Start processing linear layer" << std::endl;
+
     LINEAR(ifc, ifc, ifc, ifc, ifc, ifc, output_ifc, X, Y, Wt_X, Wt_Y, 0);
+
+    int output_address = 0;
+    std::cout << "Finish running linear function on board" <<std::endl;
     for (int i = 0; i < X; ++i) {
         for (int j = 0; j < Wt_Y/4; j+=4) {
-            output[i][j] = output_ifc[overall_addr].range((j+1) * OACTS_DATAWIDTH -1, j *OACTS_DATAWIDTH);
-            output[i][j+1] = output_ifc[overall_addr].range((j+2) * OACTS_DATAWIDTH -1, (j+1) *OACTS_DATAWIDTH);
-            output[i][j+2] = output_ifc[overall_addr].range((j+3) * OACTS_DATAWIDTH -1, (j+2) *OACTS_DATAWIDTH);
-            output[i][j+3] = output_ifc[overall_addr].range((j+4) * OACTS_DATAWIDTH -1, (j+3) *OACTS_DATAWIDTH);
-            overall_addr++;
+            output[i][j].range(OACTS_DATAWIDTH-1, 0) = output_ifc[output_address].range(1 * OACTS_DATAWIDTH -1, 0);
+            output[i][j+1].range(OACTS_DATAWIDTH-1, 0) = output_ifc[output_address].range(2 * OACTS_DATAWIDTH -1,  1*OACTS_DATAWIDTH);
+            output[i][j+2].range(OACTS_DATAWIDTH-1, 0) = output_ifc[output_address].range(3 * OACTS_DATAWIDTH -1, 2*OACTS_DATAWIDTH);
+            output[i][j+3].range(OACTS_DATAWIDTH-1, 0) = output_ifc[output_address].range(4 * OACTS_DATAWIDTH -1, 3*OACTS_DATAWIDTH);
+            //overall_addr++;
+            output_address++;
         }
     }
 
@@ -275,9 +297,10 @@ int main()
     {
         for (int j = 0; j < Wt_Y; ++j)
         {
-            std::cout << output[i][j] << " ,";
+            std::cout << output[i][j] << ", ";
+            if (j%20 == 0) std::cout << std::endl;
         }
-        std::cout << std::endl;
+        // std::cout << std::endl;
     }
     long double mse = 0.0;
     //Compute MSE
@@ -286,7 +309,7 @@ int main()
         for (int j = 0; j < Wt_Y; ++j)
         {
             mse += std::pow((output[i][j]
-                    - (data_t)oacts[i][j]), 2.0);
+                    - (data_t)oacts[i+j]), 2.0);
         }
     }
     

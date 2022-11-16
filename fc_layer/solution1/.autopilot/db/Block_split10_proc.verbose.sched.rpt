@@ -1,0 +1,131 @@
+
+
+================================================================
+== Vitis HLS Report for 'Block_split10_proc'
+================================================================
+* Date:           Wed Nov  2 22:59:05 2022
+
+* Version:        2021.1 (Build 3247384 on Thu Jun 10 19:36:07 MDT 2021)
+* Project:        fc_layer
+* Solution:       solution1 (Vivado IP Flow Target)
+* Product family: virtexuplus
+* Target device:  xcvu11p-flga2577-1-e
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+----------+----------+------------+
+    |  Clock |  Target  | Estimated| Uncertainty|
+    +--------+----------+----------+------------+
+    |ap_clk  |  10.00 ns|  6.732 ns|     2.70 ns|
+    +--------+----------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+----------+----------+-----+-----+---------+
+    |  Latency (cycles) |  Latency (absolute) |  Interval | Pipeline|
+    |   min   |   max   |    min   |    max   | min | max |   Type  |
+    +---------+---------+----------+----------+-----+-----+---------+
+    |        0|        0|      0 ns|      0 ns|    0|    0|       no|
+    +---------+---------+----------+----------+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        N/A
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 0
+ResetActiveHigh: 1
+IsCombinational: 2
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 0
+HasVarLatency: 0
+IsPipeline: 0
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states : 1
+* Pipeline : 0
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 
+
+* FSM state operations: 
+
+State 1 <SV = 0> <Delay = 6.73>
+ST_1 : Operation 2 [1/1] (0.00ns)   --->   "%Wt_Y_read = read i32 @_ssdm_op_Read.ap_auto.i32, i32 %Wt_Y" [FC_Layer.cpp:440]   --->   Operation 2 'read' 'Wt_Y_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 3 [1/1] (0.00ns)   --->   "%Wt_X_read = read i32 @_ssdm_op_Read.ap_auto.i32, i32 %Wt_X" [FC_Layer.cpp:440]   --->   Operation 3 'read' 'Wt_X_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 4 [1/1] (0.00ns)   --->   "%tmp = bitselect i1 @_ssdm_op_BitSelect.i1.i32.i32, i32 %Wt_X_read, i32 31" [FC_Layer.cpp:440]   --->   Operation 4 'bitselect' 'tmp' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 5 [1/1] (1.14ns)   --->   "%sub_ln440 = sub i32 0, i32 %Wt_X_read" [FC_Layer.cpp:440]   --->   Operation 5 'sub' 'sub_ln440' <Predicate = (tmp)> <Delay = 1.14> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 1.13> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 6 [1/1] (0.00ns)   --->   "%trunc_ln440_1 = partselect i27 @_ssdm_op_PartSelect.i27.i32.i32.i32, i32 %sub_ln440, i32 5, i32 31" [FC_Layer.cpp:440]   --->   Operation 6 'partselect' 'trunc_ln440_1' <Predicate = (tmp)> <Delay = 0.00>
+ST_1 : Operation 7 [1/1] (0.00ns)   --->   "%zext_ln440 = zext i27 %trunc_ln440_1" [FC_Layer.cpp:440]   --->   Operation 7 'zext' 'zext_ln440' <Predicate = (tmp)> <Delay = 0.00>
+ST_1 : Operation 8 [1/1] (1.13ns)   --->   "%sub_ln440_1 = sub i28 0, i28 %zext_ln440" [FC_Layer.cpp:440]   --->   Operation 8 'sub' 'sub_ln440_1' <Predicate = (tmp)> <Delay = 1.13> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 1.13> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 9 [1/1] (0.00ns)   --->   "%trunc_ln440_2 = partselect i27 @_ssdm_op_PartSelect.i27.i32.i32.i32, i32 %Wt_X_read, i32 5, i32 31" [FC_Layer.cpp:440]   --->   Operation 9 'partselect' 'trunc_ln440_2' <Predicate = (!tmp)> <Delay = 0.00>
+ST_1 : Operation 10 [1/1] (0.00ns)   --->   "%zext_ln440_1 = zext i27 %trunc_ln440_2" [FC_Layer.cpp:440]   --->   Operation 10 'zext' 'zext_ln440_1' <Predicate = (!tmp)> <Delay = 0.00>
+ST_1 : Operation 11 [1/1] (0.39ns)   --->   "%block_num_x = select i1 %tmp, i28 %sub_ln440_1, i28 %zext_ln440_1" [FC_Layer.cpp:440]   --->   Operation 11 'select' 'block_num_x' <Predicate = true> <Delay = 0.39> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.39> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_1 : Operation 12 [1/1] (0.00ns)   --->   "%sext_ln441 = sext i32 %Wt_Y_read" [FC_Layer.cpp:441]   --->   Operation 12 'sext' 'sext_ln441' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 13 [1/1] (3.83ns)   --->   "%mul_ln441 = mul i65 %sext_ln441, i65 6871947674" [FC_Layer.cpp:441]   --->   Operation 13 'mul' 'mul_ln441' <Predicate = true> <Delay = 3.83> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 0> <II = 1> <Delay = 3.83> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 14 [1/1] (1.36ns)   --->   "%sub_ln441 = sub i65 0, i65 %mul_ln441" [FC_Layer.cpp:441]   --->   Operation 14 'sub' 'sub_ln441' <Predicate = (tmp_106)> <Delay = 1.36> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 1.13> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 15 [1/1] (0.00ns)   --->   "%tmp_106 = bitselect i1 @_ssdm_op_BitSelect.i1.i32.i32, i32 %Wt_Y_read, i32 31" [FC_Layer.cpp:441]   --->   Operation 15 'bitselect' 'tmp_106' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 16 [1/1] (0.00ns) (grouped into LUT with out node sub_ln441_1)   --->   "%tmp_107 = partselect i28 @_ssdm_op_PartSelect.i28.i65.i32.i32, i65 %sub_ln441, i32 37, i32 64" [FC_Layer.cpp:441]   --->   Operation 16 'partselect' 'tmp_107' <Predicate = (tmp_106)> <Delay = 0.00>
+ST_1 : Operation 17 [1/1] (0.00ns)   --->   "%tmp_108 = partselect i28 @_ssdm_op_PartSelect.i28.i65.i32.i32, i65 %mul_ln441, i32 37, i32 64" [FC_Layer.cpp:441]   --->   Operation 17 'partselect' 'tmp_108' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 18 [1/1] (0.00ns) (grouped into LUT with out node sub_ln441_1)   --->   "%select_ln441 = select i1 %tmp_106, i28 %tmp_107, i28 %tmp_108" [FC_Layer.cpp:441]   --->   Operation 18 'select' 'select_ln441' <Predicate = (tmp_106)> <Delay = 0.00> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.39> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_1 : Operation 19 [1/1] (1.13ns) (out node of the LUT)   --->   "%sub_ln441_1 = sub i28 0, i28 %select_ln441" [FC_Layer.cpp:441]   --->   Operation 19 'sub' 'sub_ln441_1' <Predicate = (tmp_106)> <Delay = 1.13> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 1.13> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 20 [1/1] (0.39ns)   --->   "%select_ln441_1 = select i1 %tmp_106, i28 %sub_ln441_1, i28 %tmp_108" [FC_Layer.cpp:441]   --->   Operation 20 'select' 'select_ln441_1' <Predicate = true> <Delay = 0.39> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.39> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_1 : Operation 21 [1/1] (0.00ns)   --->   "%mrv = insertvalue i56 <undef>, i28 %block_num_x" [FC_Layer.cpp:440]   --->   Operation 21 'insertvalue' 'mrv' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 22 [1/1] (0.00ns)   --->   "%mrv_1 = insertvalue i56 %mrv, i28 %select_ln441_1" [FC_Layer.cpp:440]   --->   Operation 22 'insertvalue' 'mrv_1' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 23 [1/1] (0.00ns)   --->   "%ret_ln440 = ret i56 %mrv_1" [FC_Layer.cpp:440]   --->   Operation 23 'ret' 'ret_ln440' <Predicate = true> <Delay = 0.00>
+
+
+============================================================
++ Verbose Summary: Timing violations
+============================================================
+Target clock period: 10ns, clock uncertainty: 2.7ns.
+
+ <State 1>: 6.73ns
+The critical path consists of the following:
+	wire read operation ('Wt_Y_read', FC_Layer.cpp:440) on port 'Wt_Y' (FC_Layer.cpp:440) [3]  (0 ns)
+	'mul' operation ('mul_ln441', FC_Layer.cpp:441) [14]  (3.83 ns)
+	'sub' operation ('sub_ln441', FC_Layer.cpp:441) [15]  (1.37 ns)
+	'select' operation ('select_ln441', FC_Layer.cpp:441) [19]  (0 ns)
+	'sub' operation ('sub_ln441_1', FC_Layer.cpp:441) [20]  (1.14 ns)
+	'select' operation ('select_ln441_1', FC_Layer.cpp:441) [21]  (0.394 ns)
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+ - Input state : 
+  - Chain level:
+	State 1
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A

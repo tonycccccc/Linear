@@ -1,0 +1,1 @@
+set ::AESL_AUTOSIM::gTopFileName /nethome/zchen752/Linear/fc_layer/solution1/./sim/autowrap/testbench/FC_Layer.cpp_pre.cpp.tb.cpp

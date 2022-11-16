@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Webtalk v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:07 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Wed Nov  2 23:10:36 2022
+# Process ID: 3414611
+# Current directory: /nethome/zchen752/Linear/fc_layer/solution1/sim/verilog
+# Command line: wbtcv -mode batch -source /nethome/zchen752/Linear/fc_layer/solution1/sim/verilog/xsim.dir/LINEAR/webtalk/xsim_webtalk.tcl -notrace
+# Log file: /nethome/zchen752/Linear/fc_layer/solution1/sim/verilog/webtalk.log
+# Journal file: /nethome/zchen752/Linear/fc_layer/solution1/sim/verilog/webtalk.jou
+#-----------------------------------------------------------
+source /nethome/zchen752/Linear/fc_layer/solution1/sim/verilog/xsim.dir/LINEAR/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Wed Nov  2 23:10:36 2022...

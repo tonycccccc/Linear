@@ -1,0 +1,1512 @@
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xcvu11p-flga2577-1-e'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xcvu11p-flga2577-1-e 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: csim_design -clean 
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+INFO: [SIM 211-1] CSim done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO: [HLS 200-111] Finished Command csim_design CPU user time: 27.33 seconds. CPU system time: 0.95 seconds. Elapsed time: 33.24 seconds; current allocated memory: 316.131 MB.
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.01 seconds; current allocated memory: 316.319 MB.
+INFO: [HLS 200-10] Analyzing design file 'FC_Layer.cpp' ... 
+ERROR: [HLS 207-3771] use of undeclared identifier 'assert': FC_Layer.cpp:167:5
+WARNING: [HLS 207-5540] expression is not an integral constant expression: FC_Layer.cpp:28:34
+INFO: [HLS 207-1674] read of non-const variable 'block_count' is not allowed in a constant expression: FC_Layer.cpp:28:34
+INFO: [HLS 207-62] declared here: FC_Layer.cpp:19:9
+WARNING: [HLS 207-5543] because option is invalid, the pragma LOOP_TRIPCOUNT is ignored: FC_Layer.cpp:28:9
+WARNING: [HLS 207-5540] expression is not an integral constant expression: FC_Layer.cpp:33:34
+INFO: [HLS 207-1674] read of non-const variable 'inner_loop_count' is not allowed in a constant expression: FC_Layer.cpp:33:34
+INFO: [HLS 207-62] declared here: FC_Layer.cpp:20:9
+WARNING: [HLS 207-5543] because option is invalid, the pragma LOOP_TRIPCOUNT is ignored: FC_Layer.cpp:33:9
+ERROR: [HLS 207-3320] use of overloaded operator '<<' is ambiguous (with operand types 'std::ostream' (aka 'basic_ostream<char>') and 'data_t' (aka 'ap_fixed<32, 8>')): FC_Layer.cpp:306:41
+INFO: [HLS 207-4367] candidate function: /tools/software/xilinx/Vitis_HLS/2021.1/tps/lnx64/gcc-6.2.0/lib/gcc/x86_64-pc-linux-gnu/6.2.0/../../../../include/c++/6.2.0/ostream:166:7
+INFO: [HLS 207-4367] candidate function: /tools/software/xilinx/Vitis_HLS/2021.1/tps/lnx64/gcc-6.2.0/lib/gcc/x86_64-pc-linux-gnu/6.2.0/../../../../include/c++/6.2.0/ostream:170:7
+INFO: [HLS 207-4367] candidate function: /tools/software/xilinx/Vitis_HLS/2021.1/tps/lnx64/gcc-6.2.0/lib/gcc/x86_64-pc-linux-gnu/6.2.0/../../../../include/c++/6.2.0/ostream:174:7
+INFO: [HLS 207-4367] candidate function: /tools/software/xilinx/Vitis_HLS/2021.1/tps/lnx64/gcc-6.2.0/lib/gcc/x86_64-pc-linux-gnu/6.2.0/../../../../include/c++/6.2.0/ostream:178:7
+INFO: [HLS 207-4367] candidate function: /tools/software/xilinx/Vitis_HLS/2021.1/tps/lnx64/gcc-6.2.0/lib/gcc/x86_64-pc-linux-gnu/6.2.0/../../../../include/c++/6.2.0/ostream:181:7
+INFO: [HLS 207-4367] candidate function: /tools/software/xilinx/Vitis_HLS/2021.1/tps/lnx64/gcc-6.2.0/lib/gcc/x86_64-pc-linux-gnu/6.2.0/../../../../include/c++/6.2.0/ostream:189:7
+INFO: [HLS 207-4367] candidate function: /tools/software/xilinx/Vitis_HLS/2021.1/tps/lnx64/gcc-6.2.0/lib/gcc/x86_64-pc-linux-gnu/6.2.0/../../../../include/c++/6.2.0/ostream:192:7
+INFO: [HLS 207-4367] candidate function: /tools/software/xilinx/Vitis_HLS/2021.1/tps/lnx64/gcc-6.2.0/lib/gcc/x86_64-pc-linux-gnu/6.2.0/../../../../include/c++/6.2.0/ostream:201:7
+INFO: [HLS 207-4367] candidate function: /tools/software/xilinx/Vitis_HLS/2021.1/tps/lnx64/gcc-6.2.0/lib/gcc/x86_64-pc-linux-gnu/6.2.0/../../../../include/c++/6.2.0/ostream:205:7
+INFO: [HLS 207-4367] candidate function: /tools/software/xilinx/Vitis_HLS/2021.1/tps/lnx64/gcc-6.2.0/lib/gcc/x86_64-pc-linux-gnu/6.2.0/../../../../include/c++/6.2.0/ostream:220:7
+INFO: [HLS 207-4367] candidate function: /tools/software/xilinx/Vitis_HLS/2021.1/tps/lnx64/gcc-6.2.0/lib/gcc/x86_64-pc-linux-gnu/6.2.0/../../../../include/c++/6.2.0/ostream:224:7
+INFO: [HLS 207-4367] candidate function: /tools/software/xilinx/Vitis_HLS/2021.1/tps/lnx64/gcc-6.2.0/lib/gcc/x86_64-pc-linux-gnu/6.2.0/../../../../include/c++/6.2.0/ostream:232:7
+INFO: [HLS 207-4367] candidate function [with _Traits = std::char_traits<char>]: /tools/software/xilinx/Vitis_HLS/2021.1/tps/lnx64/gcc-6.2.0/lib/gcc/x86_64-pc-linux-gnu/6.2.0/../../../../include/c++/6.2.0/ostream:508:5
+INFO: [HLS 207-4367] candidate function [with _CharT = char, _Traits = std::char_traits<char>]: /tools/software/xilinx/Vitis_HLS/2021.1/tps/lnx64/gcc-6.2.0/lib/gcc/x86_64-pc-linux-gnu/6.2.0/../../../../include/c++/6.2.0/ostream:502:5
+INFO: [HLS 207-4367] candidate function [with _Traits = std::char_traits<char>]: /tools/software/xilinx/Vitis_HLS/2021.1/tps/lnx64/gcc-6.2.0/lib/gcc/x86_64-pc-linux-gnu/6.2.0/../../../../include/c++/6.2.0/ostream:514:5
+INFO: [HLS 207-4367] candidate function [with _Traits = std::char_traits<char>]: /tools/software/xilinx/Vitis_HLS/2021.1/tps/lnx64/gcc-6.2.0/lib/gcc/x86_64-pc-linux-gnu/6.2.0/../../../../include/c++/6.2.0/ostream:519:5
+ERROR: [HLS 207-3320] use of overloaded operator '<<' is ambiguous (with operand types 'std::ostream' (aka 'basic_ostream<char>') and 'data_t' (aka 'ap_fixed<32, 8>')): FC_Layer.cpp:448:23
+INFO: [HLS 207-4367] candidate function: /tools/software/xilinx/Vitis_HLS/2021.1/tps/lnx64/gcc-6.2.0/lib/gcc/x86_64-pc-linux-gnu/6.2.0/../../../../include/c++/6.2.0/ostream:166:7
+INFO: [HLS 207-4367] candidate function: /tools/software/xilinx/Vitis_HLS/2021.1/tps/lnx64/gcc-6.2.0/lib/gcc/x86_64-pc-linux-gnu/6.2.0/../../../../include/c++/6.2.0/ostream:170:7
+INFO: [HLS 207-4367] candidate function: /tools/software/xilinx/Vitis_HLS/2021.1/tps/lnx64/gcc-6.2.0/lib/gcc/x86_64-pc-linux-gnu/6.2.0/../../../../include/c++/6.2.0/ostream:174:7
+INFO: [HLS 207-4367] candidate function: /tools/software/xilinx/Vitis_HLS/2021.1/tps/lnx64/gcc-6.2.0/lib/gcc/x86_64-pc-linux-gnu/6.2.0/../../../../include/c++/6.2.0/ostream:178:7
+INFO: [HLS 207-4367] candidate function: /tools/software/xilinx/Vitis_HLS/2021.1/tps/lnx64/gcc-6.2.0/lib/gcc/x86_64-pc-linux-gnu/6.2.0/../../../../include/c++/6.2.0/ostream:181:7
+INFO: [HLS 207-4367] candidate function: /tools/software/xilinx/Vitis_HLS/2021.1/tps/lnx64/gcc-6.2.0/lib/gcc/x86_64-pc-linux-gnu/6.2.0/../../../../include/c++/6.2.0/ostream:189:7
+INFO: [HLS 207-4367] candidate function: /tools/software/xilinx/Vitis_HLS/2021.1/tps/lnx64/gcc-6.2.0/lib/gcc/x86_64-pc-linux-gnu/6.2.0/../../../../include/c++/6.2.0/ostream:192:7
+INFO: [HLS 207-4367] candidate function: /tools/software/xilinx/Vitis_HLS/2021.1/tps/lnx64/gcc-6.2.0/lib/gcc/x86_64-pc-linux-gnu/6.2.0/../../../../include/c++/6.2.0/ostream:201:7
+INFO: [HLS 207-4367] candidate function: /tools/software/xilinx/Vitis_HLS/2021.1/tps/lnx64/gcc-6.2.0/lib/gcc/x86_64-pc-linux-gnu/6.2.0/../../../../include/c++/6.2.0/ostream:205:7
+INFO: [HLS 207-4367] candidate function: /tools/software/xilinx/Vitis_HLS/2021.1/tps/lnx64/gcc-6.2.0/lib/gcc/x86_64-pc-linux-gnu/6.2.0/../../../../include/c++/6.2.0/ostream:220:7
+INFO: [HLS 207-4367] candidate function: /tools/software/xilinx/Vitis_HLS/2021.1/tps/lnx64/gcc-6.2.0/lib/gcc/x86_64-pc-linux-gnu/6.2.0/../../../../include/c++/6.2.0/ostream:224:7
+INFO: [HLS 207-4367] candidate function: /tools/software/xilinx/Vitis_HLS/2021.1/tps/lnx64/gcc-6.2.0/lib/gcc/x86_64-pc-linux-gnu/6.2.0/../../../../include/c++/6.2.0/ostream:232:7
+INFO: [HLS 207-4367] candidate function [with _Traits = std::char_traits<char>]: /tools/software/xilinx/Vitis_HLS/2021.1/tps/lnx64/gcc-6.2.0/lib/gcc/x86_64-pc-linux-gnu/6.2.0/../../../../include/c++/6.2.0/ostream:508:5
+INFO: [HLS 207-4367] candidate function [with _CharT = char, _Traits = std::char_traits<char>]: /tools/software/xilinx/Vitis_HLS/2021.1/tps/lnx64/gcc-6.2.0/lib/gcc/x86_64-pc-linux-gnu/6.2.0/../../../../include/c++/6.2.0/ostream:502:5
+INFO: [HLS 207-4367] candidate function [with _Traits = std::char_traits<char>]: /tools/software/xilinx/Vitis_HLS/2021.1/tps/lnx64/gcc-6.2.0/lib/gcc/x86_64-pc-linux-gnu/6.2.0/../../../../include/c++/6.2.0/ostream:514:5
+INFO: [HLS 207-4367] candidate function [with _Traits = std::char_traits<char>]: /tools/software/xilinx/Vitis_HLS/2021.1/tps/lnx64/gcc-6.2.0/lib/gcc/x86_64-pc-linux-gnu/6.2.0/../../../../include/c++/6.2.0/ostream:519:5
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xcvu11p-flga2577-1-e'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xcvu11p-flga2577-1-e 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: csim_design -clean 
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+INFO: [SIM 211-1] CSim done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO: [HLS 200-111] Finished Command csim_design CPU user time: 26.62 seconds. CPU system time: 1.11 seconds. Elapsed time: 33.39 seconds; current allocated memory: 316.131 MB.
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.02 seconds; current allocated memory: 316.319 MB.
+INFO: [HLS 200-10] Analyzing design file 'FC_Layer.cpp' ... 
+WARNING: [HLS 207-5528] Ignore interface attribute or pragma which is not used in top function: FC_Layer.cpp:375:9
+WARNING: [HLS 214-114] Since the only kind of statements allowed in a canonical dataflow region are variable declarations and function calls, the compiler may not be able to correctly handle the region: FC_Layer.cpp:423:5
+WARNING: [HLS 200-471] Dataflow form checks found 1 issue(s) in file FC_Layer.cpp
+WARNING: [HLS 207-5301] unused parameter 'print': /tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/ap_int_base.h:792:16
+WARNING: [HLS 207-5301] unused parameter 'y': FC_Layer.cpp:254:131
+WARNING: [HLS 207-5301] unused parameter 'batch_num': FC_Layer.cpp:279:25
+WARNING: [HLS 207-5301] unused parameter 'Wt_X': FC_Layer.cpp:280:129
+WARNING: [HLS 207-5301] unused parameter 'Wt_Y': FC_Layer.cpp:280:139
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 6.76 seconds. CPU system time: 0.82 seconds. Elapsed time: 8.34 seconds; current allocated memory: 318.108 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 214-279] Initial Interval estimation mode is set into default.
+INFO: [HLS 214-284] Auto array partition mode is set into default.
+INFO: [HLS 214-131] Inlining function 'int ceildiv<int>(int, int)' into 'ReadFromMem(ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<288>*, hls::stream<ap_uint<32>, 0>*, ap_uint<32>*, hls::stream<ap_fixed<32, 8, (ap_q_mode)5, (ap_o_mode)3, 0>, 0>&, int, int, int, int)' (FC_Layer.cpp:20:28)
+INFO: [HLS 214-131] Inlining function 'hls::stream<ap_fixed<32, 8, (ap_q_mode)5, (ap_o_mode)3, 0>, 0>::write(ap_fixed<32, 8, (ap_q_mode)5, (ap_o_mode)3, 0> const&)' into 'ReadFromMem(ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<288>*, hls::stream<ap_uint<32>, 0>*, ap_uint<32>*, hls::stream<ap_fixed<32, 8, (ap_q_mode)5, (ap_o_mode)3, 0>, 0>&, int, int, int, int)' (FC_Layer.cpp:220:22)
+INFO: [HLS 214-131] Inlining function 'hls::stream<ap_uint<32>, 0>::write(ap_uint<32> const&)' into 'ReadFromMem(ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<288>*, hls::stream<ap_uint<32>, 0>*, ap_uint<32>*, hls::stream<ap_fixed<32, 8, (ap_q_mode)5, (ap_o_mode)3, 0>, 0>&, int, int, int, int)' (FC_Layer.cpp:202:39)
+INFO: [HLS 214-131] Inlining function 'int ceildiv<int>(int, int)' into 'ReadFromMem(ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<288>*, hls::stream<ap_uint<32>, 0>*, ap_uint<32>*, hls::stream<ap_fixed<32, 8, (ap_q_mode)5, (ap_o_mode)3, 0>, 0>&, int, int, int, int)' (FC_Layer.cpp:151:22)
+INFO: [HLS 214-131] Inlining function 'int ceildiv<int>(int, int)' into 'ReadFromMem(ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<288>*, hls::stream<ap_uint<32>, 0>*, ap_uint<32>*, hls::stream<ap_fixed<32, 8, (ap_q_mode)5, (ap_o_mode)3, 0>, 0>&, int, int, int, int)' (FC_Layer.cpp:117:27)
+INFO: [HLS 214-131] Inlining function 'int ceildiv<int>(int, int)' into 'ReadFromMem(ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<288>*, hls::stream<ap_uint<32>, 0>*, ap_uint<32>*, hls::stream<ap_fixed<32, 8, (ap_q_mode)5, (ap_o_mode)3, 0>, 0>&, int, int, int, int)' (FC_Layer.cpp:105:27)
+INFO: [HLS 214-131] Inlining function 'hls::stream<ap_uint<32>, 0>::read(ap_uint<32>&)' into 'hls::stream<ap_uint<32>, 0>::read()' (/tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:156:9)
+INFO: [HLS 214-131] Inlining function 'hls::stream<ap_uint<32>, 0>::empty() const' into 'CreateBitMask(hls::stream<ap_uint<32>, 0>*, ap_uint<640>*, ap_uint<20>*)' (FC_Layer.cpp:231:36)
+INFO: [HLS 214-131] Inlining function 'hls::stream<ap_uint<32>, 0>::read()' into 'CreateBitMask(hls::stream<ap_uint<32>, 0>*, ap_uint<640>*, ap_uint<20>*)' (FC_Layer.cpp:243:54)
+INFO: [HLS 214-131] Inlining function 'hls::stream<ap_fixed<32, 8, (ap_q_mode)5, (ap_o_mode)3, 0>, 0>::read(ap_fixed<32, 8, (ap_q_mode)5, (ap_o_mode)3, 0>&)' into 'hls::stream<ap_fixed<32, 8, (ap_q_mode)5, (ap_o_mode)3, 0>, 0>::read()' (/tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:156:9)
+INFO: [HLS 214-131] Inlining function 'hls::stream<ap_fixed<32, 8, (ap_q_mode)5, (ap_o_mode)3, 0>, 0>::read()' into 'ReadIactBuff(hls::stream<ap_fixed<32, 8, (ap_q_mode)5, (ap_o_mode)3, 0>, 0>&, ap_fixed<32, 8, (ap_q_mode)5, (ap_o_mode)3, 0>*)' (FC_Layer.cpp:342:44)
+INFO: [HLS 214-131] Inlining function 'hls::stream<ap_fixed<32, 8, (ap_q_mode)5, (ap_o_mode)3, 0>, 0>::write(ap_fixed<32, 8, (ap_q_mode)5, (ap_o_mode)3, 0> const&)' into 'OutputBuffer(ap_uint<128>*, hls::stream<ap_fixed<32, 8, (ap_q_mode)5, (ap_o_mode)3, 0>, 0>&, int, int, int, ap_fixed<32, 8, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [20])' (FC_Layer.cpp:325:27)
+INFO: [HLS 214-131] Inlining function 'hls::stream<ap_fixed<32, 8, (ap_q_mode)5, (ap_o_mode)3, 0>, 0>::stream()' into 'LINEAR(ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, int, int, int, int, int)' (FC_Layer.cpp:397:22)
+INFO: [HLS 214-131] Inlining function 'hls::stream<ap_uint<32>, 0>::stream()' into 'LINEAR(ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, int, int, int, int, int)' (FC_Layer.cpp:400:42)
+INFO: [HLS 214-131] Inlining function 'hls::stream<ap_fixed<32, 8, (ap_q_mode)5, (ap_o_mode)3, 0>, 0>::stream()' into 'LINEAR(ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, int, int, int, int, int)' (FC_Layer.cpp:403:22)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_266_2' (FC_Layer.cpp:266:23) in function 'DPEUnit' completely with a factor of 20 (FC_Layer.cpp:254:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_194_17' (FC_Layer.cpp:194:36) in function 'ReadFromMem' completely with a factor of 20 (FC_Layer.cpp:18:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_171_12' (FC_Layer.cpp:171:28) in function 'ReadFromMem' completely with a factor of 6 (FC_Layer.cpp:18:0)
+INFO: [HLS 214-178] Inlining function 'ReadIactBuff(hls::stream<ap_fixed<32, 8, (ap_q_mode)5, (ap_o_mode)3, 0>, 0>&, ap_fixed<32, 8, (ap_q_mode)5, (ap_o_mode)3, 0>*)' into 'LINEAR(ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, int, int, int, int, int)' (FC_Layer.cpp:360:0)
+INFO: [HLS 214-241] Aggregating maxi variable 'ifc7' with non-compact mode in 128-bits
+INFO: [HLS 214-241] Aggregating maxi variable 'ifc6' with non-compact mode in 128-bits
+INFO: [HLS 214-241] Aggregating maxi variable 'ifc5' with non-compact mode in 128-bits
+INFO: [HLS 214-241] Aggregating maxi variable 'ifc4' with non-compact mode in 128-bits
+INFO: [HLS 214-241] Aggregating maxi variable 'ifc3' with non-compact mode in 128-bits
+INFO: [HLS 214-241] Aggregating maxi variable 'ifc2' with non-compact mode in 128-bits
+INFO: [HLS 214-241] Aggregating maxi variable 'ifc1' with non-compact mode in 128-bits
+WARNING: [HLS 214-281] Estimating pipelined loop 'VITIS_LOOP_296_3' (FC_Layer.cpp:296:23) in function 'DPEComputation' with estimated II increased from II=1 to II=+infinity because of sub function call 'call' (FC_Layer.cpp:296:23)
+INFO: [HLS 214-270] Starting automatic array partition analysis...
+INFO: [HLS 214-115] Multiple burst reads of length 6 and bit width 128 in loop 'VITIS_LOOP_156_9'(FC_Layer.cpp:156:27) has been inferred on port 'ifc6'. These bursts requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings. (FC_Layer.cpp:156:27)
+INFO: [HLS 214-115] Multiple burst writes of variable length and bit width 128 in loop 'VITIS_LOOP_329_3'(FC_Layer.cpp:329:23) has been inferred on port 'ifc1'. These bursts requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings. (FC_Layer.cpp:329:23)
+INFO: [HLS 214-131] Inlining function '_llvm.fpga.pack.none.i32.s_struct.ap_uint.3s' into 'ReadFromMem(ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<288>*, hls::stream<ap_uint<32>, 0>*, ap_uint<32>*, hls::stream<ap_fixed<32, 8, (ap_q_mode)5, (ap_o_mode)3, 0>, 0>&, int, int, int, int) (.1)' (/tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:174:9)
+INFO: [HLS 214-131] Inlining function '_llvm.fpga.pack.none.i32.s_struct.ap_uint.3s' into 'OutputBuffer(ap_uint<128>*, hls::stream<ap_fixed<32, 8, (ap_q_mode)5, (ap_o_mode)3, 0>, 0>&, int, int, int, ap_fixed<32, 8, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [20]) (.1)' (/tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:174:9)
+INFO: [HLS 214-131] Inlining function '_llvm.fpga.pack.none.i128.s_struct.ap_uints' into 'OutputBuffer(ap_uint<128>*, hls::stream<ap_fixed<32, 8, (ap_q_mode)5, (ap_o_mode)3, 0>, 0>&, int, int, int, ap_fixed<32, 8, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [20]) (.1)' (FC_Layer.cpp:335:35)
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 7.35 seconds. CPU system time: 0.65 seconds. Elapsed time: 9.19 seconds; current allocated memory: 322.033 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0 seconds; current allocated memory: 322.037 MB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0.23 seconds. CPU system time: 0.04 seconds. Elapsed time: 0.33 seconds; current allocated memory: 345.807 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+WARNING: [SYNCHK 200-23] /tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/ap_int_ref.h:674: variable-indexed range selection may cause suboptimal QoR.
+INFO: [SYNCHK 200-10] 0 error(s), 1 warning(s).
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0.43 seconds. CPU system time: 0.04 seconds. Elapsed time: 0.5 seconds; current allocated memory: 385.442 MB.
+INFO: [XFORM 203-510] Pipelining loop 'VITIS_LOOP_153_8' (FC_Layer.cpp:153) in function 'ReadFromMem' automatically.
+INFO: [XFORM 203-510] Pipelining loop 'VITIS_LOOP_177_13' (FC_Layer.cpp:177) in function 'ReadFromMem' automatically.
+INFO: [XFORM 203-510] Pipelining loop 'VITIS_LOOP_192_16' (FC_Layer.cpp:192) in function 'ReadFromMem' automatically.
+INFO: [XFORM 203-510] Pipelining loop 'VITIS_LOOP_216_18' (FC_Layer.cpp:216) in function 'ReadFromMem' automatically.
+INFO: [XFORM 203-510] Pipelining loop 'VITIS_LOOP_323_2' (FC_Layer.cpp:323) in function 'OutputBuffer' automatically.
+INFO: [XFORM 203-510] Pipelining loop 'VITIS_LOOP_329_3' (FC_Layer.cpp:319) in function 'OutputBuffer' automatically.
+INFO: [XFORM 203-510] Pipelining loop 'VITIS_LOOP_287_1' (FC_Layer.cpp:287) in function 'DPEComputation' automatically.
+INFO: [XFORM 203-510] Pipelining loop 'VITIS_LOOP_291_2' (FC_Layer.cpp:291) in function 'DPEComputation' automatically.
+INFO: [XFORM 203-510] Pipelining loop 'VITIS_LOOP_303_4' (FC_Layer.cpp:303) in function 'DPEComputation' automatically.
+INFO: [XFORM 203-510] Pipelining loop 'VITIS_LOOP_230_2' (FC_Layer.cpp:230) in function 'CreateBitMask' automatically.
+INFO: [XFORM 203-510] Pipelining loop 'VITIS_LOOP_341_1' (/tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:0) in function 'LINEAR' automatically.
+INFO: [XFORM 203-502] Unrolling all sub-loops inside loop 'VITIS_LOOP_329_3' (FC_Layer.cpp:319) in function 'OutputBuffer' for pipelining.
+INFO: [XFORM 203-502] Unrolling all loops for pipelining in function 'DPEUnit' (FC_Layer.cpp:256:1).
+INFO: [XFORM 203-502] Unrolling all sub-loops inside loop 'VITIS_LOOP_32_2' (FC_Layer.cpp:39) in function 'ReadFromMem' for pipelining.
+INFO: [XFORM 203-502] Unrolling all sub-loops inside loop 'VITIS_LOOP_153_8' (FC_Layer.cpp:153) in function 'ReadFromMem' for pipelining.
+INFO: [HLS 200-489] Unrolling loop 'VITIS_LOOP_331_4' (FC_Layer.cpp:330) in function 'OutputBuffer' completely with a factor of 4.
+INFO: [HLS 200-489] Unrolling loop 'VITIS_LOOP_257_1' (FC_Layer.cpp:257) in function 'DPEUnit' completely with a factor of 20.
+INFO: [HLS 200-489] Unrolling loop 'VITIS_LOOP_86_3' (FC_Layer.cpp:87) in function 'ReadFromMem' completely with a factor of 8.
+INFO: [HLS 200-489] Unrolling loop 'VITIS_LOOP_89_4' (FC_Layer.cpp:87) in function 'ReadFromMem' completely with a factor of 9.
+INFO: [HLS 200-489] Unrolling loop 'VITIS_LOOP_156_9' (FC_Layer.cpp:154) in function 'ReadFromMem' completely with a factor of 6.
+INFO: [HLS 200-489] Unrolling loop 'VITIS_LOOP_160_10' (FC_Layer.cpp:160) in function 'ReadFromMem' completely with a factor of 24.
+INFO: [XFORM 203-102] Automatically partitioning streamed array 'weights_stream.V.V' (FC_Layer.cpp:400) .
+INFO: [XFORM 203-101] Partitioning array 'weight_buffer.V' (FC_Layer.cpp:382) in dimension 1 with a cyclic factor 71.
+WARNING: [HLS 200-915] Ignore complete array partition directive on 'iact_buffer.V' (FC_Layer.cpp:393) in dimension 1: conflict with resource constraint assignment.
+INFO: [XFORM 203-101] Partitioning array 'weights_stream.V.V' (FC_Layer.cpp:400) in dimension 1 completely.
+INFO: [XFORM 203-721] Changing loop 'Loop_VITIS_LOOP_423_1_proc' (FC_Layer.cpp:339) to a process function for dataflow in function 'LINEAR'.
+WARNING: [XFORM 203-731] Internal stream variable 'output_stream' (FC_Layer.cpp:403) is invalid: it has no data consumer.
+WARNING: [HLS 200-786] Detected dataflow-on-top in function  'LINEAR' (FC_Layer.cpp:382:1)  with default interface mode 'ap_ctrl_hs'. Overlapped execution of successive kernel calls will not happen unless interface mode 'ap_ctrl_chain' is used (or 'ap_ctrl_none' for a purely data-driven design).
+ERROR: [HLS 200-970] Internal stream 'weights_stream.V.V.0' failed dataflow checking: it must be produced and consumed exactly once.
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.0' has write operations in process function 'ReadFromMem' (/tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:10:9) (around FC_Layer.cpp:418).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.0' has read operations in process function 'CreateBitMask10' (FC_Layer.cpp:136:58) (around FC_Layer.cpp:422).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.0' has read operations in process function 'Loop_VITIS_LOOP_423_1_proc' (FC_Layer.cpp:0:13).
+ERROR: [HLS 200-970] Internal stream 'weights_stream.V.V.1' failed dataflow checking: it must be produced and consumed exactly once.
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.1' has write operations in process function 'ReadFromMem' (/tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:10:9) (around FC_Layer.cpp:418).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.1' has read operations in process function 'CreateBitMask10' (FC_Layer.cpp:136:58) (around FC_Layer.cpp:422).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.1' has read operations in process function 'Loop_VITIS_LOOP_423_1_proc' (FC_Layer.cpp:0:13).
+ERROR: [HLS 200-970] Internal stream 'weights_stream.V.V.2' failed dataflow checking: it must be produced and consumed exactly once.
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.2' has write operations in process function 'ReadFromMem' (/tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:10:9) (around FC_Layer.cpp:418).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.2' has read operations in process function 'CreateBitMask10' (FC_Layer.cpp:136:58) (around FC_Layer.cpp:422).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.2' has read operations in process function 'Loop_VITIS_LOOP_423_1_proc' (FC_Layer.cpp:0:13).
+ERROR: [HLS 200-970] Internal stream 'weights_stream.V.V.3' failed dataflow checking: it must be produced and consumed exactly once.
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.3' has write operations in process function 'ReadFromMem' (/tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:10:9) (around FC_Layer.cpp:418).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.3' has read operations in process function 'CreateBitMask10' (FC_Layer.cpp:136:58) (around FC_Layer.cpp:422).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.3' has read operations in process function 'Loop_VITIS_LOOP_423_1_proc' (FC_Layer.cpp:0:13).
+ERROR: [HLS 200-970] Internal stream 'weights_stream.V.V.4' failed dataflow checking: it must be produced and consumed exactly once.
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.4' has write operations in process function 'ReadFromMem' (/tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:10:9) (around FC_Layer.cpp:418).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.4' has read operations in process function 'CreateBitMask10' (FC_Layer.cpp:136:58) (around FC_Layer.cpp:422).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.4' has read operations in process function 'Loop_VITIS_LOOP_423_1_proc' (FC_Layer.cpp:0:13).
+ERROR: [HLS 200-970] Internal stream 'weights_stream.V.V.5' failed dataflow checking: it must be produced and consumed exactly once.
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.5' has write operations in process function 'ReadFromMem' (/tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:10:9) (around FC_Layer.cpp:418).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.5' has read operations in process function 'CreateBitMask10' (FC_Layer.cpp:136:58) (around FC_Layer.cpp:422).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.5' has read operations in process function 'Loop_VITIS_LOOP_423_1_proc' (FC_Layer.cpp:0:13).
+ERROR: [HLS 200-970] Internal stream 'weights_stream.V.V.6' failed dataflow checking: it must be produced and consumed exactly once.
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.6' has write operations in process function 'ReadFromMem' (/tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:10:9) (around FC_Layer.cpp:418).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.6' has read operations in process function 'CreateBitMask10' (FC_Layer.cpp:136:58) (around FC_Layer.cpp:422).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.6' has read operations in process function 'Loop_VITIS_LOOP_423_1_proc' (FC_Layer.cpp:0:13).
+ERROR: [HLS 200-970] Internal stream 'weights_stream.V.V.7' failed dataflow checking: it must be produced and consumed exactly once.
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.7' has write operations in process function 'ReadFromMem' (/tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:10:9) (around FC_Layer.cpp:418).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.7' has read operations in process function 'CreateBitMask10' (FC_Layer.cpp:136:58) (around FC_Layer.cpp:422).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.7' has read operations in process function 'Loop_VITIS_LOOP_423_1_proc' (FC_Layer.cpp:0:13).
+ERROR: [HLS 200-970] Internal stream 'weights_stream.V.V.8' failed dataflow checking: it must be produced and consumed exactly once.
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.8' has write operations in process function 'ReadFromMem' (/tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:10:9) (around FC_Layer.cpp:418).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.8' has read operations in process function 'CreateBitMask10' (FC_Layer.cpp:136:58) (around FC_Layer.cpp:422).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.8' has read operations in process function 'Loop_VITIS_LOOP_423_1_proc' (FC_Layer.cpp:0:13).
+ERROR: [HLS 200-970] Internal stream 'weights_stream.V.V.9' failed dataflow checking: it must be produced and consumed exactly once.
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.9' has write operations in process function 'ReadFromMem' (/tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:10:9) (around FC_Layer.cpp:418).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.9' has read operations in process function 'CreateBitMask10' (FC_Layer.cpp:136:58) (around FC_Layer.cpp:422).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.9' has read operations in process function 'Loop_VITIS_LOOP_423_1_proc' (FC_Layer.cpp:0:13).
+ERROR: [HLS 200-970] Internal stream 'weights_stream.V.V.10' failed dataflow checking: it must be produced and consumed exactly once.
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.10' has write operations in process function 'ReadFromMem' (/tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:10:9) (around FC_Layer.cpp:418).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.10' has read operations in process function 'CreateBitMask10' (FC_Layer.cpp:136:58) (around FC_Layer.cpp:422).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.10' has read operations in process function 'Loop_VITIS_LOOP_423_1_proc' (FC_Layer.cpp:0:13).
+ERROR: [HLS 200-970] Internal stream 'weights_stream.V.V.11' failed dataflow checking: it must be produced and consumed exactly once.
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.11' has write operations in process function 'ReadFromMem' (/tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:10:9) (around FC_Layer.cpp:418).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.11' has read operations in process function 'CreateBitMask10' (FC_Layer.cpp:136:58) (around FC_Layer.cpp:422).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.11' has read operations in process function 'Loop_VITIS_LOOP_423_1_proc' (FC_Layer.cpp:0:13).
+ERROR: [HLS 200-970] Internal stream 'weights_stream.V.V.12' failed dataflow checking: it must be produced and consumed exactly once.
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.12' has write operations in process function 'ReadFromMem' (/tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:10:9) (around FC_Layer.cpp:418).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.12' has read operations in process function 'CreateBitMask10' (FC_Layer.cpp:136:58) (around FC_Layer.cpp:422).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.12' has read operations in process function 'Loop_VITIS_LOOP_423_1_proc' (FC_Layer.cpp:0:13).
+ERROR: [HLS 200-970] Internal stream 'weights_stream.V.V.13' failed dataflow checking: it must be produced and consumed exactly once.
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.13' has write operations in process function 'ReadFromMem' (/tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:10:9) (around FC_Layer.cpp:418).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.13' has read operations in process function 'CreateBitMask10' (FC_Layer.cpp:136:58) (around FC_Layer.cpp:422).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.13' has read operations in process function 'Loop_VITIS_LOOP_423_1_proc' (FC_Layer.cpp:0:13).
+ERROR: [HLS 200-970] Internal stream 'weights_stream.V.V.14' failed dataflow checking: it must be produced and consumed exactly once.
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.14' has write operations in process function 'ReadFromMem' (/tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:10:9) (around FC_Layer.cpp:418).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.14' has read operations in process function 'CreateBitMask10' (FC_Layer.cpp:136:58) (around FC_Layer.cpp:422).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.14' has read operations in process function 'Loop_VITIS_LOOP_423_1_proc' (FC_Layer.cpp:0:13).
+ERROR: [HLS 200-970] Internal stream 'weights_stream.V.V.15' failed dataflow checking: it must be produced and consumed exactly once.
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.15' has write operations in process function 'ReadFromMem' (/tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:10:9) (around FC_Layer.cpp:418).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.15' has read operations in process function 'CreateBitMask10' (FC_Layer.cpp:136:58) (around FC_Layer.cpp:422).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.15' has read operations in process function 'Loop_VITIS_LOOP_423_1_proc' (FC_Layer.cpp:0:13).
+ERROR: [HLS 200-970] Internal stream 'weights_stream.V.V.16' failed dataflow checking: it must be produced and consumed exactly once.
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.16' has write operations in process function 'ReadFromMem' (/tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:10:9) (around FC_Layer.cpp:418).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.16' has read operations in process function 'CreateBitMask10' (FC_Layer.cpp:136:58) (around FC_Layer.cpp:422).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.16' has read operations in process function 'Loop_VITIS_LOOP_423_1_proc' (FC_Layer.cpp:0:13).
+ERROR: [HLS 200-970] Internal stream 'weights_stream.V.V.17' failed dataflow checking: it must be produced and consumed exactly once.
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.17' has write operations in process function 'ReadFromMem' (/tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:10:9) (around FC_Layer.cpp:418).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.17' has read operations in process function 'CreateBitMask10' (FC_Layer.cpp:136:58) (around FC_Layer.cpp:422).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.17' has read operations in process function 'Loop_VITIS_LOOP_423_1_proc' (FC_Layer.cpp:0:13).
+ERROR: [HLS 200-970] Internal stream 'weights_stream.V.V.18' failed dataflow checking: it must be produced and consumed exactly once.
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.18' has write operations in process function 'ReadFromMem' (/tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:10:9) (around FC_Layer.cpp:418).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.18' has read operations in process function 'CreateBitMask10' (FC_Layer.cpp:136:58) (around FC_Layer.cpp:422).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.18' has read operations in process function 'Loop_VITIS_LOOP_423_1_proc' (FC_Layer.cpp:0:13).
+ERROR: [HLS 200-970] Internal stream 'weights_stream.V.V.19' failed dataflow checking: it must be produced and consumed exactly once.
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.19' has write operations in process function 'ReadFromMem' (/tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:10:9) (around FC_Layer.cpp:418).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.19' has read operations in process function 'CreateBitMask10' (FC_Layer.cpp:136:58) (around FC_Layer.cpp:422).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.19' has read operations in process function 'Loop_VITIS_LOOP_423_1_proc' (FC_Layer.cpp:0:13).
+ERROR: [HLS 200-970] Internal stream 'weights_stream.V.V.20' failed dataflow checking: it must be produced and consumed exactly once.
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.20' has write operations in process function 'ReadFromMem' (/tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:10:9) (around FC_Layer.cpp:418).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.20' has read operations in process function 'CreateBitMask10' (FC_Layer.cpp:136:58) (around FC_Layer.cpp:422).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.20' has read operations in process function 'Loop_VITIS_LOOP_423_1_proc' (FC_Layer.cpp:0:13).
+ERROR: [HLS 200-970] Internal stream 'weights_stream.V.V.21' failed dataflow checking: it must be produced and consumed exactly once.
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.21' has write operations in process function 'ReadFromMem' (/tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:10:9) (around FC_Layer.cpp:418).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.21' has read operations in process function 'CreateBitMask10' (FC_Layer.cpp:136:58) (around FC_Layer.cpp:422).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.21' has read operations in process function 'Loop_VITIS_LOOP_423_1_proc' (FC_Layer.cpp:0:13).
+ERROR: [HLS 200-970] Internal stream 'weights_stream.V.V.22' failed dataflow checking: it must be produced and consumed exactly once.
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.22' has write operations in process function 'ReadFromMem' (/tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:10:9) (around FC_Layer.cpp:418).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.22' has read operations in process function 'CreateBitMask10' (FC_Layer.cpp:136:58) (around FC_Layer.cpp:422).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.22' has read operations in process function 'Loop_VITIS_LOOP_423_1_proc' (FC_Layer.cpp:0:13).
+ERROR: [HLS 200-970] Internal stream 'weights_stream.V.V.23' failed dataflow checking: it must be produced and consumed exactly once.
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.23' has write operations in process function 'ReadFromMem' (/tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:10:9) (around FC_Layer.cpp:418).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.23' has read operations in process function 'CreateBitMask10' (FC_Layer.cpp:136:58) (around FC_Layer.cpp:422).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.23' has read operations in process function 'Loop_VITIS_LOOP_423_1_proc' (FC_Layer.cpp:0:13).
+ERROR: [HLS 200-970] Internal stream 'weights_stream.V.V.24' failed dataflow checking: it must be produced and consumed exactly once.
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.24' has write operations in process function 'ReadFromMem' (/tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:10:9) (around FC_Layer.cpp:418).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.24' has read operations in process function 'CreateBitMask10' (FC_Layer.cpp:136:58) (around FC_Layer.cpp:422).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.24' has read operations in process function 'Loop_VITIS_LOOP_423_1_proc' (FC_Layer.cpp:0:13).
+ERROR: [HLS 200-970] Internal stream 'weights_stream.V.V.25' failed dataflow checking: it must be produced and consumed exactly once.
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.25' has write operations in process function 'ReadFromMem' (/tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:10:9) (around FC_Layer.cpp:418).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.25' has read operations in process function 'CreateBitMask10' (FC_Layer.cpp:136:58) (around FC_Layer.cpp:422).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.25' has read operations in process function 'Loop_VITIS_LOOP_423_1_proc' (FC_Layer.cpp:0:13).
+ERROR: [HLS 200-970] Internal stream 'weights_stream.V.V.26' failed dataflow checking: it must be produced and consumed exactly once.
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.26' has write operations in process function 'ReadFromMem' (/tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:10:9) (around FC_Layer.cpp:418).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.26' has read operations in process function 'CreateBitMask10' (FC_Layer.cpp:136:58) (around FC_Layer.cpp:422).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.26' has read operations in process function 'Loop_VITIS_LOOP_423_1_proc' (FC_Layer.cpp:0:13).
+ERROR: [HLS 200-970] Internal stream 'weights_stream.V.V.27' failed dataflow checking: it must be produced and consumed exactly once.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xcvu11p-flga2577-1-e'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xcvu11p-flga2577-1-e 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: csim_design -clean 
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+INFO: [SIM 211-1] CSim done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO: [HLS 200-111] Finished Command csim_design CPU user time: 26.3 seconds. CPU system time: 1.16 seconds. Elapsed time: 27.86 seconds; current allocated memory: 316.131 MB.
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0.01 seconds. CPU system time: 0 seconds. Elapsed time: 0.01 seconds; current allocated memory: 316.318 MB.
+INFO: [HLS 200-10] Analyzing design file 'FC_Layer.cpp' ... 
+WARNING: [HLS 207-5528] Ignore interface attribute or pragma which is not used in top function: FC_Layer.cpp:375:9
+WARNING: [HLS 214-114] Since the only kind of statements allowed in a canonical dataflow region are variable declarations and function calls, the compiler may not be able to correctly handle the region: FC_Layer.cpp:423:5
+WARNING: [HLS 200-471] Dataflow form checks found 1 issue(s) in file FC_Layer.cpp
+WARNING: [HLS 207-5301] unused parameter 'print': /tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/ap_int_base.h:792:16
+WARNING: [HLS 207-5301] unused parameter 'y': FC_Layer.cpp:254:131
+WARNING: [HLS 207-5301] unused parameter 'batch_num': FC_Layer.cpp:279:25
+WARNING: [HLS 207-5301] unused parameter 'Wt_X': FC_Layer.cpp:280:129
+WARNING: [HLS 207-5301] unused parameter 'Wt_Y': FC_Layer.cpp:280:139
+WARNING: [HLS 207-5301] unused parameter 'output_stream': FC_Layer.cpp:313:26
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 6.92 seconds. CPU system time: 0.76 seconds. Elapsed time: 7.88 seconds; current allocated memory: 318.422 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 214-279] Initial Interval estimation mode is set into default.
+INFO: [HLS 214-284] Auto array partition mode is set into default.
+INFO: [HLS 214-131] Inlining function 'int ceildiv<int>(int, int)' into 'ReadFromMem(ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<288>*, hls::stream<ap_uint<32>, 0>*, ap_uint<32>*, hls::stream<ap_fixed<32, 8, (ap_q_mode)5, (ap_o_mode)3, 0>, 0>&, int, int, int, int)' (FC_Layer.cpp:20:28)
+INFO: [HLS 214-131] Inlining function 'hls::stream<ap_fixed<32, 8, (ap_q_mode)5, (ap_o_mode)3, 0>, 0>::write(ap_fixed<32, 8, (ap_q_mode)5, (ap_o_mode)3, 0> const&)' into 'ReadFromMem(ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<288>*, hls::stream<ap_uint<32>, 0>*, ap_uint<32>*, hls::stream<ap_fixed<32, 8, (ap_q_mode)5, (ap_o_mode)3, 0>, 0>&, int, int, int, int)' (FC_Layer.cpp:220:22)
+INFO: [HLS 214-131] Inlining function 'hls::stream<ap_uint<32>, 0>::write(ap_uint<32> const&)' into 'ReadFromMem(ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<288>*, hls::stream<ap_uint<32>, 0>*, ap_uint<32>*, hls::stream<ap_fixed<32, 8, (ap_q_mode)5, (ap_o_mode)3, 0>, 0>&, int, int, int, int)' (FC_Layer.cpp:202:39)
+INFO: [HLS 214-131] Inlining function 'int ceildiv<int>(int, int)' into 'ReadFromMem(ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<288>*, hls::stream<ap_uint<32>, 0>*, ap_uint<32>*, hls::stream<ap_fixed<32, 8, (ap_q_mode)5, (ap_o_mode)3, 0>, 0>&, int, int, int, int)' (FC_Layer.cpp:151:22)
+INFO: [HLS 214-131] Inlining function 'int ceildiv<int>(int, int)' into 'ReadFromMem(ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<288>*, hls::stream<ap_uint<32>, 0>*, ap_uint<32>*, hls::stream<ap_fixed<32, 8, (ap_q_mode)5, (ap_o_mode)3, 0>, 0>&, int, int, int, int)' (FC_Layer.cpp:117:27)
+INFO: [HLS 214-131] Inlining function 'int ceildiv<int>(int, int)' into 'ReadFromMem(ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<288>*, hls::stream<ap_uint<32>, 0>*, ap_uint<32>*, hls::stream<ap_fixed<32, 8, (ap_q_mode)5, (ap_o_mode)3, 0>, 0>&, int, int, int, int)' (FC_Layer.cpp:105:27)
+INFO: [HLS 214-131] Inlining function 'hls::stream<ap_uint<32>, 0>::read(ap_uint<32>&)' into 'hls::stream<ap_uint<32>, 0>::read()' (/tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:156:9)
+INFO: [HLS 214-131] Inlining function 'hls::stream<ap_uint<32>, 0>::empty() const' into 'CreateBitMask(hls::stream<ap_uint<32>, 0>*, ap_uint<640>*, ap_uint<20>*)' (FC_Layer.cpp:231:36)
+INFO: [HLS 214-131] Inlining function 'hls::stream<ap_uint<32>, 0>::read()' into 'CreateBitMask(hls::stream<ap_uint<32>, 0>*, ap_uint<640>*, ap_uint<20>*)' (FC_Layer.cpp:243:54)
+INFO: [HLS 214-131] Inlining function 'hls::stream<ap_fixed<32, 8, (ap_q_mode)5, (ap_o_mode)3, 0>, 0>::read(ap_fixed<32, 8, (ap_q_mode)5, (ap_o_mode)3, 0>&)' into 'hls::stream<ap_fixed<32, 8, (ap_q_mode)5, (ap_o_mode)3, 0>, 0>::read()' (/tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:156:9)
+INFO: [HLS 214-131] Inlining function 'hls::stream<ap_fixed<32, 8, (ap_q_mode)5, (ap_o_mode)3, 0>, 0>::read()' into 'ReadIactBuff(hls::stream<ap_fixed<32, 8, (ap_q_mode)5, (ap_o_mode)3, 0>, 0>&, ap_fixed<32, 8, (ap_q_mode)5, (ap_o_mode)3, 0>*)' (FC_Layer.cpp:342:44)
+INFO: [HLS 214-131] Inlining function 'hls::stream<ap_fixed<32, 8, (ap_q_mode)5, (ap_o_mode)3, 0>, 0>::stream()' into 'LINEAR(ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, int, int, int, int, int)' (FC_Layer.cpp:397:22)
+INFO: [HLS 214-131] Inlining function 'hls::stream<ap_uint<32>, 0>::stream()' into 'LINEAR(ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, int, int, int, int, int)' (FC_Layer.cpp:400:42)
+INFO: [HLS 214-131] Inlining function 'hls::stream<ap_fixed<32, 8, (ap_q_mode)5, (ap_o_mode)3, 0>, 0>::stream()' into 'LINEAR(ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, int, int, int, int, int)' (FC_Layer.cpp:403:22)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_266_2' (FC_Layer.cpp:266:23) in function 'DPEUnit' completely with a factor of 20 (FC_Layer.cpp:254:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_194_17' (FC_Layer.cpp:194:36) in function 'ReadFromMem' completely with a factor of 20 (FC_Layer.cpp:18:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_171_12' (FC_Layer.cpp:171:28) in function 'ReadFromMem' completely with a factor of 6 (FC_Layer.cpp:18:0)
+INFO: [HLS 214-178] Inlining function 'ReadIactBuff(hls::stream<ap_fixed<32, 8, (ap_q_mode)5, (ap_o_mode)3, 0>, 0>&, ap_fixed<32, 8, (ap_q_mode)5, (ap_o_mode)3, 0>*)' into 'LINEAR(ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, int, int, int, int, int)' (FC_Layer.cpp:360:0)
+INFO: [HLS 214-241] Aggregating maxi variable 'ifc7' with non-compact mode in 128-bits
+INFO: [HLS 214-241] Aggregating maxi variable 'ifc6' with non-compact mode in 128-bits
+INFO: [HLS 214-241] Aggregating maxi variable 'ifc5' with non-compact mode in 128-bits
+INFO: [HLS 214-241] Aggregating maxi variable 'ifc4' with non-compact mode in 128-bits
+INFO: [HLS 214-241] Aggregating maxi variable 'ifc3' with non-compact mode in 128-bits
+INFO: [HLS 214-241] Aggregating maxi variable 'ifc2' with non-compact mode in 128-bits
+INFO: [HLS 214-241] Aggregating maxi variable 'ifc1' with non-compact mode in 128-bits
+WARNING: [HLS 214-281] Estimating pipelined loop 'VITIS_LOOP_296_3' (FC_Layer.cpp:296:23) in function 'DPEComputation' with estimated II increased from II=1 to II=+infinity because of sub function call 'call' (FC_Layer.cpp:296:23)
+INFO: [HLS 214-270] Starting automatic array partition analysis...
+INFO: [HLS 214-115] Multiple burst reads of length 6 and bit width 128 in loop 'VITIS_LOOP_156_9'(FC_Layer.cpp:156:27) has been inferred on port 'ifc6'. These bursts requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings. (FC_Layer.cpp:156:27)
+INFO: [HLS 214-115] Multiple burst writes of variable length and bit width 128 in loop 'VITIS_LOOP_329_1'(FC_Layer.cpp:329:23) has been inferred on port 'ifc1'. These bursts requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings. (FC_Layer.cpp:329:23)
+INFO: [HLS 214-131] Inlining function '_llvm.fpga.pack.none.i32.s_struct.ap_uint.3s' into 'ReadFromMem(ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<288>*, hls::stream<ap_uint<32>, 0>*, ap_uint<32>*, hls::stream<ap_fixed<32, 8, (ap_q_mode)5, (ap_o_mode)3, 0>, 0>&, int, int, int, int) (.1)' (/tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:174:9)
+INFO: [HLS 214-131] Inlining function '_llvm.fpga.pack.none.i128.s_struct.ap_uints' into 'OutputBuffer(ap_uint<128>*, hls::stream<ap_fixed<32, 8, (ap_q_mode)5, (ap_o_mode)3, 0>, 0>&, int, int, int, ap_fixed<32, 8, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [20]) (.1)' (FC_Layer.cpp:335:35)
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 7.59 seconds. CPU system time: 0.77 seconds. Elapsed time: 8.73 seconds; current allocated memory: 322.016 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0 seconds; current allocated memory: 322.020 MB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0.25 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.3 seconds; current allocated memory: 345.406 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+WARNING: [SYNCHK 200-23] /tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/ap_int_ref.h:674: variable-indexed range selection may cause suboptimal QoR.
+INFO: [SYNCHK 200-10] 0 error(s), 1 warning(s).
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0.46 seconds. CPU system time: 0.05 seconds. Elapsed time: 0.53 seconds; current allocated memory: 384.691 MB.
+INFO: [XFORM 203-510] Pipelining loop 'VITIS_LOOP_153_8' (FC_Layer.cpp:153) in function 'ReadFromMem' automatically.
+INFO: [XFORM 203-510] Pipelining loop 'VITIS_LOOP_177_13' (FC_Layer.cpp:177) in function 'ReadFromMem' automatically.
+INFO: [XFORM 203-510] Pipelining loop 'VITIS_LOOP_192_16' (FC_Layer.cpp:192) in function 'ReadFromMem' automatically.
+INFO: [XFORM 203-510] Pipelining loop 'VITIS_LOOP_216_18' (FC_Layer.cpp:216) in function 'ReadFromMem' automatically.
+INFO: [XFORM 203-510] Pipelining loop 'VITIS_LOOP_329_1' (FC_Layer.cpp:319) in function 'OutputBuffer' automatically.
+INFO: [XFORM 203-510] Pipelining loop 'VITIS_LOOP_287_1' (FC_Layer.cpp:287) in function 'DPEComputation' automatically.
+INFO: [XFORM 203-510] Pipelining loop 'VITIS_LOOP_291_2' (FC_Layer.cpp:291) in function 'DPEComputation' automatically.
+INFO: [XFORM 203-510] Pipelining loop 'VITIS_LOOP_303_4' (FC_Layer.cpp:303) in function 'DPEComputation' automatically.
+INFO: [XFORM 203-510] Pipelining loop 'VITIS_LOOP_230_2' (FC_Layer.cpp:230) in function 'CreateBitMask' automatically.
+INFO: [XFORM 203-510] Pipelining loop 'VITIS_LOOP_341_1' (/tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:0) in function 'LINEAR' automatically.
+INFO: [XFORM 203-502] Unrolling all sub-loops inside loop 'VITIS_LOOP_329_1' (FC_Layer.cpp:319) in function 'OutputBuffer' for pipelining.
+INFO: [XFORM 203-502] Unrolling all loops for pipelining in function 'DPEUnit' (FC_Layer.cpp:256:1).
+INFO: [XFORM 203-502] Unrolling all sub-loops inside loop 'VITIS_LOOP_32_2' (FC_Layer.cpp:39) in function 'ReadFromMem' for pipelining.
+INFO: [XFORM 203-502] Unrolling all sub-loops inside loop 'VITIS_LOOP_153_8' (FC_Layer.cpp:153) in function 'ReadFromMem' for pipelining.
+INFO: [HLS 200-489] Unrolling loop 'VITIS_LOOP_331_2' (FC_Layer.cpp:330) in function 'OutputBuffer' completely with a factor of 4.
+INFO: [HLS 200-489] Unrolling loop 'VITIS_LOOP_257_1' (FC_Layer.cpp:257) in function 'DPEUnit' completely with a factor of 20.
+INFO: [HLS 200-489] Unrolling loop 'VITIS_LOOP_86_3' (FC_Layer.cpp:87) in function 'ReadFromMem' completely with a factor of 8.
+INFO: [HLS 200-489] Unrolling loop 'VITIS_LOOP_89_4' (FC_Layer.cpp:87) in function 'ReadFromMem' completely with a factor of 9.
+INFO: [HLS 200-489] Unrolling loop 'VITIS_LOOP_156_9' (FC_Layer.cpp:154) in function 'ReadFromMem' completely with a factor of 6.
+INFO: [HLS 200-489] Unrolling loop 'VITIS_LOOP_160_10' (FC_Layer.cpp:160) in function 'ReadFromMem' completely with a factor of 24.
+INFO: [XFORM 203-102] Automatically partitioning streamed array 'weights_stream.V.V' (FC_Layer.cpp:400) .
+INFO: [XFORM 203-101] Partitioning array 'weight_buffer.V' (FC_Layer.cpp:382) in dimension 1 with a cyclic factor 71.
+WARNING: [HLS 200-915] Ignore complete array partition directive on 'iact_buffer.V' (FC_Layer.cpp:393) in dimension 1: conflict with resource constraint assignment.
+INFO: [XFORM 203-101] Partitioning array 'weights_stream.V.V' (FC_Layer.cpp:400) in dimension 1 completely.
+INFO: [XFORM 203-721] Changing loop 'Loop_VITIS_LOOP_423_1_proc' (FC_Layer.cpp:339) to a process function for dataflow in function 'LINEAR'.
+WARNING: [HLS 200-786] Detected dataflow-on-top in function  'LINEAR' (FC_Layer.cpp:382:1)  with default interface mode 'ap_ctrl_hs'. Overlapped execution of successive kernel calls will not happen unless interface mode 'ap_ctrl_chain' is used (or 'ap_ctrl_none' for a purely data-driven design).
+ERROR: [HLS 200-970] Internal stream 'weights_stream.V.V.0' failed dataflow checking: it must be produced and consumed exactly once.
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.0' has write operations in process function 'ReadFromMem' (/tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:10:9) (around FC_Layer.cpp:418).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.0' has read operations in process function 'CreateBitMask10' (FC_Layer.cpp:136:58) (around FC_Layer.cpp:422).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.0' has read operations in process function 'Loop_VITIS_LOOP_423_1_proc' (FC_Layer.cpp:0:13).
+ERROR: [HLS 200-970] Internal stream 'weights_stream.V.V.1' failed dataflow checking: it must be produced and consumed exactly once.
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.1' has write operations in process function 'ReadFromMem' (/tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:10:9) (around FC_Layer.cpp:418).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.1' has read operations in process function 'CreateBitMask10' (FC_Layer.cpp:136:58) (around FC_Layer.cpp:422).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.1' has read operations in process function 'Loop_VITIS_LOOP_423_1_proc' (FC_Layer.cpp:0:13).
+ERROR: [HLS 200-970] Internal stream 'weights_stream.V.V.2' failed dataflow checking: it must be produced and consumed exactly once.
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.2' has write operations in process function 'ReadFromMem' (/tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:10:9) (around FC_Layer.cpp:418).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.2' has read operations in process function 'CreateBitMask10' (FC_Layer.cpp:136:58) (around FC_Layer.cpp:422).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.2' has read operations in process function 'Loop_VITIS_LOOP_423_1_proc' (FC_Layer.cpp:0:13).
+ERROR: [HLS 200-970] Internal stream 'weights_stream.V.V.3' failed dataflow checking: it must be produced and consumed exactly once.
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.3' has write operations in process function 'ReadFromMem' (/tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:10:9) (around FC_Layer.cpp:418).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.3' has read operations in process function 'CreateBitMask10' (FC_Layer.cpp:136:58) (around FC_Layer.cpp:422).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.3' has read operations in process function 'Loop_VITIS_LOOP_423_1_proc' (FC_Layer.cpp:0:13).
+ERROR: [HLS 200-970] Internal stream 'weights_stream.V.V.4' failed dataflow checking: it must be produced and consumed exactly once.
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.4' has write operations in process function 'ReadFromMem' (/tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:10:9) (around FC_Layer.cpp:418).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.4' has read operations in process function 'CreateBitMask10' (FC_Layer.cpp:136:58) (around FC_Layer.cpp:422).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.4' has read operations in process function 'Loop_VITIS_LOOP_423_1_proc' (FC_Layer.cpp:0:13).
+ERROR: [HLS 200-970] Internal stream 'weights_stream.V.V.5' failed dataflow checking: it must be produced and consumed exactly once.
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.5' has write operations in process function 'ReadFromMem' (/tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:10:9) (around FC_Layer.cpp:418).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.5' has read operations in process function 'CreateBitMask10' (FC_Layer.cpp:136:58) (around FC_Layer.cpp:422).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.5' has read operations in process function 'Loop_VITIS_LOOP_423_1_proc' (FC_Layer.cpp:0:13).
+ERROR: [HLS 200-970] Internal stream 'weights_stream.V.V.6' failed dataflow checking: it must be produced and consumed exactly once.
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.6' has write operations in process function 'ReadFromMem' (/tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:10:9) (around FC_Layer.cpp:418).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.6' has read operations in process function 'CreateBitMask10' (FC_Layer.cpp:136:58) (around FC_Layer.cpp:422).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.6' has read operations in process function 'Loop_VITIS_LOOP_423_1_proc' (FC_Layer.cpp:0:13).
+ERROR: [HLS 200-970] Internal stream 'weights_stream.V.V.7' failed dataflow checking: it must be produced and consumed exactly once.
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.7' has write operations in process function 'ReadFromMem' (/tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:10:9) (around FC_Layer.cpp:418).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.7' has read operations in process function 'CreateBitMask10' (FC_Layer.cpp:136:58) (around FC_Layer.cpp:422).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.7' has read operations in process function 'Loop_VITIS_LOOP_423_1_proc' (FC_Layer.cpp:0:13).
+ERROR: [HLS 200-970] Internal stream 'weights_stream.V.V.8' failed dataflow checking: it must be produced and consumed exactly once.
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.8' has write operations in process function 'ReadFromMem' (/tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:10:9) (around FC_Layer.cpp:418).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.8' has read operations in process function 'CreateBitMask10' (FC_Layer.cpp:136:58) (around FC_Layer.cpp:422).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.8' has read operations in process function 'Loop_VITIS_LOOP_423_1_proc' (FC_Layer.cpp:0:13).
+ERROR: [HLS 200-970] Internal stream 'weights_stream.V.V.9' failed dataflow checking: it must be produced and consumed exactly once.
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.9' has write operations in process function 'ReadFromMem' (/tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:10:9) (around FC_Layer.cpp:418).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.9' has read operations in process function 'CreateBitMask10' (FC_Layer.cpp:136:58) (around FC_Layer.cpp:422).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.9' has read operations in process function 'Loop_VITIS_LOOP_423_1_proc' (FC_Layer.cpp:0:13).
+ERROR: [HLS 200-970] Internal stream 'weights_stream.V.V.10' failed dataflow checking: it must be produced and consumed exactly once.
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.10' has write operations in process function 'ReadFromMem' (/tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:10:9) (around FC_Layer.cpp:418).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.10' has read operations in process function 'CreateBitMask10' (FC_Layer.cpp:136:58) (around FC_Layer.cpp:422).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.10' has read operations in process function 'Loop_VITIS_LOOP_423_1_proc' (FC_Layer.cpp:0:13).
+ERROR: [HLS 200-970] Internal stream 'weights_stream.V.V.11' failed dataflow checking: it must be produced and consumed exactly once.
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.11' has write operations in process function 'ReadFromMem' (/tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:10:9) (around FC_Layer.cpp:418).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.11' has read operations in process function 'CreateBitMask10' (FC_Layer.cpp:136:58) (around FC_Layer.cpp:422).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.11' has read operations in process function 'Loop_VITIS_LOOP_423_1_proc' (FC_Layer.cpp:0:13).
+ERROR: [HLS 200-970] Internal stream 'weights_stream.V.V.12' failed dataflow checking: it must be produced and consumed exactly once.
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.12' has write operations in process function 'ReadFromMem' (/tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:10:9) (around FC_Layer.cpp:418).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.12' has read operations in process function 'CreateBitMask10' (FC_Layer.cpp:136:58) (around FC_Layer.cpp:422).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.12' has read operations in process function 'Loop_VITIS_LOOP_423_1_proc' (FC_Layer.cpp:0:13).
+ERROR: [HLS 200-970] Internal stream 'weights_stream.V.V.13' failed dataflow checking: it must be produced and consumed exactly once.
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.13' has write operations in process function 'ReadFromMem' (/tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:10:9) (around FC_Layer.cpp:418).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.13' has read operations in process function 'CreateBitMask10' (FC_Layer.cpp:136:58) (around FC_Layer.cpp:422).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.13' has read operations in process function 'Loop_VITIS_LOOP_423_1_proc' (FC_Layer.cpp:0:13).
+ERROR: [HLS 200-970] Internal stream 'weights_stream.V.V.14' failed dataflow checking: it must be produced and consumed exactly once.
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.14' has write operations in process function 'ReadFromMem' (/tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:10:9) (around FC_Layer.cpp:418).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.14' has read operations in process function 'CreateBitMask10' (FC_Layer.cpp:136:58) (around FC_Layer.cpp:422).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.14' has read operations in process function 'Loop_VITIS_LOOP_423_1_proc' (FC_Layer.cpp:0:13).
+ERROR: [HLS 200-970] Internal stream 'weights_stream.V.V.15' failed dataflow checking: it must be produced and consumed exactly once.
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.15' has write operations in process function 'ReadFromMem' (/tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:10:9) (around FC_Layer.cpp:418).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.15' has read operations in process function 'CreateBitMask10' (FC_Layer.cpp:136:58) (around FC_Layer.cpp:422).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.15' has read operations in process function 'Loop_VITIS_LOOP_423_1_proc' (FC_Layer.cpp:0:13).
+ERROR: [HLS 200-970] Internal stream 'weights_stream.V.V.16' failed dataflow checking: it must be produced and consumed exactly once.
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.16' has write operations in process function 'ReadFromMem' (/tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:10:9) (around FC_Layer.cpp:418).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.16' has read operations in process function 'CreateBitMask10' (FC_Layer.cpp:136:58) (around FC_Layer.cpp:422).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.16' has read operations in process function 'Loop_VITIS_LOOP_423_1_proc' (FC_Layer.cpp:0:13).
+ERROR: [HLS 200-970] Internal stream 'weights_stream.V.V.17' failed dataflow checking: it must be produced and consumed exactly once.
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.17' has write operations in process function 'ReadFromMem' (/tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:10:9) (around FC_Layer.cpp:418).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.17' has read operations in process function 'CreateBitMask10' (FC_Layer.cpp:136:58) (around FC_Layer.cpp:422).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.17' has read operations in process function 'Loop_VITIS_LOOP_423_1_proc' (FC_Layer.cpp:0:13).
+ERROR: [HLS 200-970] Internal stream 'weights_stream.V.V.18' failed dataflow checking: it must be produced and consumed exactly once.
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.18' has write operations in process function 'ReadFromMem' (/tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:10:9) (around FC_Layer.cpp:418).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.18' has read operations in process function 'CreateBitMask10' (FC_Layer.cpp:136:58) (around FC_Layer.cpp:422).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.18' has read operations in process function 'Loop_VITIS_LOOP_423_1_proc' (FC_Layer.cpp:0:13).
+ERROR: [HLS 200-970] Internal stream 'weights_stream.V.V.19' failed dataflow checking: it must be produced and consumed exactly once.
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.19' has write operations in process function 'ReadFromMem' (/tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:10:9) (around FC_Layer.cpp:418).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.19' has read operations in process function 'CreateBitMask10' (FC_Layer.cpp:136:58) (around FC_Layer.cpp:422).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.19' has read operations in process function 'Loop_VITIS_LOOP_423_1_proc' (FC_Layer.cpp:0:13).
+ERROR: [HLS 200-970] Internal stream 'weights_stream.V.V.20' failed dataflow checking: it must be produced and consumed exactly once.
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.20' has write operations in process function 'ReadFromMem' (/tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:10:9) (around FC_Layer.cpp:418).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.20' has read operations in process function 'CreateBitMask10' (FC_Layer.cpp:136:58) (around FC_Layer.cpp:422).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.20' has read operations in process function 'Loop_VITIS_LOOP_423_1_proc' (FC_Layer.cpp:0:13).
+ERROR: [HLS 200-970] Internal stream 'weights_stream.V.V.21' failed dataflow checking: it must be produced and consumed exactly once.
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.21' has write operations in process function 'ReadFromMem' (/tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:10:9) (around FC_Layer.cpp:418).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.21' has read operations in process function 'CreateBitMask10' (FC_Layer.cpp:136:58) (around FC_Layer.cpp:422).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.21' has read operations in process function 'Loop_VITIS_LOOP_423_1_proc' (FC_Layer.cpp:0:13).
+ERROR: [HLS 200-970] Internal stream 'weights_stream.V.V.22' failed dataflow checking: it must be produced and consumed exactly once.
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.22' has write operations in process function 'ReadFromMem' (/tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:10:9) (around FC_Layer.cpp:418).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.22' has read operations in process function 'CreateBitMask10' (FC_Layer.cpp:136:58) (around FC_Layer.cpp:422).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.22' has read operations in process function 'Loop_VITIS_LOOP_423_1_proc' (FC_Layer.cpp:0:13).
+ERROR: [HLS 200-970] Internal stream 'weights_stream.V.V.23' failed dataflow checking: it must be produced and consumed exactly once.
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.23' has write operations in process function 'ReadFromMem' (/tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:10:9) (around FC_Layer.cpp:418).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.23' has read operations in process function 'CreateBitMask10' (FC_Layer.cpp:136:58) (around FC_Layer.cpp:422).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.23' has read operations in process function 'Loop_VITIS_LOOP_423_1_proc' (FC_Layer.cpp:0:13).
+ERROR: [HLS 200-970] Internal stream 'weights_stream.V.V.24' failed dataflow checking: it must be produced and consumed exactly once.
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.24' has write operations in process function 'ReadFromMem' (/tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:10:9) (around FC_Layer.cpp:418).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.24' has read operations in process function 'CreateBitMask10' (FC_Layer.cpp:136:58) (around FC_Layer.cpp:422).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.24' has read operations in process function 'Loop_VITIS_LOOP_423_1_proc' (FC_Layer.cpp:0:13).
+ERROR: [HLS 200-970] Internal stream 'weights_stream.V.V.25' failed dataflow checking: it must be produced and consumed exactly once.
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.25' has write operations in process function 'ReadFromMem' (/tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:10:9) (around FC_Layer.cpp:418).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.25' has read operations in process function 'CreateBitMask10' (FC_Layer.cpp:136:58) (around FC_Layer.cpp:422).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.25' has read operations in process function 'Loop_VITIS_LOOP_423_1_proc' (FC_Layer.cpp:0:13).
+ERROR: [HLS 200-970] Internal stream 'weights_stream.V.V.26' failed dataflow checking: it must be produced and consumed exactly once.
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.26' has write operations in process function 'ReadFromMem' (/tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:10:9) (around FC_Layer.cpp:418).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.26' has read operations in process function 'CreateBitMask10' (FC_Layer.cpp:136:58) (around FC_Layer.cpp:422).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.26' has read operations in process function 'Loop_VITIS_LOOP_423_1_proc' (FC_Layer.cpp:0:13).
+ERROR: [HLS 200-970] Internal stream 'weights_stream.V.V.27' failed dataflow checking: it must be produced and consumed exactly once.
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.27' has write operations in process function 'ReadFromMem' (/tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:10:9) (around FC_Layer.cpp:418).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.27' has read operations in process function 'CreateBitMask10' (FC_Layer.cpp:136:58) (around FC_Layer.cpp:422).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.27' has read operations in process function 'Loop_VITIS_LOOP_423_1_proc' (FC_Layer.cpp:0:13).
+ERROR: [HLS 200-970] Internal stream 'weights_stream.V.V.28' failed dataflow checking: it must be produced and consumed exactly once.
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.28' has write operations in process function 'ReadFromMem' (/tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:10:9) (around FC_Layer.cpp:418).
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xcvu11p-flga2577-1-e'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xcvu11p-flga2577-1-e 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: csim_design -clean 
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+INFO: [SIM 211-1] CSim done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO: [HLS 200-111] Finished Command csim_design CPU user time: 26.86 seconds. CPU system time: 1.09 seconds. Elapsed time: 28.13 seconds; current allocated memory: 316.132 MB.
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.01 seconds; current allocated memory: 316.319 MB.
+INFO: [HLS 200-10] Analyzing design file 'FC_Layer.cpp' ... 
+WARNING: [HLS 207-5528] Ignore interface attribute or pragma which is not used in top function: FC_Layer.cpp:403:9
+WARNING: [HLS 207-5301] unused parameter 'print': /tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/ap_int_base.h:792:16
+WARNING: [HLS 207-5301] unused parameter 'y': FC_Layer.cpp:254:131
+WARNING: [HLS 207-5301] unused parameter 'batch_num': FC_Layer.cpp:279:25
+WARNING: [HLS 207-5301] unused parameter 'Wt_X': FC_Layer.cpp:280:129
+WARNING: [HLS 207-5301] unused parameter 'Wt_Y': FC_Layer.cpp:280:139
+WARNING: [HLS 207-5301] unused parameter 'output_stream': FC_Layer.cpp:313:26
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 6.65 seconds. CPU system time: 0.8 seconds. Elapsed time: 7.66 seconds; current allocated memory: 318.464 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 214-279] Initial Interval estimation mode is set into default.
+INFO: [HLS 214-284] Auto array partition mode is set into default.
+INFO: [HLS 214-131] Inlining function 'int ceildiv<int>(int, int)' into 'ReadFromMem(ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<288>*, hls::stream<ap_uint<32>, 0>*, ap_uint<32>*, hls::stream<ap_fixed<32, 8, (ap_q_mode)5, (ap_o_mode)3, 0>, 0>&, int, int, int, int)' (FC_Layer.cpp:20:28)
+INFO: [HLS 214-131] Inlining function 'hls::stream<ap_fixed<32, 8, (ap_q_mode)5, (ap_o_mode)3, 0>, 0>::write(ap_fixed<32, 8, (ap_q_mode)5, (ap_o_mode)3, 0> const&)' into 'ReadFromMem(ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<288>*, hls::stream<ap_uint<32>, 0>*, ap_uint<32>*, hls::stream<ap_fixed<32, 8, (ap_q_mode)5, (ap_o_mode)3, 0>, 0>&, int, int, int, int)' (FC_Layer.cpp:220:22)
+INFO: [HLS 214-131] Inlining function 'hls::stream<ap_uint<32>, 0>::write(ap_uint<32> const&)' into 'ReadFromMem(ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<288>*, hls::stream<ap_uint<32>, 0>*, ap_uint<32>*, hls::stream<ap_fixed<32, 8, (ap_q_mode)5, (ap_o_mode)3, 0>, 0>&, int, int, int, int)' (FC_Layer.cpp:202:39)
+INFO: [HLS 214-131] Inlining function 'int ceildiv<int>(int, int)' into 'ReadFromMem(ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<288>*, hls::stream<ap_uint<32>, 0>*, ap_uint<32>*, hls::stream<ap_fixed<32, 8, (ap_q_mode)5, (ap_o_mode)3, 0>, 0>&, int, int, int, int)' (FC_Layer.cpp:151:22)
+INFO: [HLS 214-131] Inlining function 'int ceildiv<int>(int, int)' into 'ReadFromMem(ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<288>*, hls::stream<ap_uint<32>, 0>*, ap_uint<32>*, hls::stream<ap_fixed<32, 8, (ap_q_mode)5, (ap_o_mode)3, 0>, 0>&, int, int, int, int)' (FC_Layer.cpp:117:27)
+INFO: [HLS 214-131] Inlining function 'int ceildiv<int>(int, int)' into 'ReadFromMem(ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<288>*, hls::stream<ap_uint<32>, 0>*, ap_uint<32>*, hls::stream<ap_fixed<32, 8, (ap_q_mode)5, (ap_o_mode)3, 0>, 0>&, int, int, int, int)' (FC_Layer.cpp:105:27)
+INFO: [HLS 214-131] Inlining function 'hls::stream<ap_uint<32>, 0>::read(ap_uint<32>&)' into 'hls::stream<ap_uint<32>, 0>::read()' (/tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:156:9)
+INFO: [HLS 214-131] Inlining function 'hls::stream<ap_uint<32>, 0>::empty() const' into 'CreateBitMask(hls::stream<ap_uint<32>, 0>*, ap_uint<640>*, ap_uint<20>*)' (FC_Layer.cpp:231:36)
+INFO: [HLS 214-131] Inlining function 'hls::stream<ap_uint<32>, 0>::read()' into 'CreateBitMask(hls::stream<ap_uint<32>, 0>*, ap_uint<640>*, ap_uint<20>*)' (FC_Layer.cpp:243:54)
+INFO: [HLS 214-131] Inlining function 'hls::stream<ap_fixed<32, 8, (ap_q_mode)5, (ap_o_mode)3, 0>, 0>::read(ap_fixed<32, 8, (ap_q_mode)5, (ap_o_mode)3, 0>&)' into 'hls::stream<ap_fixed<32, 8, (ap_q_mode)5, (ap_o_mode)3, 0>, 0>::read()' (/tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:156:9)
+INFO: [HLS 214-131] Inlining function 'hls::stream<ap_fixed<32, 8, (ap_q_mode)5, (ap_o_mode)3, 0>, 0>::read()' into 'ReadIactBuff(hls::stream<ap_fixed<32, 8, (ap_q_mode)5, (ap_o_mode)3, 0>, 0>&, ap_fixed<32, 8, (ap_q_mode)5, (ap_o_mode)3, 0>*)' (FC_Layer.cpp:342:44)
+INFO: [HLS 214-131] Inlining function 'hls::stream<ap_fixed<32, 8, (ap_q_mode)5, (ap_o_mode)3, 0>, 0>::stream()' into 'LINEAR(ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, int, int, int, int, int)' (FC_Layer.cpp:425:22)
+INFO: [HLS 214-131] Inlining function 'hls::stream<ap_uint<32>, 0>::stream()' into 'LINEAR(ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, int, int, int, int, int)' (FC_Layer.cpp:428:42)
+INFO: [HLS 214-131] Inlining function 'hls::stream<ap_fixed<32, 8, (ap_q_mode)5, (ap_o_mode)3, 0>, 0>::stream()' into 'LINEAR(ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, int, int, int, int, int)' (FC_Layer.cpp:431:22)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_266_2' (FC_Layer.cpp:266:23) in function 'DPEUnit' completely with a factor of 20 (FC_Layer.cpp:254:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_194_17' (FC_Layer.cpp:194:36) in function 'ReadFromMem' completely with a factor of 20 (FC_Layer.cpp:18:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_171_12' (FC_Layer.cpp:171:28) in function 'ReadFromMem' completely with a factor of 6 (FC_Layer.cpp:18:0)
+INFO: [HLS 214-178] Inlining function 'ReadIactBuff(hls::stream<ap_fixed<32, 8, (ap_q_mode)5, (ap_o_mode)3, 0>, 0>&, ap_fixed<32, 8, (ap_q_mode)5, (ap_o_mode)3, 0>*)' into 'RunDataFlow(int, int, hls::stream<ap_fixed<32, 8, (ap_q_mode)5, (ap_o_mode)3, 0>, 0>&, ap_fixed<32, 8, (ap_q_mode)5, (ap_o_mode)3, 0>*, hls::stream<ap_uint<32>, 0>*, ap_fixed<32, 8, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [20], ap_uint<640>*, ap_uint<640>*, ap_uint<20>*, ap_uint<20>*, int, int)' (FC_Layer.cpp:350:0)
+INFO: [HLS 214-178] Inlining function 'CreateBitMask(hls::stream<ap_uint<32>, 0>*, ap_uint<640>*, ap_uint<20>*)' into 'RunDataFlow(int, int, hls::stream<ap_fixed<32, 8, (ap_q_mode)5, (ap_o_mode)3, 0>, 0>&, ap_fixed<32, 8, (ap_q_mode)5, (ap_o_mode)3, 0>*, hls::stream<ap_uint<32>, 0>*, ap_fixed<32, 8, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [20], ap_uint<640>*, ap_uint<640>*, ap_uint<20>*, ap_uint<20>*, int, int)' (FC_Layer.cpp:350:0)
+INFO: [HLS 214-241] Aggregating maxi variable 'ifc7' with non-compact mode in 128-bits
+INFO: [HLS 214-241] Aggregating maxi variable 'ifc6' with non-compact mode in 128-bits
+INFO: [HLS 214-241] Aggregating maxi variable 'ifc5' with non-compact mode in 128-bits
+INFO: [HLS 214-241] Aggregating maxi variable 'ifc4' with non-compact mode in 128-bits
+INFO: [HLS 214-241] Aggregating maxi variable 'ifc3' with non-compact mode in 128-bits
+INFO: [HLS 214-241] Aggregating maxi variable 'ifc2' with non-compact mode in 128-bits
+INFO: [HLS 214-241] Aggregating maxi variable 'ifc1' with non-compact mode in 128-bits
+WARNING: [HLS 214-281] Estimating pipelined loop 'VITIS_LOOP_296_3' (FC_Layer.cpp:296:23) in function 'DPEComputation' with estimated II increased from II=1 to II=+infinity because of sub function call 'call' (FC_Layer.cpp:296:23)
+INFO: [HLS 214-270] Starting automatic array partition analysis...
+INFO: [HLS 214-115] Multiple burst reads of length 6 and bit width 128 in loop 'VITIS_LOOP_156_9'(FC_Layer.cpp:156:27) has been inferred on port 'ifc6'. These bursts requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings. (FC_Layer.cpp:156:27)
+INFO: [HLS 214-115] Multiple burst writes of variable length and bit width 128 in loop 'VITIS_LOOP_329_1'(FC_Layer.cpp:329:23) has been inferred on port 'ifc1'. These bursts requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings. (FC_Layer.cpp:329:23)
+INFO: [HLS 214-131] Inlining function '_llvm.fpga.pack.none.i32.s_struct.ap_uint.3s' into 'ReadFromMem(ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<288>*, hls::stream<ap_uint<32>, 0>*, ap_uint<32>*, hls::stream<ap_fixed<32, 8, (ap_q_mode)5, (ap_o_mode)3, 0>, 0>&, int, int, int, int) (.1)' (/tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:174:9)
+INFO: [HLS 214-131] Inlining function '_llvm.fpga.pack.none.i128.s_struct.ap_uints' into 'OutputBuffer(ap_uint<128>*, hls::stream<ap_fixed<32, 8, (ap_q_mode)5, (ap_o_mode)3, 0>, 0>&, int, int, int, ap_fixed<32, 8, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [20]) (.1)' (FC_Layer.cpp:335:35)
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 7.08 seconds. CPU system time: 0.69 seconds. Elapsed time: 8.2 seconds; current allocated memory: 322.069 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0 seconds; current allocated memory: 322.073 MB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0.28 seconds. CPU system time: 0.03 seconds. Elapsed time: 0.35 seconds; current allocated memory: 348.971 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+WARNING: [SYNCHK 200-23] /tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/ap_int_ref.h:414: variable-indexed range selection may cause suboptimal QoR.
+INFO: [SYNCHK 200-10] 0 error(s), 1 warning(s).
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0.57 seconds. CPU system time: 0.04 seconds. Elapsed time: 0.64 seconds; current allocated memory: 392.703 MB.
+INFO: [XFORM 203-510] Pipelining loop 'VITIS_LOOP_287_1' (FC_Layer.cpp:287) in function 'DPEComputation' automatically.
+INFO: [XFORM 203-510] Pipelining loop 'VITIS_LOOP_291_2' (FC_Layer.cpp:291) in function 'DPEComputation' automatically.
+INFO: [XFORM 203-510] Pipelining loop 'VITIS_LOOP_303_4' (FC_Layer.cpp:303) in function 'DPEComputation' automatically.
+INFO: [XFORM 203-510] Pipelining loop 'VITIS_LOOP_230_2' (FC_Layer.cpp:230) in function 'RunDataFlow' automatically.
+INFO: [XFORM 203-510] Pipelining loop 'VITIS_LOOP_230_2' (FC_Layer.cpp:230) in function 'RunDataFlow' automatically.
+INFO: [XFORM 203-510] Pipelining loop 'VITIS_LOOP_341_1' (/tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:0) in function 'RunDataFlow' automatically.
+INFO: [XFORM 203-510] Pipelining loop 'VITIS_LOOP_153_8' (FC_Layer.cpp:153) in function 'ReadFromMem' automatically.
+INFO: [XFORM 203-510] Pipelining loop 'VITIS_LOOP_177_13' (FC_Layer.cpp:177) in function 'ReadFromMem' automatically.
+INFO: [XFORM 203-510] Pipelining loop 'VITIS_LOOP_192_16' (FC_Layer.cpp:192) in function 'ReadFromMem' automatically.
+INFO: [XFORM 203-510] Pipelining loop 'VITIS_LOOP_216_18' (FC_Layer.cpp:216) in function 'ReadFromMem' automatically.
+INFO: [XFORM 203-510] Pipelining loop 'VITIS_LOOP_329_1' (FC_Layer.cpp:319) in function 'OutputBuffer' automatically.
+INFO: [XFORM 203-510] Pipelining loop 'VITIS_LOOP_230_2' (FC_Layer.cpp:230) in function 'CreateBitMask' automatically.
+INFO: [XFORM 203-502] Unrolling all sub-loops inside loop 'VITIS_LOOP_329_1' (FC_Layer.cpp:319) in function 'OutputBuffer' for pipelining.
+INFO: [XFORM 203-502] Unrolling all loops for pipelining in function 'DPEUnit' (FC_Layer.cpp:256:1).
+INFO: [XFORM 203-502] Unrolling all sub-loops inside loop 'VITIS_LOOP_32_2' (FC_Layer.cpp:39) in function 'ReadFromMem' for pipelining.
+INFO: [XFORM 203-502] Unrolling all sub-loops inside loop 'VITIS_LOOP_153_8' (FC_Layer.cpp:153) in function 'ReadFromMem' for pipelining.
+INFO: [HLS 200-489] Unrolling loop 'VITIS_LOOP_331_2' (FC_Layer.cpp:330) in function 'OutputBuffer' completely with a factor of 4.
+INFO: [HLS 200-489] Unrolling loop 'VITIS_LOOP_257_1' (FC_Layer.cpp:257) in function 'DPEUnit' completely with a factor of 20.
+INFO: [HLS 200-489] Unrolling loop 'VITIS_LOOP_86_3' (FC_Layer.cpp:87) in function 'ReadFromMem' completely with a factor of 8.
+INFO: [HLS 200-489] Unrolling loop 'VITIS_LOOP_89_4' (FC_Layer.cpp:87) in function 'ReadFromMem' completely with a factor of 9.
+INFO: [HLS 200-489] Unrolling loop 'VITIS_LOOP_156_9' (FC_Layer.cpp:154) in function 'ReadFromMem' completely with a factor of 6.
+INFO: [HLS 200-489] Unrolling loop 'VITIS_LOOP_160_10' (FC_Layer.cpp:160) in function 'ReadFromMem' completely with a factor of 24.
+INFO: [XFORM 203-102] Automatically partitioning streamed array 'weights_stream.V.V' (FC_Layer.cpp:428) .
+INFO: [XFORM 203-101] Partitioning array 'weight_buffer.V' (FC_Layer.cpp:410) in dimension 1 with a cyclic factor 71.
+WARNING: [HLS 200-915] Ignore complete array partition directive on 'iact_buffer.V' (FC_Layer.cpp:421) in dimension 1: conflict with resource constraint assignment.
+INFO: [XFORM 203-101] Partitioning array 'weights_stream.V.V' (FC_Layer.cpp:428) in dimension 1 completely.
+WARNING: [HLS 200-786] Detected dataflow-on-top in function  'LINEAR' (FC_Layer.cpp:410:1)  with default interface mode 'ap_ctrl_hs'. Overlapped execution of successive kernel calls will not happen unless interface mode 'ap_ctrl_chain' is used (or 'ap_ctrl_none' for a purely data-driven design).
+ERROR: [HLS 200-970] Internal stream 'weights_stream.V.V.0' failed dataflow checking: it must be produced and consumed exactly once.
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.0' has write operations in process function 'ReadFromMem' (/tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:10:9) (around FC_Layer.cpp:446).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.0' has read operations in process function 'CreateBitMask' (FC_Layer.cpp:136:58) (around FC_Layer.cpp:450).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.0' has read operations in process function 'RunDataFlow' (FC_Layer.cpp:0:58) (around FC_Layer.cpp:451).
+ERROR: [HLS 200-970] Internal stream 'weights_stream.V.V.1' failed dataflow checking: it must be produced and consumed exactly once.
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.1' has write operations in process function 'ReadFromMem' (/tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:10:9) (around FC_Layer.cpp:446).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.1' has read operations in process function 'CreateBitMask' (FC_Layer.cpp:136:58) (around FC_Layer.cpp:450).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.1' has read operations in process function 'RunDataFlow' (FC_Layer.cpp:0:58) (around FC_Layer.cpp:451).
+ERROR: [HLS 200-970] Internal stream 'weights_stream.V.V.2' failed dataflow checking: it must be produced and consumed exactly once.
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.2' has write operations in process function 'ReadFromMem' (/tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:10:9) (around FC_Layer.cpp:446).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.2' has read operations in process function 'CreateBitMask' (FC_Layer.cpp:136:58) (around FC_Layer.cpp:450).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.2' has read operations in process function 'RunDataFlow' (FC_Layer.cpp:0:58) (around FC_Layer.cpp:451).
+ERROR: [HLS 200-970] Internal stream 'weights_stream.V.V.3' failed dataflow checking: it must be produced and consumed exactly once.
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.3' has write operations in process function 'ReadFromMem' (/tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:10:9) (around FC_Layer.cpp:446).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.3' has read operations in process function 'CreateBitMask' (FC_Layer.cpp:136:58) (around FC_Layer.cpp:450).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.3' has read operations in process function 'RunDataFlow' (FC_Layer.cpp:0:58) (around FC_Layer.cpp:451).
+ERROR: [HLS 200-970] Internal stream 'weights_stream.V.V.4' failed dataflow checking: it must be produced and consumed exactly once.
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.4' has write operations in process function 'ReadFromMem' (/tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:10:9) (around FC_Layer.cpp:446).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.4' has read operations in process function 'CreateBitMask' (FC_Layer.cpp:136:58) (around FC_Layer.cpp:450).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.4' has read operations in process function 'RunDataFlow' (FC_Layer.cpp:0:58) (around FC_Layer.cpp:451).
+ERROR: [HLS 200-970] Internal stream 'weights_stream.V.V.5' failed dataflow checking: it must be produced and consumed exactly once.
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.5' has write operations in process function 'ReadFromMem' (/tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:10:9) (around FC_Layer.cpp:446).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.5' has read operations in process function 'CreateBitMask' (FC_Layer.cpp:136:58) (around FC_Layer.cpp:450).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.5' has read operations in process function 'RunDataFlow' (FC_Layer.cpp:0:58) (around FC_Layer.cpp:451).
+ERROR: [HLS 200-970] Internal stream 'weights_stream.V.V.6' failed dataflow checking: it must be produced and consumed exactly once.
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.6' has write operations in process function 'ReadFromMem' (/tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:10:9) (around FC_Layer.cpp:446).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.6' has read operations in process function 'CreateBitMask' (FC_Layer.cpp:136:58) (around FC_Layer.cpp:450).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.6' has read operations in process function 'RunDataFlow' (FC_Layer.cpp:0:58) (around FC_Layer.cpp:451).
+ERROR: [HLS 200-970] Internal stream 'weights_stream.V.V.7' failed dataflow checking: it must be produced and consumed exactly once.
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.7' has write operations in process function 'ReadFromMem' (/tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:10:9) (around FC_Layer.cpp:446).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.7' has read operations in process function 'CreateBitMask' (FC_Layer.cpp:136:58) (around FC_Layer.cpp:450).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.7' has read operations in process function 'RunDataFlow' (FC_Layer.cpp:0:58) (around FC_Layer.cpp:451).
+ERROR: [HLS 200-970] Internal stream 'weights_stream.V.V.8' failed dataflow checking: it must be produced and consumed exactly once.
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.8' has write operations in process function 'ReadFromMem' (/tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:10:9) (around FC_Layer.cpp:446).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.8' has read operations in process function 'CreateBitMask' (FC_Layer.cpp:136:58) (around FC_Layer.cpp:450).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.8' has read operations in process function 'RunDataFlow' (FC_Layer.cpp:0:58) (around FC_Layer.cpp:451).
+ERROR: [HLS 200-970] Internal stream 'weights_stream.V.V.9' failed dataflow checking: it must be produced and consumed exactly once.
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.9' has write operations in process function 'ReadFromMem' (/tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:10:9) (around FC_Layer.cpp:446).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.9' has read operations in process function 'CreateBitMask' (FC_Layer.cpp:136:58) (around FC_Layer.cpp:450).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.9' has read operations in process function 'RunDataFlow' (FC_Layer.cpp:0:58) (around FC_Layer.cpp:451).
+ERROR: [HLS 200-970] Internal stream 'weights_stream.V.V.10' failed dataflow checking: it must be produced and consumed exactly once.
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.10' has write operations in process function 'ReadFromMem' (/tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:10:9) (around FC_Layer.cpp:446).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.10' has read operations in process function 'CreateBitMask' (FC_Layer.cpp:136:58) (around FC_Layer.cpp:450).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.10' has read operations in process function 'RunDataFlow' (FC_Layer.cpp:0:58) (around FC_Layer.cpp:451).
+ERROR: [HLS 200-970] Internal stream 'weights_stream.V.V.11' failed dataflow checking: it must be produced and consumed exactly once.
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.11' has write operations in process function 'ReadFromMem' (/tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:10:9) (around FC_Layer.cpp:446).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.11' has read operations in process function 'CreateBitMask' (FC_Layer.cpp:136:58) (around FC_Layer.cpp:450).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.11' has read operations in process function 'RunDataFlow' (FC_Layer.cpp:0:58) (around FC_Layer.cpp:451).
+ERROR: [HLS 200-970] Internal stream 'weights_stream.V.V.12' failed dataflow checking: it must be produced and consumed exactly once.
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.12' has write operations in process function 'ReadFromMem' (/tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:10:9) (around FC_Layer.cpp:446).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.12' has read operations in process function 'CreateBitMask' (FC_Layer.cpp:136:58) (around FC_Layer.cpp:450).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.12' has read operations in process function 'RunDataFlow' (FC_Layer.cpp:0:58) (around FC_Layer.cpp:451).
+ERROR: [HLS 200-970] Internal stream 'weights_stream.V.V.13' failed dataflow checking: it must be produced and consumed exactly once.
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.13' has write operations in process function 'ReadFromMem' (/tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:10:9) (around FC_Layer.cpp:446).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.13' has read operations in process function 'CreateBitMask' (FC_Layer.cpp:136:58) (around FC_Layer.cpp:450).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.13' has read operations in process function 'RunDataFlow' (FC_Layer.cpp:0:58) (around FC_Layer.cpp:451).
+ERROR: [HLS 200-970] Internal stream 'weights_stream.V.V.14' failed dataflow checking: it must be produced and consumed exactly once.
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.14' has write operations in process function 'ReadFromMem' (/tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:10:9) (around FC_Layer.cpp:446).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.14' has read operations in process function 'CreateBitMask' (FC_Layer.cpp:136:58) (around FC_Layer.cpp:450).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.14' has read operations in process function 'RunDataFlow' (FC_Layer.cpp:0:58) (around FC_Layer.cpp:451).
+ERROR: [HLS 200-970] Internal stream 'weights_stream.V.V.15' failed dataflow checking: it must be produced and consumed exactly once.
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.15' has write operations in process function 'ReadFromMem' (/tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:10:9) (around FC_Layer.cpp:446).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.15' has read operations in process function 'CreateBitMask' (FC_Layer.cpp:136:58) (around FC_Layer.cpp:450).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.15' has read operations in process function 'RunDataFlow' (FC_Layer.cpp:0:58) (around FC_Layer.cpp:451).
+ERROR: [HLS 200-970] Internal stream 'weights_stream.V.V.16' failed dataflow checking: it must be produced and consumed exactly once.
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.16' has write operations in process function 'ReadFromMem' (/tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:10:9) (around FC_Layer.cpp:446).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.16' has read operations in process function 'CreateBitMask' (FC_Layer.cpp:136:58) (around FC_Layer.cpp:450).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.16' has read operations in process function 'RunDataFlow' (FC_Layer.cpp:0:58) (around FC_Layer.cpp:451).
+ERROR: [HLS 200-970] Internal stream 'weights_stream.V.V.17' failed dataflow checking: it must be produced and consumed exactly once.
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.17' has write operations in process function 'ReadFromMem' (/tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:10:9) (around FC_Layer.cpp:446).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.17' has read operations in process function 'CreateBitMask' (FC_Layer.cpp:136:58) (around FC_Layer.cpp:450).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.17' has read operations in process function 'RunDataFlow' (FC_Layer.cpp:0:58) (around FC_Layer.cpp:451).
+ERROR: [HLS 200-970] Internal stream 'weights_stream.V.V.18' failed dataflow checking: it must be produced and consumed exactly once.
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.18' has write operations in process function 'ReadFromMem' (/tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:10:9) (around FC_Layer.cpp:446).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.18' has read operations in process function 'CreateBitMask' (FC_Layer.cpp:136:58) (around FC_Layer.cpp:450).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.18' has read operations in process function 'RunDataFlow' (FC_Layer.cpp:0:58) (around FC_Layer.cpp:451).
+ERROR: [HLS 200-970] Internal stream 'weights_stream.V.V.19' failed dataflow checking: it must be produced and consumed exactly once.
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.19' has write operations in process function 'ReadFromMem' (/tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:10:9) (around FC_Layer.cpp:446).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.19' has read operations in process function 'CreateBitMask' (FC_Layer.cpp:136:58) (around FC_Layer.cpp:450).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.19' has read operations in process function 'RunDataFlow' (FC_Layer.cpp:0:58) (around FC_Layer.cpp:451).
+ERROR: [HLS 200-970] Internal stream 'weights_stream.V.V.20' failed dataflow checking: it must be produced and consumed exactly once.
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.20' has write operations in process function 'ReadFromMem' (/tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:10:9) (around FC_Layer.cpp:446).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.20' has read operations in process function 'CreateBitMask' (FC_Layer.cpp:136:58) (around FC_Layer.cpp:450).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.20' has read operations in process function 'RunDataFlow' (FC_Layer.cpp:0:58) (around FC_Layer.cpp:451).
+ERROR: [HLS 200-970] Internal stream 'weights_stream.V.V.21' failed dataflow checking: it must be produced and consumed exactly once.
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.21' has write operations in process function 'ReadFromMem' (/tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:10:9) (around FC_Layer.cpp:446).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.21' has read operations in process function 'CreateBitMask' (FC_Layer.cpp:136:58) (around FC_Layer.cpp:450).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.21' has read operations in process function 'RunDataFlow' (FC_Layer.cpp:0:58) (around FC_Layer.cpp:451).
+ERROR: [HLS 200-970] Internal stream 'weights_stream.V.V.22' failed dataflow checking: it must be produced and consumed exactly once.
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.22' has write operations in process function 'ReadFromMem' (/tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:10:9) (around FC_Layer.cpp:446).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.22' has read operations in process function 'CreateBitMask' (FC_Layer.cpp:136:58) (around FC_Layer.cpp:450).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.22' has read operations in process function 'RunDataFlow' (FC_Layer.cpp:0:58) (around FC_Layer.cpp:451).
+ERROR: [HLS 200-970] Internal stream 'weights_stream.V.V.23' failed dataflow checking: it must be produced and consumed exactly once.
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.23' has write operations in process function 'ReadFromMem' (/tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:10:9) (around FC_Layer.cpp:446).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.23' has read operations in process function 'CreateBitMask' (FC_Layer.cpp:136:58) (around FC_Layer.cpp:450).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.23' has read operations in process function 'RunDataFlow' (FC_Layer.cpp:0:58) (around FC_Layer.cpp:451).
+ERROR: [HLS 200-970] Internal stream 'weights_stream.V.V.24' failed dataflow checking: it must be produced and consumed exactly once.
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.24' has write operations in process function 'ReadFromMem' (/tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:10:9) (around FC_Layer.cpp:446).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.24' has read operations in process function 'CreateBitMask' (FC_Layer.cpp:136:58) (around FC_Layer.cpp:450).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.24' has read operations in process function 'RunDataFlow' (FC_Layer.cpp:0:58) (around FC_Layer.cpp:451).
+ERROR: [HLS 200-970] Internal stream 'weights_stream.V.V.25' failed dataflow checking: it must be produced and consumed exactly once.
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.25' has write operations in process function 'ReadFromMem' (/tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:10:9) (around FC_Layer.cpp:446).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.25' has read operations in process function 'CreateBitMask' (FC_Layer.cpp:136:58) (around FC_Layer.cpp:450).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.25' has read operations in process function 'RunDataFlow' (FC_Layer.cpp:0:58) (around FC_Layer.cpp:451).
+ERROR: [HLS 200-970] Internal stream 'weights_stream.V.V.26' failed dataflow checking: it must be produced and consumed exactly once.
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.26' has write operations in process function 'ReadFromMem' (/tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:10:9) (around FC_Layer.cpp:446).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.26' has read operations in process function 'CreateBitMask' (FC_Layer.cpp:136:58) (around FC_Layer.cpp:450).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.26' has read operations in process function 'RunDataFlow' (FC_Layer.cpp:0:58) (around FC_Layer.cpp:451).
+ERROR: [HLS 200-970] Internal stream 'weights_stream.V.V.27' failed dataflow checking: it must be produced and consumed exactly once.
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.27' has write operations in process function 'ReadFromMem' (/tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:10:9) (around FC_Layer.cpp:446).
+INFO: [HLS 200-992] Variable 'weights_stream.V.V.27' has read operations in process function 'CreateBitMask' (FC_Layer.cpp:136:58) (around FC_Layer.cpp:450).
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xcvu11p-flga2577-1-e'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xcvu11p-flga2577-1-e 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: csim_design -clean 
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+INFO: [SIM 211-1] CSim done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO: [HLS 200-111] Finished Command csim_design CPU user time: 25.54 seconds. CPU system time: 0.81 seconds. Elapsed time: 26.7 seconds; current allocated memory: 316.131 MB.
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0.01 seconds. CPU system time: 0 seconds. Elapsed time: 0.02 seconds; current allocated memory: 316.319 MB.
+INFO: [HLS 200-10] Analyzing design file 'FC_Layer.cpp' ... 
+WARNING: [HLS 207-5528] Ignore interface attribute or pragma which is not used in top function: FC_Layer.cpp:404:9
+WARNING: [HLS 207-5301] unused parameter 'print': /tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/ap_int_base.h:792:16
+WARNING: [HLS 207-5301] unused parameter 'y': FC_Layer.cpp:254:131
+WARNING: [HLS 207-5301] unused parameter 'batch_num': FC_Layer.cpp:279:25
+WARNING: [HLS 207-5301] unused parameter 'Wt_X': FC_Layer.cpp:280:129
+WARNING: [HLS 207-5301] unused parameter 'Wt_Y': FC_Layer.cpp:280:139
+WARNING: [HLS 207-5301] unused parameter 'output_stream': FC_Layer.cpp:313:26
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 6.51 seconds. CPU system time: 0.72 seconds. Elapsed time: 7.44 seconds; current allocated memory: 318.464 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 214-279] Initial Interval estimation mode is set into default.
+INFO: [HLS 214-284] Auto array partition mode is set into default.
+INFO: [HLS 214-131] Inlining function 'int ceildiv<int>(int, int)' into 'ReadFromMem(ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<288>*, hls::stream<ap_uint<32>, 0>*, ap_uint<32>*, hls::stream<ap_fixed<32, 8, (ap_q_mode)5, (ap_o_mode)3, 0>, 0>&, int, int, int, int)' (FC_Layer.cpp:20:28)
+INFO: [HLS 214-131] Inlining function 'hls::stream<ap_fixed<32, 8, (ap_q_mode)5, (ap_o_mode)3, 0>, 0>::write(ap_fixed<32, 8, (ap_q_mode)5, (ap_o_mode)3, 0> const&)' into 'ReadFromMem(ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<288>*, hls::stream<ap_uint<32>, 0>*, ap_uint<32>*, hls::stream<ap_fixed<32, 8, (ap_q_mode)5, (ap_o_mode)3, 0>, 0>&, int, int, int, int)' (FC_Layer.cpp:220:22)
+INFO: [HLS 214-131] Inlining function 'hls::stream<ap_uint<32>, 0>::write(ap_uint<32> const&)' into 'ReadFromMem(ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<288>*, hls::stream<ap_uint<32>, 0>*, ap_uint<32>*, hls::stream<ap_fixed<32, 8, (ap_q_mode)5, (ap_o_mode)3, 0>, 0>&, int, int, int, int)' (FC_Layer.cpp:202:39)
+INFO: [HLS 214-131] Inlining function 'int ceildiv<int>(int, int)' into 'ReadFromMem(ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<288>*, hls::stream<ap_uint<32>, 0>*, ap_uint<32>*, hls::stream<ap_fixed<32, 8, (ap_q_mode)5, (ap_o_mode)3, 0>, 0>&, int, int, int, int)' (FC_Layer.cpp:151:22)
+INFO: [HLS 214-131] Inlining function 'int ceildiv<int>(int, int)' into 'ReadFromMem(ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<288>*, hls::stream<ap_uint<32>, 0>*, ap_uint<32>*, hls::stream<ap_fixed<32, 8, (ap_q_mode)5, (ap_o_mode)3, 0>, 0>&, int, int, int, int)' (FC_Layer.cpp:117:27)
+INFO: [HLS 214-131] Inlining function 'int ceildiv<int>(int, int)' into 'ReadFromMem(ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<288>*, hls::stream<ap_uint<32>, 0>*, ap_uint<32>*, hls::stream<ap_fixed<32, 8, (ap_q_mode)5, (ap_o_mode)3, 0>, 0>&, int, int, int, int)' (FC_Layer.cpp:105:27)
+INFO: [HLS 214-131] Inlining function 'hls::stream<ap_uint<32>, 0>::read(ap_uint<32>&)' into 'hls::stream<ap_uint<32>, 0>::read()' (/tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:156:9)
+INFO: [HLS 214-131] Inlining function 'hls::stream<ap_uint<32>, 0>::empty() const' into 'CreateBitMask(hls::stream<ap_uint<32>, 0>*, ap_uint<640>*, ap_uint<20>*)' (FC_Layer.cpp:231:36)
+INFO: [HLS 214-131] Inlining function 'hls::stream<ap_uint<32>, 0>::read()' into 'CreateBitMask(hls::stream<ap_uint<32>, 0>*, ap_uint<640>*, ap_uint<20>*)' (FC_Layer.cpp:243:54)
+INFO: [HLS 214-131] Inlining function 'hls::stream<ap_fixed<32, 8, (ap_q_mode)5, (ap_o_mode)3, 0>, 0>::read(ap_fixed<32, 8, (ap_q_mode)5, (ap_o_mode)3, 0>&)' into 'hls::stream<ap_fixed<32, 8, (ap_q_mode)5, (ap_o_mode)3, 0>, 0>::read()' (/tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:156:9)
+INFO: [HLS 214-131] Inlining function 'hls::stream<ap_fixed<32, 8, (ap_q_mode)5, (ap_o_mode)3, 0>, 0>::read()' into 'ReadIactBuff(hls::stream<ap_fixed<32, 8, (ap_q_mode)5, (ap_o_mode)3, 0>, 0>&, ap_fixed<32, 8, (ap_q_mode)5, (ap_o_mode)3, 0>*)' (FC_Layer.cpp:342:44)
+INFO: [HLS 214-131] Inlining function 'hls::stream<ap_fixed<32, 8, (ap_q_mode)5, (ap_o_mode)3, 0>, 0>::stream()' into 'LINEAR(ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, int, int, int, int, int)' (FC_Layer.cpp:426:22)
+INFO: [HLS 214-131] Inlining function 'hls::stream<ap_uint<32>, 0>::stream()' into 'LINEAR(ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, int, int, int, int, int)' (FC_Layer.cpp:429:42)
+INFO: [HLS 214-131] Inlining function 'hls::stream<ap_fixed<32, 8, (ap_q_mode)5, (ap_o_mode)3, 0>, 0>::stream()' into 'LINEAR(ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, int, int, int, int, int)' (FC_Layer.cpp:432:22)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_266_2' (FC_Layer.cpp:266:23) in function 'DPEUnit' completely with a factor of 20 (FC_Layer.cpp:254:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_194_17' (FC_Layer.cpp:194:36) in function 'ReadFromMem' completely with a factor of 20 (FC_Layer.cpp:18:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_171_12' (FC_Layer.cpp:171:28) in function 'ReadFromMem' completely with a factor of 6 (FC_Layer.cpp:18:0)
+INFO: [HLS 214-178] Inlining function 'ReadIactBuff(hls::stream<ap_fixed<32, 8, (ap_q_mode)5, (ap_o_mode)3, 0>, 0>&, ap_fixed<32, 8, (ap_q_mode)5, (ap_o_mode)3, 0>*)' into 'RunDataFlow(int, int, hls::stream<ap_fixed<32, 8, (ap_q_mode)5, (ap_o_mode)3, 0>, 0>&, ap_fixed<32, 8, (ap_q_mode)5, (ap_o_mode)3, 0>*, hls::stream<ap_uint<32>, 0>*, ap_fixed<32, 8, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [20], ap_uint<640>*, ap_uint<640>*, ap_uint<20>*, ap_uint<20>*, int, int)' (FC_Layer.cpp:350:0)
+INFO: [HLS 214-241] Aggregating maxi variable 'ifc7' with non-compact mode in 128-bits
+INFO: [HLS 214-241] Aggregating maxi variable 'ifc6' with non-compact mode in 128-bits
+INFO: [HLS 214-241] Aggregating maxi variable 'ifc5' with non-compact mode in 128-bits
+INFO: [HLS 214-241] Aggregating maxi variable 'ifc4' with non-compact mode in 128-bits
+INFO: [HLS 214-241] Aggregating maxi variable 'ifc3' with non-compact mode in 128-bits
+INFO: [HLS 214-241] Aggregating maxi variable 'ifc2' with non-compact mode in 128-bits
+INFO: [HLS 214-241] Aggregating maxi variable 'ifc1' with non-compact mode in 128-bits
+WARNING: [HLS 214-281] Estimating pipelined loop 'VITIS_LOOP_296_3' (FC_Layer.cpp:296:23) in function 'DPEComputation' with estimated II increased from II=1 to II=+infinity because of sub function call 'call' (FC_Layer.cpp:296:23)
+INFO: [HLS 214-270] Starting automatic array partition analysis...
+INFO: [HLS 214-115] Multiple burst reads of length 6 and bit width 128 in loop 'VITIS_LOOP_156_9'(FC_Layer.cpp:156:27) has been inferred on port 'ifc6'. These bursts requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings. (FC_Layer.cpp:156:27)
+INFO: [HLS 214-115] Multiple burst writes of variable length and bit width 128 in loop 'VITIS_LOOP_329_1'(FC_Layer.cpp:329:23) has been inferred on port 'ifc1'. These bursts requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings. (FC_Layer.cpp:329:23)
+INFO: [HLS 214-131] Inlining function '_llvm.fpga.pack.none.i32.s_struct.ap_uint.3s' into 'ReadFromMem(ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, ap_uint<288>*, hls::stream<ap_uint<32>, 0>*, ap_uint<32>*, hls::stream<ap_fixed<32, 8, (ap_q_mode)5, (ap_o_mode)3, 0>, 0>&, int, int, int, int) (.1)' (/tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:174:9)
+INFO: [HLS 214-131] Inlining function '_llvm.fpga.pack.none.i128.s_struct.ap_uints' into 'OutputBuffer(ap_uint<128>*, hls::stream<ap_fixed<32, 8, (ap_q_mode)5, (ap_o_mode)3, 0>, 0>&, int, int, int, ap_fixed<32, 8, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [20]) (.1)' (FC_Layer.cpp:335:35)
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 6.45 seconds. CPU system time: 0.55 seconds. Elapsed time: 7.34 seconds; current allocated memory: 321.985 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0 seconds; current allocated memory: 321.988 MB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0.24 seconds. CPU system time: 0.03 seconds. Elapsed time: 0.3 seconds; current allocated memory: 348.790 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+WARNING: [SYNCHK 200-23] /tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/ap_int_ref.h:674: variable-indexed range selection may cause suboptimal QoR.
+INFO: [SYNCHK 200-10] 0 error(s), 1 warning(s).
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0.45 seconds. CPU system time: 0.04 seconds. Elapsed time: 0.52 seconds; current allocated memory: 392.443 MB.
+INFO: [XFORM 203-510] Pipelining loop 'VITIS_LOOP_287_1' (FC_Layer.cpp:287) in function 'DPEComputation' automatically.
+INFO: [XFORM 203-510] Pipelining loop 'VITIS_LOOP_291_2' (FC_Layer.cpp:291) in function 'DPEComputation' automatically.
+INFO: [XFORM 203-510] Pipelining loop 'VITIS_LOOP_303_4' (FC_Layer.cpp:303) in function 'DPEComputation' automatically.
+INFO: [XFORM 203-510] Pipelining loop 'VITIS_LOOP_230_2' (FC_Layer.cpp:230) in function 'CreateBitMask' automatically.
+INFO: [XFORM 203-510] Pipelining loop 'VITIS_LOOP_341_1' (/tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:0) in function 'RunDataFlow' automatically.
+INFO: [XFORM 203-510] Pipelining loop 'VITIS_LOOP_153_8' (FC_Layer.cpp:153) in function 'ReadFromMem' automatically.
+INFO: [XFORM 203-510] Pipelining loop 'VITIS_LOOP_177_13' (FC_Layer.cpp:177) in function 'ReadFromMem' automatically.
+INFO: [XFORM 203-510] Pipelining loop 'VITIS_LOOP_192_16' (FC_Layer.cpp:192) in function 'ReadFromMem' automatically.
+INFO: [XFORM 203-510] Pipelining loop 'VITIS_LOOP_216_18' (FC_Layer.cpp:216) in function 'ReadFromMem' automatically.
+INFO: [XFORM 203-510] Pipelining loop 'VITIS_LOOP_329_1' (FC_Layer.cpp:319) in function 'OutputBuffer' automatically.
+INFO: [XFORM 203-502] Unrolling all sub-loops inside loop 'VITIS_LOOP_329_1' (FC_Layer.cpp:319) in function 'OutputBuffer' for pipelining.
+INFO: [XFORM 203-502] Unrolling all loops for pipelining in function 'DPEUnit' (FC_Layer.cpp:256:1).
+INFO: [XFORM 203-502] Unrolling all sub-loops inside loop 'VITIS_LOOP_32_2' (FC_Layer.cpp:39) in function 'ReadFromMem' for pipelining.
+INFO: [XFORM 203-502] Unrolling all sub-loops inside loop 'VITIS_LOOP_153_8' (FC_Layer.cpp:153) in function 'ReadFromMem' for pipelining.
+INFO: [HLS 200-489] Unrolling loop 'VITIS_LOOP_331_2' (FC_Layer.cpp:330) in function 'OutputBuffer' completely with a factor of 4.
+INFO: [HLS 200-489] Unrolling loop 'VITIS_LOOP_257_1' (FC_Layer.cpp:257) in function 'DPEUnit' completely with a factor of 20.
+INFO: [HLS 200-489] Unrolling loop 'VITIS_LOOP_86_3' (FC_Layer.cpp:87) in function 'ReadFromMem' completely with a factor of 8.
+INFO: [HLS 200-489] Unrolling loop 'VITIS_LOOP_89_4' (FC_Layer.cpp:87) in function 'ReadFromMem' completely with a factor of 9.
+INFO: [HLS 200-489] Unrolling loop 'VITIS_LOOP_156_9' (FC_Layer.cpp:154) in function 'ReadFromMem' completely with a factor of 6.
+INFO: [HLS 200-489] Unrolling loop 'VITIS_LOOP_160_10' (FC_Layer.cpp:160) in function 'ReadFromMem' completely with a factor of 24.
+INFO: [XFORM 203-102] Automatically partitioning streamed array 'weights_stream.V.V' (FC_Layer.cpp:429) .
+INFO: [XFORM 203-101] Partitioning array 'weight_buffer.V' (FC_Layer.cpp:411) in dimension 1 with a cyclic factor 71.
+WARNING: [HLS 200-915] Ignore complete array partition directive on 'iact_buffer.V' (FC_Layer.cpp:422) in dimension 1: conflict with resource constraint assignment.
+INFO: [XFORM 203-101] Partitioning array 'weights_stream.V.V' (FC_Layer.cpp:429) in dimension 1 completely.
+WARNING: [HLS 200-786] Detected dataflow-on-top in function  'LINEAR' (FC_Layer.cpp:411:1)  with default interface mode 'ap_ctrl_hs'. Overlapped execution of successive kernel calls will not happen unless interface mode 'ap_ctrl_chain' is used (or 'ap_ctrl_none' for a purely data-driven design).
+INFO: [XFORM 203-712] Applying dataflow to function 'LINEAR' (FC_Layer.cpp:411:1), detected/extracted 5 process function(s): 
+	 'entry_proc'
+	 'Block_.split10_proc'
+	 'ReadFromMem'
+	 'RunDataFlow'
+	 'OutputBuffer'.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (FC_Layer.cpp:168:33) to (FC_Layer.cpp:177:28) in function 'ReadFromMem'... converting 7 basic blocks.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 5.02 seconds. CPU system time: 0.1 seconds. Elapsed time: 5.24 seconds; current allocated memory: 469.950 MB.
+WARNING: [HLS 200-960] Cannot flatten loop 'VITIS_LOOP_352_1' (FC_Layer.cpp:352:32) in function 'RunDataFlow' more than one sub loop.
+INFO: [XFORM 203-541] Flattening a loop nest 'VITIS_LOOP_27_1' (FC_Layer.cpp:27:34) in function 'ReadFromMem'.
+WARNING: [XFORM 203-561] 'VITIS_LOOP_89_4' (FC_Layer.cpp:87:44) in function 'ReadFromMem' is an infinite loop.
+INFO: [XFORM 203-541] Flattening a loop nest 'VITIS_LOOP_168_11' (FC_Layer.cpp:168:33) in function 'ReadFromMem'.
+INFO: [XFORM 203-541] Flattening a loop nest 'VITIS_LOOP_189_15' (FC_Layer.cpp:189:37) in function 'ReadFromMem'.
+INFO: [XFORM 203-541] Flattening a loop nest 'VITIS_LOOP_187_14' (FC_Layer.cpp:187:33) in function 'ReadFromMem'.
+WARNING: [HLS 200-960] Cannot flatten loop 'VITIS_LOOP_229_1' (FC_Layer.cpp:229:32) in function 'CreateBitMask' the outer loop is not a perfect loop because there is nontrivial logic before entering the inner loop.
+INFO: [XFORM 203-541] Flattening a loop nest 'VITIS_LOOP_237_3' (FC_Layer.cpp:239:47) in function 'CreateBitMask'.
+INFO: [HLS 200-472] Inferring partial write operation for 'output_buf' (FC_Layer.cpp:260:34)
+INFO: [HLS 200-472] Inferring partial write operation for 'output_buf' 
+INFO: [HLS 200-472] Inferring partial write operation for 'IACT_TEMP_BUFFER.V' (FC_Layer.cpp:342:29)
+INFO: [HLS 200-472] Inferring partial write operation for 'weight_buffer' (FC_Layer.cpp:96:48)
+INFO: [HLS 200-472] Inferring partial write operation for 'iact_buffer' (FC_Layer.cpp:178:42)
+INFO: [HLS 200-472] Inferring partial write operation for 'local_output_buf.V' (FC_Layer.cpp:288:36)
+INFO: [HLS 200-472] Inferring partial write operation for 'processing_buffer' (FC_Layer.cpp:247:30)
+INFO: [HLS 200-472] Inferring partial write operation for 'bit_buffer_weights' (FC_Layer.cpp:248:31)
+INFO: [HLS 200-472] Inferring partial write operation for 'buffer_out' (FC_Layer.cpp:305:36)
+INFO: [HLS 200-472] Inferring partial write operation for 'local_output_buf.V' (FC_Layer.cpp:292:36)
+INFO: [HLS 200-472] Inferring partial write operation for 'iact_buffer' (FC_Layer.cpp:161:42)
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 10.35 seconds. CPU system time: 0.21 seconds. Elapsed time: 10.66 seconds; current allocated memory: 837.876 MB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'LINEAR' ...
+WARNING: [SYN 201-103] Legalizing function name 'Block_.split10_proc' to 'Block_split10_proc'.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'entry_proc' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 6.65 seconds. CPU system time: 0.09 seconds. Elapsed time: 6.86 seconds; current allocated memory: 845.359 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.02 seconds. CPU system time: 0 seconds. Elapsed time: 0.05 seconds; current allocated memory: 845.394 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'Block_split10_proc' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.04 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.07 seconds; current allocated memory: 845.488 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.03 seconds. CPU system time: 0 seconds. Elapsed time: 0.06 seconds; current allocated memory: 845.627 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'ReadFromMem_Pipeline_VITIS_LOOP_27_1_VITIS_LOOP_32_2' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_27_1_VITIS_LOOP_32_2'.
+INFO: [SCHED 204-61] Discarding stage scheduling solution.
+INFO: [HLS 200-1470] Pipelining result : Target II = 4, Final II = 4, Depth = 37, loop 'VITIS_LOOP_27_1_VITIS_LOOP_32_2'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 1.61 seconds. CPU system time: 0.04 seconds. Elapsed time: 1.7 seconds; current allocated memory: 850.232 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.69 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.83 seconds; current allocated memory: 864.481 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'ReadFromMem_Pipeline_VITIS_LOOP_153_8' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_153_8'.
+WARNING: [HLS 200-880] The II Violation in module 'ReadFromMem_Pipeline_VITIS_LOOP_153_8' (loop 'VITIS_LOOP_153_8'): Unable to enforce a carried dependence constraint (II = 1, distance = 1, offset = 1) between bus read operation ('ifc6_addr_read_5') on port 'ifc6' and bus read operation ('ifc6_addr_read') on port 'ifc6'.
+WARNING: [HLS 200-880] The II Violation in module 'ReadFromMem_Pipeline_VITIS_LOOP_153_8' (loop 'VITIS_LOOP_153_8'): Unable to enforce a carried dependence constraint (II = 2, distance = 1, offset = 1) between bus read operation ('ifc6_addr_read_5') on port 'ifc6' and bus read operation ('ifc6_addr_read') on port 'ifc6'.
+WARNING: [HLS 200-880] The II Violation in module 'ReadFromMem_Pipeline_VITIS_LOOP_153_8' (loop 'VITIS_LOOP_153_8'): Unable to enforce a carried dependence constraint (II = 3, distance = 1, offset = 1) between bus read operation ('ifc6_addr_read_5') on port 'ifc6' and bus read operation ('ifc6_addr_read') on port 'ifc6'.
+WARNING: [HLS 200-880] The II Violation in module 'ReadFromMem_Pipeline_VITIS_LOOP_153_8' (loop 'VITIS_LOOP_153_8'): Unable to enforce a carried dependence constraint (II = 4, distance = 1, offset = 1) between bus read operation ('ifc6_addr_read_5') on port 'ifc6' and bus read operation ('ifc6_addr_read') on port 'ifc6'.
+WARNING: [HLS 200-885] The II Violation in module 'ReadFromMem_Pipeline_VITIS_LOOP_153_8' (loop 'VITIS_LOOP_153_8'): Unable to schedule 'store' operation ('iact_buffer_addr_21_write_ln161', FC_Layer.cpp:161) of variable 'p_Result_25_15' on array 'iact_buffer' due to limited memory ports (II = 11). Please consider using a memory core with more ports or partitioning the array 'iact_buffer'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 12, Depth = 21, loop 'VITIS_LOOP_153_8'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.77 seconds. CPU system time: 0.03 seconds. Elapsed time: 0.96 seconds; current allocated memory: 865.023 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.17 seconds. CPU system time: 0 seconds. Elapsed time: 0.2 seconds; current allocated memory: 865.604 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'ReadFromMem_Pipeline_VITIS_LOOP_168_11_VITIS_LOOP_177_13' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_168_11_VITIS_LOOP_177_13'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 2, loop 'VITIS_LOOP_168_11_VITIS_LOOP_177_13'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.17 seconds. CPU system time: 0 seconds. Elapsed time: 0.22 seconds; current allocated memory: 865.780 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.05 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.09 seconds; current allocated memory: 865.986 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'ReadFromMem_Pipeline_VITIS_LOOP_187_14_VITIS_LOOP_189_15_VITIS_LOOP_192_16' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [HLS 200-486] Changing DSP48 latency (root=mul90) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP48 latency (root=mul97) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP48 latency (root=mul104) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP48 latency (root=mul111) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP48 latency (root=mul118) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP48 latency (root=mul125) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP48 latency (root=mul132) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP48 latency (root=mul139) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP48 latency (root=mul146) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP48 latency (root=mul153) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP48 latency (root=mul160) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP48 latency (root=mul167) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP48 latency (root=mul174) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP48 latency (root=mul181) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP48 latency (root=mul188) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP48 latency (root=mul195) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP48 latency (root=mul202) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP48 latency (root=mul209) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP48 latency (root=mul216) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP48 latency (root=mul223) to 3 in order to utilize available DSP registers.
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_187_14_VITIS_LOOP_189_15_VITIS_LOOP_192_16'.
+WARNING: [HLS 200-880] The II Violation in module 'ReadFromMem_Pipeline_VITIS_LOOP_187_14_VITIS_LOOP_189_15_VITIS_LOOP_192_16' (loop 'VITIS_LOOP_187_14_VITIS_LOOP_189_15_VITIS_LOOP_192_16'): Unable to enforce a carried dependence constraint (II = 1, distance = 1, offset = 1) between fifo write operation ('weights_stream_0_0_0_0100_write_ln174', /tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:174) on port 'weights_stream_0_0_0_0100' (/tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:174) and fifo write operation ('weights_stream_0_0_0_0100_write_ln174', /tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:174) on port 'weights_stream_0_0_0_0100' (/tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:174).
+WARNING: [HLS 200-880] The II Violation in module 'ReadFromMem_Pipeline_VITIS_LOOP_187_14_VITIS_LOOP_189_15_VITIS_LOOP_192_16' (loop 'VITIS_LOOP_187_14_VITIS_LOOP_189_15_VITIS_LOOP_192_16'): Unable to enforce a carried dependence constraint (II = 2, distance = 1, offset = 1) between fifo write operation ('weights_stream_0_0_0_0100_write_ln174', /tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:174) on port 'weights_stream_0_0_0_0100' (/tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:174) and fifo write operation ('weights_stream_0_0_0_0100_write_ln174', /tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:174) on port 'weights_stream_0_0_0_0100' (/tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:174).
+WARNING: [HLS 200-880] The II Violation in module 'ReadFromMem_Pipeline_VITIS_LOOP_187_14_VITIS_LOOP_189_15_VITIS_LOOP_192_16' (loop 'VITIS_LOOP_187_14_VITIS_LOOP_189_15_VITIS_LOOP_192_16'): Unable to enforce a carried dependence constraint (II = 3, distance = 1, offset = 1) between fifo write operation ('weights_stream_0_0_0_0100_write_ln174', /tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:174) on port 'weights_stream_0_0_0_0100' (/tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:174) and fifo write operation ('weights_stream_0_0_0_0100_write_ln174', /tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:174) on port 'weights_stream_0_0_0_0100' (/tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:174).
+WARNING: [HLS 200-880] The II Violation in module 'ReadFromMem_Pipeline_VITIS_LOOP_187_14_VITIS_LOOP_189_15_VITIS_LOOP_192_16' (loop 'VITIS_LOOP_187_14_VITIS_LOOP_189_15_VITIS_LOOP_192_16'): Unable to enforce a carried dependence constraint (II = 4, distance = 1, offset = 1) between fifo write operation ('weights_stream_0_0_0_0100_write_ln174', /tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:174) on port 'weights_stream_0_0_0_0100' (/tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:174) and fifo write operation ('weights_stream_0_0_0_0100_write_ln174', /tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:174) on port 'weights_stream_0_0_0_0100' (/tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:174).
+WARNING: [HLS 200-880] The II Violation in module 'ReadFromMem_Pipeline_VITIS_LOOP_187_14_VITIS_LOOP_189_15_VITIS_LOOP_192_16' (loop 'VITIS_LOOP_187_14_VITIS_LOOP_189_15_VITIS_LOOP_192_16'): Unable to enforce a carried dependence constraint (II = 19, distance = 1, offset = 1) between fifo write operation ('weights_stream_0_0_0_0100_write_ln174', /tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:174) on port 'weights_stream_0_0_0_0100' (/tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:174) and fifo write operation ('weights_stream_0_0_0_0100_write_ln174', /tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:174) on port 'weights_stream_0_0_0_0100' (/tools/software/xilinx/Vitis_HLS/2021.1/common/technology/autopilot/hls_stream_39.h:174).
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 20, Depth = 60, loop 'VITIS_LOOP_187_14_VITIS_LOOP_189_15_VITIS_LOOP_192_16'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 280.37 seconds. CPU system time: 2.31 seconds. Elapsed time: 284.19 seconds; current allocated memory: 2.043 GB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 54.82 seconds. CPU system time: 0.32 seconds. Elapsed time: 56.03 seconds; current allocated memory: 2.121 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'ReadFromMem_Pipeline_VITIS_LOOP_216_18' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_216_18'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 2, loop 'VITIS_LOOP_216_18'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 63.41 seconds. CPU system time: 0.2 seconds. Elapsed time: 64.53 seconds; current allocated memory: 2.122 GB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.04 seconds. CPU system time: 0 seconds. Elapsed time: 0.07 seconds; current allocated memory: 2.122 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'ReadFromMem' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.25 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.3 seconds; current allocated memory: 2.123 GB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.79 seconds. CPU system time: 0 seconds. Elapsed time: 0.84 seconds; current allocated memory: 2.124 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'CreateBitMask_Pipeline_VITIS_LOOP_230_2' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_230_2'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 1, loop 'VITIS_LOOP_230_2'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 1.77 seconds. CPU system time: 0.01 seconds. Elapsed time: 1.85 seconds; current allocated memory: 2.125 GB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.04 seconds. CPU system time: 0 seconds. Elapsed time: 0.08 seconds; current allocated memory: 2.126 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'CreateBitMask_Pipeline_VITIS_LOOP_237_3_VITIS_LOOP_241_4' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_237_3_VITIS_LOOP_241_4'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 2, loop 'VITIS_LOOP_237_3_VITIS_LOOP_241_4'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.16 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.21 seconds; current allocated memory: 2.126 GB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.1 seconds. CPU system time: 0 seconds. Elapsed time: 0.14 seconds; current allocated memory: 2.127 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'CreateBitMask' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.15 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.2 seconds; current allocated memory: 2.128 GB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.07 seconds. CPU system time: 0 seconds. Elapsed time: 0.11 seconds; current allocated memory: 2.128 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'RunDataFlow_Pipeline_VITIS_LOOP_341_1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_341_1'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 2, loop 'VITIS_LOOP_341_1'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.12 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.18 seconds; current allocated memory: 2.128 GB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.03 seconds. CPU system time: 0 seconds. Elapsed time: 0.07 seconds; current allocated memory: 2.128 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'DPEComputation_Pipeline_VITIS_LOOP_291_2' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_291_2'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 2, loop 'VITIS_LOOP_291_2'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.07 seconds. CPU system time: 0 seconds. Elapsed time: 0.11 seconds; current allocated memory: 2.128 GB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.04 seconds. CPU system time: 0 seconds. Elapsed time: 0.08 seconds; current allocated memory: 2.128 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'DPEComputation_Pipeline_VITIS_LOOP_287_1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_287_1'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 1, loop 'VITIS_LOOP_287_1'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.06 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.11 seconds; current allocated memory: 2.128 GB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.03 seconds. CPU system time: 0 seconds. Elapsed time: 0.07 seconds; current allocated memory: 2.129 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'DPEUnit' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining function 'DPEUnit'.
+WARNING: [HLS 200-880] The II Violation in module 'DPEUnit' (function 'DPEUnit'): Unable to enforce a carried dependence constraint (II = 1, distance = 1, offset = 1) between 'store' operation ('output_buf_addr_43_write_ln717') of variable 'trunc_ln' on array 'output_buf' and 'load' operation ('lhs') on array 'output_buf'.
+WARNING: [HLS 200-880] The II Violation in module 'DPEUnit' (function 'DPEUnit'): Unable to enforce a carried dependence constraint (II = 2, distance = 1, offset = 1) between 'store' operation ('output_buf_addr_43_write_ln717') of variable 'trunc_ln' on array 'output_buf' and 'load' operation ('output_buf_load', FC_Layer.cpp:260) on array 'output_buf'.
+WARNING: [HLS 200-880] The II Violation in module 'DPEUnit' (function 'DPEUnit'): Unable to enforce a carried dependence constraint (II = 3, distance = 1, offset = 1) between 'store' operation ('output_buf_addr_43_write_ln717') of variable 'trunc_ln' on array 'output_buf' and 'load' operation ('output_buf_load', FC_Layer.cpp:260) on array 'output_buf'.
+WARNING: [HLS 200-885] The II Violation in module 'DPEUnit' (function 'DPEUnit'): Unable to schedule 'load' operation ('output_buf_load_10', FC_Layer.cpp:260) on array 'output_buf' due to limited memory ports (II = 4). Please consider using a memory core with more ports or partitioning the array 'output_buf'.
+WARNING: [HLS 200-885] The II Violation in module 'DPEUnit' (function 'DPEUnit'): Unable to schedule 'store' operation ('output_buf_addr_52_write_ln717') of variable 'trunc_ln717_9' on array 'output_buf' due to limited memory ports (II = 35). Please consider using a memory core with more ports or partitioning the array 'output_buf'.
+WARNING: [HLS 200-885] The II Violation in module 'DPEUnit' (function 'DPEUnit'): Unable to schedule 'store' operation ('output_buf_addr_60_write_ln717') of variable 'trunc_ln717_16' on array 'output_buf' due to limited memory ports (II = 39). Please consider using a memory core with more ports or partitioning the array 'output_buf'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 40, Depth = 40, function 'DPEUnit'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 2.9 seconds. CPU system time: 0.01 seconds. Elapsed time: 3.01 seconds; current allocated memory: 2.130 GB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.41 seconds. CPU system time: 0 seconds. Elapsed time: 0.49 seconds; current allocated memory: 2.132 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'DPEComputation_Pipeline_VITIS_LOOP_296_3' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_296_3'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 40, Depth = 41, loop 'VITIS_LOOP_296_3'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.53 seconds. CPU system time: 0 seconds. Elapsed time: 0.62 seconds; current allocated memory: 2.132 GB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.26 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.31 seconds; current allocated memory: 2.132 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'DPEComputation_Pipeline_VITIS_LOOP_303_4' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_303_4'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 2, loop 'VITIS_LOOP_303_4'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.34 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.41 seconds; current allocated memory: 2.132 GB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.04 seconds. CPU system time: 0 seconds. Elapsed time: 0.08 seconds; current allocated memory: 2.133 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'DPEComputation' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.06 seconds. CPU system time: 0 seconds. Elapsed time: 0.12 seconds; current allocated memory: 2.133 GB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.15 seconds. CPU system time: 0 seconds. Elapsed time: 0.2 seconds; current allocated memory: 2.133 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'RunDataFlow' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.39 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.44 seconds; current allocated memory: 2.133 GB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.19 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.25 seconds; current allocated memory: 2.134 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'OutputBuffer_Pipeline_VITIS_LOOP_329_1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_329_1'.
+WARNING: [HLS 200-885] The II Violation in module 'OutputBuffer_Pipeline_VITIS_LOOP_329_1' (loop 'VITIS_LOOP_329_1'): Unable to schedule 'load' operation ('output_buf_load_1') on array 'output_buf' due to limited memory ports (II = 1). Please consider using a memory core with more ports or partitioning the array 'output_buf'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 2, Depth = 4, loop 'VITIS_LOOP_329_1'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.5 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.57 seconds; current allocated memory: 2.134 GB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.05 seconds. CPU system time: 0 seconds. Elapsed time: 0.09 seconds; current allocated memory: 2.134 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'OutputBuffer' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.07 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.12 seconds; current allocated memory: 2.134 GB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.08 seconds. CPU system time: 0 seconds. Elapsed time: 0.12 seconds; current allocated memory: 2.134 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'LINEAR' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+WARNING: [HLS 200-1020] Increasing the depth of FIFO ifc7_c_channel (from entry_proc_U0 to OutputBuffer_U0) to 3 to improve performance and/or avoid deadlocks.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.13 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.18 seconds; current allocated memory: 2.135 GB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.79 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.85 seconds; current allocated memory: 2.136 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'entry_proc' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Finished creating RTL model for 'entry_proc'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 2.19 seconds. CPU system time: 0.01 seconds. Elapsed time: 2.27 seconds; current allocated memory: 2.136 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'Block_split10_proc' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Generating core module 'mul_32s_34ns_65_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'Block_split10_proc'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.05 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.18 seconds; current allocated memory: 2.137 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'ReadFromMem_Pipeline_VITIS_LOOP_27_1_VITIS_LOOP_32_2' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'ReadFromMem_Pipeline_VITIS_LOOP_27_1_VITIS_LOOP_32_2' pipeline 'VITIS_LOOP_27_1_VITIS_LOOP_32_2' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-104] Estimated max fanout for 'ReadFromMem_Pipeline_VITIS_LOOP_27_1_VITIS_LOOP_32_2' is 21300 from HDL expression: (1'b1 == ap_condition_1577)
+INFO: [RTGEN 206-100] Generating core module 'mul_32ns_34ns_65_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_64ns_66ns_129_1_1': 7 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'urem_32ns_8ns_7_36_1': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'ReadFromMem_Pipeline_VITIS_LOOP_27_1_VITIS_LOOP_32_2'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.76 seconds. CPU system time: 0.03 seconds. Elapsed time: 0.98 seconds; current allocated memory: 2.144 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'ReadFromMem_Pipeline_VITIS_LOOP_153_8' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'ReadFromMem_Pipeline_VITIS_LOOP_153_8' pipeline 'VITIS_LOOP_153_8' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Finished creating RTL model for 'ReadFromMem_Pipeline_VITIS_LOOP_153_8'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 1.69 seconds. CPU system time: 0.05 seconds. Elapsed time: 1.96 seconds; current allocated memory: 2.167 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'ReadFromMem_Pipeline_VITIS_LOOP_168_11_VITIS_LOOP_177_13' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'ReadFromMem_Pipeline_VITIS_LOOP_168_11_VITIS_LOOP_177_13' pipeline 'VITIS_LOOP_168_11_VITIS_LOOP_177_13' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Finished creating RTL model for 'ReadFromMem_Pipeline_VITIS_LOOP_168_11_VITIS_LOOP_177_13'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.43 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.53 seconds; current allocated memory: 2.170 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'ReadFromMem_Pipeline_VITIS_LOOP_187_14_VITIS_LOOP_189_15_VITIS_LOOP_192_16' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'ReadFromMem_Pipeline_VITIS_LOOP_187_14_VITIS_LOOP_189_15_VITIS_LOOP_192_16' pipeline 'VITIS_LOOP_187_14_VITIS_LOOP_189_15_VITIS_LOOP_192_16' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-104] Estimated max fanout for 'ReadFromMem_Pipeline_VITIS_LOOP_187_14_VITIS_LOOP_189_15_VITIS_LOOP_192_16' is 5184 from HDL expression: (icmp_ln187_reg_23024_pp0_iter2_reg == 1'd0)
+INFO: [RTGEN 206-100] Generating core module 'mul_29s_27ns_29_1_1': 2 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_32ns_34ns_65_1_1': 20 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_mul_10ns_11ns_21_4_1': 20 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'urem_10ns_5ns_4_14_1': 20 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'urem_32ns_8ns_7_36_1': 20 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'ReadFromMem_Pipeline_VITIS_LOOP_187_14_VITIS_LOOP_189_15_VITIS_LOOP_192_16'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 16.5 seconds. CPU system time: 0.24 seconds. Elapsed time: 16.98 seconds; current allocated memory: 2.205 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'ReadFromMem_Pipeline_VITIS_LOOP_216_18' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'ReadFromMem_Pipeline_VITIS_LOOP_216_18' pipeline 'VITIS_LOOP_216_18' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Finished creating RTL model for 'ReadFromMem_Pipeline_VITIS_LOOP_216_18'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 69.83 seconds. CPU system time: 0.49 seconds. Elapsed time: 71.43 seconds; current allocated memory: 2.314 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'ReadFromMem' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-104] Estimated max fanout for 'ReadFromMem' is 21538 from HDL expression: (1'b1 == ap_CS_fsm_state5)
+INFO: [RTGEN 206-100] Generating core module 'mul_28ns_33ns_61_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_32ns_32ns_64_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_32s_32s_32_1_1': 2 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_32s_34ns_65_1_1': 4 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_64ns_5ns_68_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'ReadFromMem'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.32 seconds. CPU system time: 0.03 seconds. Elapsed time: 0.52 seconds; current allocated memory: 2.321 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'CreateBitMask_Pipeline_VITIS_LOOP_230_2' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+WARNING: [RTGEN 206-101] Setting dangling out port 'CreateBitMask_Pipeline_VITIS_LOOP_230_2/weights_stream_0_0_0_0_read' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'CreateBitMask_Pipeline_VITIS_LOOP_230_2/weights_stream_0_0_0_01_read' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'CreateBitMask_Pipeline_VITIS_LOOP_230_2/weights_stream_0_0_0_02_read' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'CreateBitMask_Pipeline_VITIS_LOOP_230_2/weights_stream_0_0_0_03_read' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'CreateBitMask_Pipeline_VITIS_LOOP_230_2/weights_stream_0_0_0_04_read' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'CreateBitMask_Pipeline_VITIS_LOOP_230_2/weights_stream_0_0_0_05_read' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'CreateBitMask_Pipeline_VITIS_LOOP_230_2/weights_stream_0_0_0_06_read' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'CreateBitMask_Pipeline_VITIS_LOOP_230_2/weights_stream_0_0_0_07_read' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'CreateBitMask_Pipeline_VITIS_LOOP_230_2/weights_stream_0_0_0_08_read' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'CreateBitMask_Pipeline_VITIS_LOOP_230_2/weights_stream_0_0_0_09_read' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'CreateBitMask_Pipeline_VITIS_LOOP_230_2/weights_stream_0_0_0_010_read' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'CreateBitMask_Pipeline_VITIS_LOOP_230_2/weights_stream_0_0_0_011_read' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'CreateBitMask_Pipeline_VITIS_LOOP_230_2/weights_stream_0_0_0_012_read' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'CreateBitMask_Pipeline_VITIS_LOOP_230_2/weights_stream_0_0_0_013_read' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'CreateBitMask_Pipeline_VITIS_LOOP_230_2/weights_stream_0_0_0_014_read' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'CreateBitMask_Pipeline_VITIS_LOOP_230_2/weights_stream_0_0_0_015_read' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'CreateBitMask_Pipeline_VITIS_LOOP_230_2/weights_stream_0_0_0_016_read' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'CreateBitMask_Pipeline_VITIS_LOOP_230_2/weights_stream_0_0_0_017_read' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'CreateBitMask_Pipeline_VITIS_LOOP_230_2/weights_stream_0_0_0_018_read' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'CreateBitMask_Pipeline_VITIS_LOOP_230_2/weights_stream_0_0_0_019_read' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'CreateBitMask_Pipeline_VITIS_LOOP_230_2/weights_stream_0_0_0_020_read' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'CreateBitMask_Pipeline_VITIS_LOOP_230_2/weights_stream_0_0_0_021_read' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'CreateBitMask_Pipeline_VITIS_LOOP_230_2/weights_stream_0_0_0_022_read' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'CreateBitMask_Pipeline_VITIS_LOOP_230_2/weights_stream_0_0_0_023_read' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'CreateBitMask_Pipeline_VITIS_LOOP_230_2/weights_stream_0_0_0_024_read' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'CreateBitMask_Pipeline_VITIS_LOOP_230_2/weights_stream_0_0_0_025_read' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'CreateBitMask_Pipeline_VITIS_LOOP_230_2/weights_stream_0_0_0_026_read' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'CreateBitMask_Pipeline_VITIS_LOOP_230_2/weights_stream_0_0_0_027_read' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'CreateBitMask_Pipeline_VITIS_LOOP_230_2/weights_stream_0_0_0_028_read' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'CreateBitMask_Pipeline_VITIS_LOOP_230_2/weights_stream_0_0_0_029_read' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'CreateBitMask_Pipeline_VITIS_LOOP_230_2/weights_stream_0_0_0_030_read' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'CreateBitMask_Pipeline_VITIS_LOOP_230_2/weights_stream_0_0_0_031_read' to 0.
+INFO: [RTGEN 206-100] Finished creating RTL model for 'CreateBitMask_Pipeline_VITIS_LOOP_230_2'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 2.57 seconds. CPU system time: 0.08 seconds. Elapsed time: 2.96 seconds; current allocated memory: 2.327 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'CreateBitMask_Pipeline_VITIS_LOOP_237_3_VITIS_LOOP_241_4' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'CreateBitMask_Pipeline_VITIS_LOOP_237_3_VITIS_LOOP_241_4' pipeline 'VITIS_LOOP_237_3_VITIS_LOOP_241_4' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Finished creating RTL model for 'CreateBitMask_Pipeline_VITIS_LOOP_237_3_VITIS_LOOP_241_4'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.29 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.4 seconds; current allocated memory: 2.330 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'CreateBitMask' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Finished creating RTL model for 'CreateBitMask'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.54 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.66 seconds; current allocated memory: 2.334 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'RunDataFlow_Pipeline_VITIS_LOOP_341_1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'RunDataFlow_Pipeline_VITIS_LOOP_341_1' pipeline 'VITIS_LOOP_341_1' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Finished creating RTL model for 'RunDataFlow_Pipeline_VITIS_LOOP_341_1'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.18 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.28 seconds; current allocated memory: 2.335 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'DPEComputation_Pipeline_VITIS_LOOP_291_2' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'DPEComputation_Pipeline_VITIS_LOOP_291_2' pipeline 'VITIS_LOOP_291_2' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Finished creating RTL model for 'DPEComputation_Pipeline_VITIS_LOOP_291_2'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.1 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.2 seconds; current allocated memory: 2.335 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'DPEComputation_Pipeline_VITIS_LOOP_287_1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Finished creating RTL model for 'DPEComputation_Pipeline_VITIS_LOOP_287_1'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.1 seconds. CPU system time: 0 seconds. Elapsed time: 0.17 seconds; current allocated memory: 2.336 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'DPEUnit' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Generating core module 'mul_32s_32s_56_1_1': 20 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'DPEUnit'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.2 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.3 seconds; current allocated memory: 2.339 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'DPEComputation_Pipeline_VITIS_LOOP_296_3' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'DPEComputation_Pipeline_VITIS_LOOP_296_3' pipeline 'VITIS_LOOP_296_3' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Finished creating RTL model for 'DPEComputation_Pipeline_VITIS_LOOP_296_3'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 1.33 seconds. CPU system time: 0.02 seconds. Elapsed time: 1.46 seconds; current allocated memory: 2.348 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'DPEComputation_Pipeline_VITIS_LOOP_303_4' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'DPEComputation_Pipeline_VITIS_LOOP_303_4' pipeline 'VITIS_LOOP_303_4' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Finished creating RTL model for 'DPEComputation_Pipeline_VITIS_LOOP_303_4'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.41 seconds. CPU system time: 0 seconds. Elapsed time: 0.5 seconds; current allocated memory: 2.349 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'DPEComputation' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Finished creating RTL model for 'DPEComputation'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.11 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.21 seconds; current allocated memory: 2.350 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'RunDataFlow' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Generating core module 'mul_28s_28s_32_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'RunDataFlow'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.44 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.56 seconds; current allocated memory: 2.351 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'OutputBuffer_Pipeline_VITIS_LOOP_329_1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'OutputBuffer_Pipeline_VITIS_LOOP_329_1' pipeline 'VITIS_LOOP_329_1' pipeline type 'loop pipeline'
+WARNING: [RTGEN 206-101] Setting dangling out port 'OutputBuffer_Pipeline_VITIS_LOOP_329_1/m_axi_ifc1_AWVALID' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'OutputBuffer_Pipeline_VITIS_LOOP_329_1/m_axi_ifc1_AWADDR' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'OutputBuffer_Pipeline_VITIS_LOOP_329_1/m_axi_ifc1_AWID' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'OutputBuffer_Pipeline_VITIS_LOOP_329_1/m_axi_ifc1_AWLEN' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'OutputBuffer_Pipeline_VITIS_LOOP_329_1/m_axi_ifc1_AWSIZE' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'OutputBuffer_Pipeline_VITIS_LOOP_329_1/m_axi_ifc1_AWBURST' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'OutputBuffer_Pipeline_VITIS_LOOP_329_1/m_axi_ifc1_AWLOCK' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'OutputBuffer_Pipeline_VITIS_LOOP_329_1/m_axi_ifc1_AWCACHE' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'OutputBuffer_Pipeline_VITIS_LOOP_329_1/m_axi_ifc1_AWPROT' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'OutputBuffer_Pipeline_VITIS_LOOP_329_1/m_axi_ifc1_AWQOS' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'OutputBuffer_Pipeline_VITIS_LOOP_329_1/m_axi_ifc1_AWREGION' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'OutputBuffer_Pipeline_VITIS_LOOP_329_1/m_axi_ifc1_AWUSER' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'OutputBuffer_Pipeline_VITIS_LOOP_329_1/m_axi_ifc1_BREADY' to 0.
+INFO: [RTGEN 206-100] Finished creating RTL model for 'OutputBuffer_Pipeline_VITIS_LOOP_329_1'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.71 seconds. CPU system time: 0.04 seconds. Elapsed time: 0.91 seconds; current allocated memory: 2.353 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'OutputBuffer' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Generating core module 'mul_32s_32s_32_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'OutputBuffer'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.15 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.25 seconds; current allocated memory: 2.355 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'LINEAR' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+WARNING: [RTGEN 206-101] Design contains AXI ports. Reset is fixed to synchronous and active low.
+INFO: [RTGEN 206-500] Setting interface mode on port 'LINEAR/ifc1' to 'm_axi'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'LINEAR/ifc2' to 'm_axi'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'LINEAR/ifc3' to 'm_axi'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'LINEAR/ifc4' to 'm_axi'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'LINEAR/ifc5' to 'm_axi'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'LINEAR/ifc6' to 'm_axi'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'LINEAR/ifc1_offset' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'LINEAR/ifc2_offset' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'LINEAR/ifc3_offset' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'LINEAR/ifc4_offset' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'LINEAR/ifc5_offset' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'LINEAR/ifc6_offset' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'LINEAR/ifc7' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'LINEAR/X' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'LINEAR/Y' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'LINEAR/Wt_X' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'LINEAR/Wt_Y' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'LINEAR/bias' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'LINEAR' to 'ap_ctrl_hs'.
+INFO: [RTGEN 206-100] Bundling port 'ifc1_offset', 'ifc2_offset', 'ifc3_offset', 'ifc4_offset', 'ifc5_offset', 'ifc6_offset', 'ifc7', 'X', 'Y', 'Wt_X', 'Wt_Y' and 'bias' to AXI-Lite port control.
+INFO: [RTGEN 206-100] Finished creating RTL model for 'LINEAR'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.33 seconds. CPU system time: 0.03 seconds. Elapsed time: 0.57 seconds; current allocated memory: 2.363 GB.
+INFO: [RTMG 210-278] Implementing memory 'LINEAR_DPEComputation_local_output_buf_V_ram (RAM)' using auto RAMs.
+INFO: [RTMG 210-278] Implementing memory 'LINEAR_RunDataFlow_IACT_TEMP_BUFFER_V_ram (RAM)' using auto RAMs.
+INFO: [RTMG 210-278] Implementing memory 'LINEAR_RunDataFlow_first_processing_buffer_V_ram (RAM_T2P_BRAM)' using block RAMs.
+INFO: [RTMG 210-278] Implementing memory 'LINEAR_RunDataFlow_first_bit_buffer_weights_V_ram (RAM)' using auto RAMs.
+INFO: [RTMG 210-278] Implementing memory 'LINEAR_weight_buffer_V_0_ram (RAM_T2P_URAM)' using ultra RAMs.
+INFO: [RTMG 210-278] Implementing memory 'LINEAR_weight_buffer_V_5_ram (RAM_T2P_URAM)' using ultra RAMs.
+INFO: [RTMG 210-278] Implementing memory 'LINEAR_iact_buffer_V_ram (RAM_T2P_BRAM)' using block RAMs.
+INFO: [HLS 200-740] Implementing PIPO LINEAR_output_buf_V_memcore using a separate memory for each block
+INFO: [RTMG 210-278] Implementing memory 'LINEAR_output_buf_V_memcore_ram (RAM)' using auto RAMs.
+INFO: [RTMG 210-285] Implementing FIFO 'ifc7_c_channel_U(LINEAR_fifo_w64_d3_S)' using Shift Registers.
+INFO: [RTMG 210-285] Implementing FIFO 'block_num_x_loc_channel_U(LINEAR_fifo_w28_d2_S)' using Shift Registers.
+INFO: [RTMG 210-285] Implementing FIFO 'block_num_y_cast_loc_channel_U(LINEAR_fifo_w28_d2_S)' using Shift Registers.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================

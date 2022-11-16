@@ -1,0 +1,178 @@
+
+
+================================================================
+== Vitis HLS Report for 'DPEComputation_Pipeline_VITIS_LOOP_296_3'
+================================================================
+* Date:           Wed Nov  2 23:07:48 2022
+
+* Version:        2021.1 (Build 3247384 on Thu Jun 10 19:36:07 MDT 2021)
+* Project:        fc_layer
+* Solution:       solution1 (Vivado IP Flow Target)
+* Product family: virtexuplus
+* Target device:  xcvu11p-flga2577-1-e
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+----------+----------+------------+
+    |  Clock |  Target  | Estimated| Uncertainty|
+    +--------+----------+----------+------------+
+    |ap_clk  |  10.00 ns|  5.468 ns|     2.70 ns|
+    +--------+----------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+-----------+-----------+------+------+---------+
+    |  Latency (cycles) |   Latency (absolute)  |   Interval  | Pipeline|
+    |   min   |   max   |    min    |    max    |  min |  max |   Type  |
+    +---------+---------+-----------+-----------+------+------+---------+
+    |     1282|     1282|  12.820 us|  12.820 us|  1282|  1282|       no|
+    +---------+---------+-----------+-----------+------+------+---------+
+
+    + Detail: 
+        * Instance: 
+        +-------------------+---------+---------+---------+----------+----------+-----+-----+---------+
+        |                   |         |  Latency (cycles) |  Latency (absolute) |  Interval | Pipeline|
+        |      Instance     |  Module |   min   |   max   |    min   |    max   | min | max |   Type  |
+        +-------------------+---------+---------+---------+----------+----------+-----+-----+---------+
+        |grp_DPEUnit_fu_63  |DPEUnit  |       39|       39|  0.390 us|  0.390 us|   40|   40|      yes|
+        +-------------------+---------+---------+---------+----------+----------+-----+-----+---------+
+
+        * Loop: 
+        +--------------------+---------+---------+----------+-----------+-----------+------+----------+
+        |                    |  Latency (cycles) | Iteration|  Initiation Interval  | Trip |          |
+        |      Loop Name     |   min   |   max   |  Latency |  achieved |   target  | Count| Pipelined|
+        +--------------------+---------+---------+----------+-----------+-----------+------+----------+
+        |- VITIS_LOOP_296_3  |     1280|     1280|        41|         40|          1|    32|       yes|
+        +--------------------+---------+---------+----------+-----------+-----------+------+----------+
+
+
+
+================================================================
+== Utilization Estimates
+================================================================
+* Summary: 
++---------------------+---------+------+---------+---------+-----+
+|         Name        | BRAM_18K|  DSP |    FF   |   LUT   | URAM|
++---------------------+---------+------+---------+---------+-----+
+|DSP                  |        -|     -|        -|        -|    -|
+|Expression           |        -|     -|        0|       51|    -|
+|FIFO                 |        -|     -|        -|        -|    -|
+|Instance             |        -|    60|     3281|     3313|    -|
+|Memory               |        -|     -|        -|        -|    -|
+|Multiplexer          |        -|     -|        -|      235|    -|
+|Register             |        -|     -|       56|        -|    -|
++---------------------+---------+------+---------+---------+-----+
+|Total                |        0|    60|     3337|     3599|    0|
++---------------------+---------+------+---------+---------+-----+
+|Available SLR        |     1344|  3072|   864000|   432000|  320|
++---------------------+---------+------+---------+---------+-----+
+|Utilization SLR (%)  |        0|     1|       ~0|       ~0|    0|
++---------------------+---------+------+---------+---------+-----+
+|Available            |     4032|  9216|  2592000|  1296000|  960|
++---------------------+---------+------+---------+---------+-----+
+|Utilization (%)      |        0|    ~0|       ~0|       ~0|    0|
++---------------------+---------+------+---------+---------+-----+
+
++ Detail: 
+    * Instance: 
+    +-------------------+---------+---------+----+------+------+-----+
+    |      Instance     |  Module | BRAM_18K| DSP|  FF  |  LUT | URAM|
+    +-------------------+---------+---------+----+------+------+-----+
+    |grp_DPEUnit_fu_63  |DPEUnit  |        0|  60|  3281|  3313|    0|
+    +-------------------+---------+---------+----+------+------+-----+
+    |Total              |         |        0|  60|  3281|  3313|    0|
+    +-------------------+---------+---------+----+------+------+-----+
+
+    * DSP: 
+    N/A
+
+    * Memory: 
+    N/A
+
+    * FIFO: 
+    N/A
+
+    * Expression: 
+    +----------------------------+----------+----+---+----+------------+------------+
+    |        Variable Name       | Operation| DSP| FF| LUT| Bitwidth P0| Bitwidth P1|
+    +----------------------------+----------+----+---+----+------------+------------+
+    |add_ln296_fu_91_p2          |         +|   0|  0|  13|           6|           1|
+    |icmp_ln1551_fu_111_p2       |      icmp|   0|  0|  20|          32|           1|
+    |icmp_ln296_fu_85_p2         |      icmp|   0|  0|  10|           6|           7|
+    |grp_DPEUnit_fu_63_iact_idx  |    select|   0|  0|   6|           1|           2|
+    |ap_enable_pp0               |       xor|   0|  0|   2|           1|           2|
+    +----------------------------+----------+----+---+----+------------+------------+
+    |Total                       |          |   0|  0|  51|          46|          13|
+    +----------------------------+----------+----+---+----+------------+------------+
+
+    * Multiplexer: 
+    +-----------------------------+-----+-----------+-----+-----------+
+    |             Name            | LUT | Input Size| Bits| Total Bits|
+    +-----------------------------+-----+-----------+-----+-----------+
+    |ap_NS_fsm                    |  181|         41|    1|         41|
+    |ap_done_int                  |    9|          2|    1|          2|
+    |ap_enable_reg_pp0_iter0      |    9|          2|    1|          2|
+    |ap_enable_reg_pp0_iter0_reg  |    9|          2|    1|          2|
+    |ap_enable_reg_pp0_iter1      |    9|          2|    1|          2|
+    |ap_sig_allocacmp_i_9         |    9|          2|    6|         12|
+    |i_fu_46                      |    9|          2|    6|         12|
+    +-----------------------------+-----+-----------+-----+-----------+
+    |Total                        |  235|         53|   17|         73|
+    +-----------------------------+-----+-----------+-----+-----------+
+
+    * Register: 
+    +--------------------------------+----+----+-----+-----------+
+    |              Name              | FF | LUT| Bits| Const Bits|
+    +--------------------------------+----+----+-----+-----------+
+    |ap_CS_fsm                       |  40|   0|   40|          0|
+    |ap_done_reg                     |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter0_reg     |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter1         |   1|   0|    1|          0|
+    |grp_DPEUnit_fu_63_ap_start_reg  |   1|   0|    1|          0|
+    |i_fu_46                         |   6|   0|    6|          0|
+    |icmp_ln296_reg_136              |   1|   0|    1|          0|
+    |trunc_ln298_reg_145             |   5|   0|    5|          0|
+    +--------------------------------+----+----+-----+-----------+
+    |Total                           |  56|   0|   56|          0|
+    +--------------------------------+----+----+-----+-----------+
+
+
+
+================================================================
+== Interface
+================================================================
+* Summary: 
++-----------------------------+-----+-----+------------+------------------------------------------+--------------+
+|          RTL Ports          | Dir | Bits|  Protocol  |               Source Object              |    C Type    |
++-----------------------------+-----+-----+------------+------------------------------------------+--------------+
+|ap_clk                       |   in|    1|  ap_ctrl_hs|  DPEComputation_Pipeline_VITIS_LOOP_296_3|  return value|
+|ap_rst                       |   in|    1|  ap_ctrl_hs|  DPEComputation_Pipeline_VITIS_LOOP_296_3|  return value|
+|ap_start                     |   in|    1|  ap_ctrl_hs|  DPEComputation_Pipeline_VITIS_LOOP_296_3|  return value|
+|ap_done                      |  out|    1|  ap_ctrl_hs|  DPEComputation_Pipeline_VITIS_LOOP_296_3|  return value|
+|ap_idle                      |  out|    1|  ap_ctrl_hs|  DPEComputation_Pipeline_VITIS_LOOP_296_3|  return value|
+|ap_ready                     |  out|    1|  ap_ctrl_hs|  DPEComputation_Pipeline_VITIS_LOOP_296_3|  return value|
+|IACT_TEMP_BUFFER_address0    |  out|    5|   ap_memory|                          IACT_TEMP_BUFFER|         array|
+|IACT_TEMP_BUFFER_ce0         |  out|    1|   ap_memory|                          IACT_TEMP_BUFFER|         array|
+|IACT_TEMP_BUFFER_q0          |   in|   32|   ap_memory|                          IACT_TEMP_BUFFER|         array|
+|processing_buffer_address0   |  out|    5|   ap_memory|                         processing_buffer|         array|
+|processing_buffer_ce0        |  out|    1|   ap_memory|                         processing_buffer|         array|
+|processing_buffer_q0         |   in|  640|   ap_memory|                         processing_buffer|         array|
+|bit_buffer_weights_address0  |  out|    5|   ap_memory|                        bit_buffer_weights|         array|
+|bit_buffer_weights_ce0       |  out|    1|   ap_memory|                        bit_buffer_weights|         array|
+|bit_buffer_weights_q0        |   in|   20|   ap_memory|                        bit_buffer_weights|         array|
+|local_output_buf_V_address0  |  out|   10|   ap_memory|                        local_output_buf_V|         array|
+|local_output_buf_V_ce0       |  out|    1|   ap_memory|                        local_output_buf_V|         array|
+|local_output_buf_V_we0       |  out|    1|   ap_memory|                        local_output_buf_V|         array|
+|local_output_buf_V_d0        |  out|   32|   ap_memory|                        local_output_buf_V|         array|
+|local_output_buf_V_q0        |   in|   32|   ap_memory|                        local_output_buf_V|         array|
+|local_output_buf_V_address1  |  out|   10|   ap_memory|                        local_output_buf_V|         array|
+|local_output_buf_V_ce1       |  out|    1|   ap_memory|                        local_output_buf_V|         array|
+|local_output_buf_V_we1       |  out|    1|   ap_memory|                        local_output_buf_V|         array|
+|local_output_buf_V_d1        |  out|   32|   ap_memory|                        local_output_buf_V|         array|
+|local_output_buf_V_q1        |   in|   32|   ap_memory|                        local_output_buf_V|         array|
++-----------------------------+-----+-----+------------+------------------------------------------+--------------+
+

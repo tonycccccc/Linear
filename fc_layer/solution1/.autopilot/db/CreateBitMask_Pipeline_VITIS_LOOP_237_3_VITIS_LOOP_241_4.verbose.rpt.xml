@@ -1,0 +1,332 @@
+<profile>
+
+<section name = "Vitis HLS Report for 'CreateBitMask_Pipeline_VITIS_LOOP_237_3_VITIS_LOOP_241_4'" level="0">
+<item name = "Date">Wed Nov  2 23:07:45 2022
+</item>
+<item name = "Version">2021.1 (Build 3247384 on Thu Jun 10 19:36:07 MDT 2021)</item>
+<item name = "Project">fc_layer</item>
+<item name = "Solution">solution1 (Vivado IP Flow Target)</item>
+<item name = "Product family">virtexuplus</item>
+<item name = "Target device">xcvu11p-flga2577-1-e</item>
+</section>
+
+<section name = "Performance Estimates" level="0">
+<item name = "Timing">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="4">Clock, Target, Estimated, Uncertainty</keys>
+<column name="ap_clk">10.00 ns, 6.257 ns, 2.70 ns</column>
+</table>
+</item>
+</section>
+</item>
+<item name = "Latency">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="8">, min, max, min, max, min, max, Type</keys>
+<column name="">642, 642, 6.420 us, 6.420 us, 642, 642, no</column>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="0">
+<keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
+</table>
+</item>
+<item name = "Loop"><table name="" hasTotal="0">
+<keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
+<column name="- VITIS_LOOP_237_3_VITIS_LOOP_241_4">640, 640, 2, 1, 1, 640, yes</column>
+</table>
+</item>
+</section>
+</item>
+</section>
+</item>
+</section>
+
+<section name = "Utilization Estimates" level="0">
+<item name = "Summary"><table name="" hasTotal="1">
+<keys size="6">Name, BRAM_18K, DSP, FF, LUT, URAM</keys>
+<column name="DSP">-, -, -, -, -</column>
+<column name="Expression">-, -, 0, 11268, -</column>
+<column name="FIFO">-, -, -, -, -</column>
+<column name="Instance">-, -, -, -, -</column>
+<column name="Memory">-, -, -, -, -</column>
+<column name="Multiplexer">-, -, -, 528, -</column>
+<column name="Register">-, -, 703, -, -</column>
+<specialColumn name="Available SLR">1344, 3072, 864000, 432000, 320</specialColumn>
+<specialColumn name="Utilization SLR (%)">0, 0, ~0, 2, 0</specialColumn>
+<specialColumn name="Available">4032, 9216, 2592000, 1296000, 960</specialColumn>
+<specialColumn name="Utilization (%)">0, 0, ~0, ~0, 0</specialColumn>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="1">
+<keys size="7">Instance, Module, BRAM_18K, DSP, FF, LUT, URAM</keys>
+</table>
+</item>
+<item name = "DSP"><table name="" hasTotal="0">
+<keys size="3">Instance, Module, Expression</keys>
+</table>
+</item>
+<item name = "Memory"><table name="" hasTotal="1">
+<keys size="10">Memory, Module, BRAM_18K, FF, LUT, URAM, Words, Bits, Banks, W*Bits*Banks</keys>
+</table>
+</item>
+<item name = "FIFO"><table name="" hasTotal="1">
+<keys size="8">Name, BRAM_18K, FF, LUT, URAM, Depth, Bits, Size:D*B</keys>
+</table>
+</item>
+<item name = "Expression"><table name="" hasTotal="1">
+<keys size="7">Variable Name, Operation, DSP, FF, LUT, Bitwidth P0, Bitwidth P1</keys>
+<column name="add_ln237_1_fu_571_p2">+, 0, 0, 17, 10, 1</column>
+<column name="add_ln237_fu_583_p2">+, 0, 0, 13, 6, 1</column>
+<column name="j_fu_615_p2">+, 0, 0, 12, 5, 1</column>
+<column name="sub_ln414_1_fu_723_p2">-, 0, 0, 17, 10, 10</column>
+<column name="sub_ln414_fu_693_p2">-, 0, 0, 17, 10, 10</column>
+<column name="and_ln414_1_fu_789_p2">and, 0, 0, 640, 640, 640</column>
+<column name="and_ln414_2_fu_795_p2">and, 0, 0, 640, 640, 640</column>
+<column name="and_ln414_fu_777_p2">and, 0, 0, 640, 640, 640</column>
+<column name="ap_block_pp0_stage0_11001">and, 0, 0, 2, 1, 1</column>
+<column name="ap_predicate_op101_read_state2">and, 0, 0, 2, 1, 1</column>
+<column name="ap_predicate_op103_read_state2">and, 0, 0, 2, 1, 1</column>
+<column name="ap_predicate_op105_read_state2">and, 0, 0, 2, 1, 1</column>
+<column name="ap_predicate_op107_read_state2">and, 0, 0, 2, 1, 1</column>
+<column name="ap_predicate_op109_read_state2">and, 0, 0, 2, 1, 1</column>
+<column name="ap_predicate_op111_read_state2">and, 0, 0, 2, 1, 1</column>
+<column name="ap_predicate_op113_read_state2">and, 0, 0, 2, 1, 1</column>
+<column name="ap_predicate_op115_read_state2">and, 0, 0, 2, 1, 1</column>
+<column name="ap_predicate_op117_read_state2">and, 0, 0, 2, 1, 1</column>
+<column name="ap_predicate_op119_read_state2">and, 0, 0, 2, 1, 1</column>
+<column name="ap_predicate_op121_read_state2">and, 0, 0, 2, 1, 1</column>
+<column name="ap_predicate_op123_read_state2">and, 0, 0, 2, 1, 1</column>
+<column name="ap_predicate_op125_read_state2">and, 0, 0, 2, 1, 1</column>
+<column name="ap_predicate_op127_read_state2">and, 0, 0, 2, 1, 1</column>
+<column name="ap_predicate_op129_read_state2">and, 0, 0, 2, 1, 1</column>
+<column name="ap_predicate_op131_read_state2">and, 0, 0, 2, 1, 1</column>
+<column name="ap_predicate_op133_read_state2">and, 0, 0, 2, 1, 1</column>
+<column name="ap_predicate_op135_read_state2">and, 0, 0, 2, 1, 1</column>
+<column name="ap_predicate_op137_read_state2">and, 0, 0, 2, 1, 1</column>
+<column name="ap_predicate_op139_read_state2">and, 0, 0, 2, 1, 1</column>
+<column name="ap_predicate_op77_read_state2">and, 0, 0, 2, 1, 1</column>
+<column name="ap_predicate_op79_read_state2">and, 0, 0, 2, 1, 1</column>
+<column name="ap_predicate_op81_read_state2">and, 0, 0, 2, 1, 1</column>
+<column name="ap_predicate_op83_read_state2">and, 0, 0, 2, 1, 1</column>
+<column name="ap_predicate_op85_read_state2">and, 0, 0, 2, 1, 1</column>
+<column name="ap_predicate_op87_read_state2">and, 0, 0, 2, 1, 1</column>
+<column name="ap_predicate_op89_read_state2">and, 0, 0, 2, 1, 1</column>
+<column name="ap_predicate_op91_read_state2">and, 0, 0, 2, 1, 1</column>
+<column name="ap_predicate_op93_read_state2">and, 0, 0, 2, 1, 1</column>
+<column name="ap_predicate_op95_read_state2">and, 0, 0, 2, 1, 1</column>
+<column name="ap_predicate_op97_read_state2">and, 0, 0, 2, 1, 1</column>
+<column name="ap_predicate_op99_read_state2">and, 0, 0, 2, 1, 1</column>
+<column name="icmp_ln237_fu_565_p2">icmp, 0, 0, 11, 10, 10</column>
+<column name="icmp_ln241_1_fu_621_p2">icmp, 0, 0, 9, 5, 5</column>
+<column name="icmp_ln241_fu_589_p2">icmp, 0, 0, 9, 5, 5</column>
+<column name="icmp_ln414_fu_687_p2">icmp, 0, 0, 11, 10, 10</column>
+<column name="tmp_105_fu_808_p2">icmp, 0, 0, 20, 32, 1</column>
+<column name="lshr_ln414_fu_771_p2">lshr, 0, 0, 2171, 2, 640</column>
+<column name="ap_block_state2_pp0_stage0_iter1">or, 0, 0, 2, 1, 1</column>
+<column name="or_ln244_fu_677_p2">or, 0, 0, 10, 10, 5</column>
+<column name="p_Result_s_fu_801_p2">or, 0, 0, 640, 640, 640</column>
+<column name="select_ln237_1_fu_648_p3">select, 0, 0, 639, 1, 1</column>
+<column name="select_ln237_2_fu_655_p3">select, 0, 0, 20, 1, 1</column>
+<column name="select_ln237_3_fu_603_p3">select, 0, 0, 6, 1, 6</column>
+<column name="select_ln237_fu_595_p3">select, 0, 0, 5, 1, 1</column>
+<column name="select_ln414_1_fu_707_p3">select, 0, 0, 10, 1, 10</column>
+<column name="select_ln414_2_fu_715_p3">select, 0, 0, 10, 1, 10</column>
+<column name="select_ln414_3_fu_757_p3">select, 0, 0, 639, 1, 640</column>
+<column name="select_ln414_fu_699_p3">select, 0, 0, 10, 1, 10</column>
+<column name="shl_ln414_1_fu_765_p2">shl, 0, 0, 2171, 2, 640</column>
+<column name="shl_ln414_fu_741_p2">shl, 0, 0, 2171, 640, 640</column>
+<column name="ap_enable_pp0">xor, 0, 0, 2, 1, 2</column>
+<column name="xor_ln414_fu_783_p2">xor, 0, 0, 640, 2, 640</column>
+</table>
+</item>
+<item name = "Multiplexer"><table name="" hasTotal="1">
+<keys size="5">Name, LUT, Input Size, Bits, Total Bits</keys>
+<column name="ap_done_int">9, 2, 1, 2</column>
+<column name="ap_enable_reg_pp0_iter1">9, 2, 1, 2</column>
+<column name="ap_phi_mux_data_V_phi_fu_439_p64">150, 33, 32, 1056</column>
+<column name="ap_sig_allocacmp_i_load">9, 2, 6, 12</column>
+<column name="ap_sig_allocacmp_indvar_flatten_load">9, 2, 10, 20</column>
+<column name="ap_sig_allocacmp_j_3_load">9, 2, 5, 10</column>
+<column name="i_fu_210">9, 2, 6, 12</column>
+<column name="indvar_flatten_fu_214">9, 2, 10, 20</column>
+<column name="j_3_fu_206">9, 2, 5, 10</column>
+<column name="p_Val2_21_fu_198">9, 2, 20, 40</column>
+<column name="p_Val2_s_fu_202">9, 2, 640, 1280</column>
+<column name="weights_stream_0_0_0_010_blk_n">9, 2, 1, 2</column>
+<column name="weights_stream_0_0_0_011_blk_n">9, 2, 1, 2</column>
+<column name="weights_stream_0_0_0_012_blk_n">9, 2, 1, 2</column>
+<column name="weights_stream_0_0_0_013_blk_n">9, 2, 1, 2</column>
+<column name="weights_stream_0_0_0_014_blk_n">9, 2, 1, 2</column>
+<column name="weights_stream_0_0_0_015_blk_n">9, 2, 1, 2</column>
+<column name="weights_stream_0_0_0_016_blk_n">9, 2, 1, 2</column>
+<column name="weights_stream_0_0_0_017_blk_n">9, 2, 1, 2</column>
+<column name="weights_stream_0_0_0_018_blk_n">9, 2, 1, 2</column>
+<column name="weights_stream_0_0_0_019_blk_n">9, 2, 1, 2</column>
+<column name="weights_stream_0_0_0_01_blk_n">9, 2, 1, 2</column>
+<column name="weights_stream_0_0_0_020_blk_n">9, 2, 1, 2</column>
+<column name="weights_stream_0_0_0_021_blk_n">9, 2, 1, 2</column>
+<column name="weights_stream_0_0_0_022_blk_n">9, 2, 1, 2</column>
+<column name="weights_stream_0_0_0_023_blk_n">9, 2, 1, 2</column>
+<column name="weights_stream_0_0_0_024_blk_n">9, 2, 1, 2</column>
+<column name="weights_stream_0_0_0_025_blk_n">9, 2, 1, 2</column>
+<column name="weights_stream_0_0_0_026_blk_n">9, 2, 1, 2</column>
+<column name="weights_stream_0_0_0_027_blk_n">9, 2, 1, 2</column>
+<column name="weights_stream_0_0_0_028_blk_n">9, 2, 1, 2</column>
+<column name="weights_stream_0_0_0_029_blk_n">9, 2, 1, 2</column>
+<column name="weights_stream_0_0_0_02_blk_n">9, 2, 1, 2</column>
+<column name="weights_stream_0_0_0_030_blk_n">9, 2, 1, 2</column>
+<column name="weights_stream_0_0_0_031_blk_n">9, 2, 1, 2</column>
+<column name="weights_stream_0_0_0_03_blk_n">9, 2, 1, 2</column>
+<column name="weights_stream_0_0_0_04_blk_n">9, 2, 1, 2</column>
+<column name="weights_stream_0_0_0_05_blk_n">9, 2, 1, 2</column>
+<column name="weights_stream_0_0_0_06_blk_n">9, 2, 1, 2</column>
+<column name="weights_stream_0_0_0_07_blk_n">9, 2, 1, 2</column>
+<column name="weights_stream_0_0_0_08_blk_n">9, 2, 1, 2</column>
+<column name="weights_stream_0_0_0_09_blk_n">9, 2, 1, 2</column>
+<column name="weights_stream_0_0_0_0_blk_n">9, 2, 1, 2</column>
+</table>
+</item>
+<item name = "Register"><table name="" hasTotal="1">
+<keys size="5">Name, FF, LUT, Bits, Const Bits</keys>
+<column name="ap_CS_fsm">1, 0, 1, 0</column>
+<column name="ap_done_reg">1, 0, 1, 0</column>
+<column name="ap_enable_reg_pp0_iter1">1, 0, 1, 0</column>
+<column name="i_fu_210">6, 0, 6, 0</column>
+<column name="icmp_ln237_reg_874">1, 0, 1, 0</column>
+<column name="icmp_ln241_1_reg_899">1, 0, 1, 0</column>
+<column name="icmp_ln241_reg_878">1, 0, 1, 0</column>
+<column name="indvar_flatten_fu_214">10, 0, 10, 0</column>
+<column name="j_3_fu_206">5, 0, 5, 0</column>
+<column name="p_Val2_21_fu_198">20, 0, 20, 0</column>
+<column name="p_Val2_s_fu_202">640, 0, 640, 0</column>
+<column name="select_ln237_3_reg_890">6, 0, 6, 0</column>
+<column name="select_ln237_reg_884">5, 0, 5, 0</column>
+<column name="trunc_ln237_reg_895">5, 0, 5, 0</column>
+</table>
+</item>
+</section>
+</item>
+</section>
+
+<section name = "Interface" level="0">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="6">RTL Ports, Dir, Bits, Protocol, Source Object, C Type</keys>
+<column name="ap_clk">in, 1, ap_ctrl_hs, CreateBitMask_Pipeline_VITIS_LOOP_237_3_VITIS_LOOP_241_4, return value</column>
+<column name="ap_rst">in, 1, ap_ctrl_hs, CreateBitMask_Pipeline_VITIS_LOOP_237_3_VITIS_LOOP_241_4, return value</column>
+<column name="ap_start">in, 1, ap_ctrl_hs, CreateBitMask_Pipeline_VITIS_LOOP_237_3_VITIS_LOOP_241_4, return value</column>
+<column name="ap_done">out, 1, ap_ctrl_hs, CreateBitMask_Pipeline_VITIS_LOOP_237_3_VITIS_LOOP_241_4, return value</column>
+<column name="ap_idle">out, 1, ap_ctrl_hs, CreateBitMask_Pipeline_VITIS_LOOP_237_3_VITIS_LOOP_241_4, return value</column>
+<column name="ap_ready">out, 1, ap_ctrl_hs, CreateBitMask_Pipeline_VITIS_LOOP_237_3_VITIS_LOOP_241_4, return value</column>
+<column name="weights_stream_0_0_0_030_dout">in, 32, ap_fifo, weights_stream_0_0_0_030, pointer</column>
+<column name="weights_stream_0_0_0_030_empty_n">in, 1, ap_fifo, weights_stream_0_0_0_030, pointer</column>
+<column name="weights_stream_0_0_0_030_read">out, 1, ap_fifo, weights_stream_0_0_0_030, pointer</column>
+<column name="weights_stream_0_0_0_029_dout">in, 32, ap_fifo, weights_stream_0_0_0_029, pointer</column>
+<column name="weights_stream_0_0_0_029_empty_n">in, 1, ap_fifo, weights_stream_0_0_0_029, pointer</column>
+<column name="weights_stream_0_0_0_029_read">out, 1, ap_fifo, weights_stream_0_0_0_029, pointer</column>
+<column name="weights_stream_0_0_0_028_dout">in, 32, ap_fifo, weights_stream_0_0_0_028, pointer</column>
+<column name="weights_stream_0_0_0_028_empty_n">in, 1, ap_fifo, weights_stream_0_0_0_028, pointer</column>
+<column name="weights_stream_0_0_0_028_read">out, 1, ap_fifo, weights_stream_0_0_0_028, pointer</column>
+<column name="weights_stream_0_0_0_027_dout">in, 32, ap_fifo, weights_stream_0_0_0_027, pointer</column>
+<column name="weights_stream_0_0_0_027_empty_n">in, 1, ap_fifo, weights_stream_0_0_0_027, pointer</column>
+<column name="weights_stream_0_0_0_027_read">out, 1, ap_fifo, weights_stream_0_0_0_027, pointer</column>
+<column name="weights_stream_0_0_0_026_dout">in, 32, ap_fifo, weights_stream_0_0_0_026, pointer</column>
+<column name="weights_stream_0_0_0_026_empty_n">in, 1, ap_fifo, weights_stream_0_0_0_026, pointer</column>
+<column name="weights_stream_0_0_0_026_read">out, 1, ap_fifo, weights_stream_0_0_0_026, pointer</column>
+<column name="weights_stream_0_0_0_025_dout">in, 32, ap_fifo, weights_stream_0_0_0_025, pointer</column>
+<column name="weights_stream_0_0_0_025_empty_n">in, 1, ap_fifo, weights_stream_0_0_0_025, pointer</column>
+<column name="weights_stream_0_0_0_025_read">out, 1, ap_fifo, weights_stream_0_0_0_025, pointer</column>
+<column name="weights_stream_0_0_0_024_dout">in, 32, ap_fifo, weights_stream_0_0_0_024, pointer</column>
+<column name="weights_stream_0_0_0_024_empty_n">in, 1, ap_fifo, weights_stream_0_0_0_024, pointer</column>
+<column name="weights_stream_0_0_0_024_read">out, 1, ap_fifo, weights_stream_0_0_0_024, pointer</column>
+<column name="weights_stream_0_0_0_023_dout">in, 32, ap_fifo, weights_stream_0_0_0_023, pointer</column>
+<column name="weights_stream_0_0_0_023_empty_n">in, 1, ap_fifo, weights_stream_0_0_0_023, pointer</column>
+<column name="weights_stream_0_0_0_023_read">out, 1, ap_fifo, weights_stream_0_0_0_023, pointer</column>
+<column name="weights_stream_0_0_0_022_dout">in, 32, ap_fifo, weights_stream_0_0_0_022, pointer</column>
+<column name="weights_stream_0_0_0_022_empty_n">in, 1, ap_fifo, weights_stream_0_0_0_022, pointer</column>
+<column name="weights_stream_0_0_0_022_read">out, 1, ap_fifo, weights_stream_0_0_0_022, pointer</column>
+<column name="weights_stream_0_0_0_021_dout">in, 32, ap_fifo, weights_stream_0_0_0_021, pointer</column>
+<column name="weights_stream_0_0_0_021_empty_n">in, 1, ap_fifo, weights_stream_0_0_0_021, pointer</column>
+<column name="weights_stream_0_0_0_021_read">out, 1, ap_fifo, weights_stream_0_0_0_021, pointer</column>
+<column name="weights_stream_0_0_0_020_dout">in, 32, ap_fifo, weights_stream_0_0_0_020, pointer</column>
+<column name="weights_stream_0_0_0_020_empty_n">in, 1, ap_fifo, weights_stream_0_0_0_020, pointer</column>
+<column name="weights_stream_0_0_0_020_read">out, 1, ap_fifo, weights_stream_0_0_0_020, pointer</column>
+<column name="weights_stream_0_0_0_019_dout">in, 32, ap_fifo, weights_stream_0_0_0_019, pointer</column>
+<column name="weights_stream_0_0_0_019_empty_n">in, 1, ap_fifo, weights_stream_0_0_0_019, pointer</column>
+<column name="weights_stream_0_0_0_019_read">out, 1, ap_fifo, weights_stream_0_0_0_019, pointer</column>
+<column name="weights_stream_0_0_0_018_dout">in, 32, ap_fifo, weights_stream_0_0_0_018, pointer</column>
+<column name="weights_stream_0_0_0_018_empty_n">in, 1, ap_fifo, weights_stream_0_0_0_018, pointer</column>
+<column name="weights_stream_0_0_0_018_read">out, 1, ap_fifo, weights_stream_0_0_0_018, pointer</column>
+<column name="weights_stream_0_0_0_017_dout">in, 32, ap_fifo, weights_stream_0_0_0_017, pointer</column>
+<column name="weights_stream_0_0_0_017_empty_n">in, 1, ap_fifo, weights_stream_0_0_0_017, pointer</column>
+<column name="weights_stream_0_0_0_017_read">out, 1, ap_fifo, weights_stream_0_0_0_017, pointer</column>
+<column name="weights_stream_0_0_0_016_dout">in, 32, ap_fifo, weights_stream_0_0_0_016, pointer</column>
+<column name="weights_stream_0_0_0_016_empty_n">in, 1, ap_fifo, weights_stream_0_0_0_016, pointer</column>
+<column name="weights_stream_0_0_0_016_read">out, 1, ap_fifo, weights_stream_0_0_0_016, pointer</column>
+<column name="weights_stream_0_0_0_015_dout">in, 32, ap_fifo, weights_stream_0_0_0_015, pointer</column>
+<column name="weights_stream_0_0_0_015_empty_n">in, 1, ap_fifo, weights_stream_0_0_0_015, pointer</column>
+<column name="weights_stream_0_0_0_015_read">out, 1, ap_fifo, weights_stream_0_0_0_015, pointer</column>
+<column name="weights_stream_0_0_0_014_dout">in, 32, ap_fifo, weights_stream_0_0_0_014, pointer</column>
+<column name="weights_stream_0_0_0_014_empty_n">in, 1, ap_fifo, weights_stream_0_0_0_014, pointer</column>
+<column name="weights_stream_0_0_0_014_read">out, 1, ap_fifo, weights_stream_0_0_0_014, pointer</column>
+<column name="weights_stream_0_0_0_013_dout">in, 32, ap_fifo, weights_stream_0_0_0_013, pointer</column>
+<column name="weights_stream_0_0_0_013_empty_n">in, 1, ap_fifo, weights_stream_0_0_0_013, pointer</column>
+<column name="weights_stream_0_0_0_013_read">out, 1, ap_fifo, weights_stream_0_0_0_013, pointer</column>
+<column name="weights_stream_0_0_0_012_dout">in, 32, ap_fifo, weights_stream_0_0_0_012, pointer</column>
+<column name="weights_stream_0_0_0_012_empty_n">in, 1, ap_fifo, weights_stream_0_0_0_012, pointer</column>
+<column name="weights_stream_0_0_0_012_read">out, 1, ap_fifo, weights_stream_0_0_0_012, pointer</column>
+<column name="weights_stream_0_0_0_011_dout">in, 32, ap_fifo, weights_stream_0_0_0_011, pointer</column>
+<column name="weights_stream_0_0_0_011_empty_n">in, 1, ap_fifo, weights_stream_0_0_0_011, pointer</column>
+<column name="weights_stream_0_0_0_011_read">out, 1, ap_fifo, weights_stream_0_0_0_011, pointer</column>
+<column name="weights_stream_0_0_0_010_dout">in, 32, ap_fifo, weights_stream_0_0_0_010, pointer</column>
+<column name="weights_stream_0_0_0_010_empty_n">in, 1, ap_fifo, weights_stream_0_0_0_010, pointer</column>
+<column name="weights_stream_0_0_0_010_read">out, 1, ap_fifo, weights_stream_0_0_0_010, pointer</column>
+<column name="weights_stream_0_0_0_09_dout">in, 32, ap_fifo, weights_stream_0_0_0_09, pointer</column>
+<column name="weights_stream_0_0_0_09_empty_n">in, 1, ap_fifo, weights_stream_0_0_0_09, pointer</column>
+<column name="weights_stream_0_0_0_09_read">out, 1, ap_fifo, weights_stream_0_0_0_09, pointer</column>
+<column name="weights_stream_0_0_0_08_dout">in, 32, ap_fifo, weights_stream_0_0_0_08, pointer</column>
+<column name="weights_stream_0_0_0_08_empty_n">in, 1, ap_fifo, weights_stream_0_0_0_08, pointer</column>
+<column name="weights_stream_0_0_0_08_read">out, 1, ap_fifo, weights_stream_0_0_0_08, pointer</column>
+<column name="weights_stream_0_0_0_07_dout">in, 32, ap_fifo, weights_stream_0_0_0_07, pointer</column>
+<column name="weights_stream_0_0_0_07_empty_n">in, 1, ap_fifo, weights_stream_0_0_0_07, pointer</column>
+<column name="weights_stream_0_0_0_07_read">out, 1, ap_fifo, weights_stream_0_0_0_07, pointer</column>
+<column name="weights_stream_0_0_0_06_dout">in, 32, ap_fifo, weights_stream_0_0_0_06, pointer</column>
+<column name="weights_stream_0_0_0_06_empty_n">in, 1, ap_fifo, weights_stream_0_0_0_06, pointer</column>
+<column name="weights_stream_0_0_0_06_read">out, 1, ap_fifo, weights_stream_0_0_0_06, pointer</column>
+<column name="weights_stream_0_0_0_05_dout">in, 32, ap_fifo, weights_stream_0_0_0_05, pointer</column>
+<column name="weights_stream_0_0_0_05_empty_n">in, 1, ap_fifo, weights_stream_0_0_0_05, pointer</column>
+<column name="weights_stream_0_0_0_05_read">out, 1, ap_fifo, weights_stream_0_0_0_05, pointer</column>
+<column name="weights_stream_0_0_0_04_dout">in, 32, ap_fifo, weights_stream_0_0_0_04, pointer</column>
+<column name="weights_stream_0_0_0_04_empty_n">in, 1, ap_fifo, weights_stream_0_0_0_04, pointer</column>
+<column name="weights_stream_0_0_0_04_read">out, 1, ap_fifo, weights_stream_0_0_0_04, pointer</column>
+<column name="weights_stream_0_0_0_03_dout">in, 32, ap_fifo, weights_stream_0_0_0_03, pointer</column>
+<column name="weights_stream_0_0_0_03_empty_n">in, 1, ap_fifo, weights_stream_0_0_0_03, pointer</column>
+<column name="weights_stream_0_0_0_03_read">out, 1, ap_fifo, weights_stream_0_0_0_03, pointer</column>
+<column name="weights_stream_0_0_0_02_dout">in, 32, ap_fifo, weights_stream_0_0_0_02, pointer</column>
+<column name="weights_stream_0_0_0_02_empty_n">in, 1, ap_fifo, weights_stream_0_0_0_02, pointer</column>
+<column name="weights_stream_0_0_0_02_read">out, 1, ap_fifo, weights_stream_0_0_0_02, pointer</column>
+<column name="weights_stream_0_0_0_01_dout">in, 32, ap_fifo, weights_stream_0_0_0_01, pointer</column>
+<column name="weights_stream_0_0_0_01_empty_n">in, 1, ap_fifo, weights_stream_0_0_0_01, pointer</column>
+<column name="weights_stream_0_0_0_01_read">out, 1, ap_fifo, weights_stream_0_0_0_01, pointer</column>
+<column name="weights_stream_0_0_0_0_dout">in, 32, ap_fifo, weights_stream_0_0_0_0, pointer</column>
+<column name="weights_stream_0_0_0_0_empty_n">in, 1, ap_fifo, weights_stream_0_0_0_0, pointer</column>
+<column name="weights_stream_0_0_0_0_read">out, 1, ap_fifo, weights_stream_0_0_0_0, pointer</column>
+<column name="weights_stream_0_0_0_031_dout">in, 32, ap_fifo, weights_stream_0_0_0_031, pointer</column>
+<column name="weights_stream_0_0_0_031_empty_n">in, 1, ap_fifo, weights_stream_0_0_0_031, pointer</column>
+<column name="weights_stream_0_0_0_031_read">out, 1, ap_fifo, weights_stream_0_0_0_031, pointer</column>
+<column name="processing_buffer_address0">out, 5, ap_memory, processing_buffer, array</column>
+<column name="processing_buffer_ce0">out, 1, ap_memory, processing_buffer, array</column>
+<column name="processing_buffer_we0">out, 1, ap_memory, processing_buffer, array</column>
+<column name="processing_buffer_d0">out, 640, ap_memory, processing_buffer, array</column>
+<column name="bit_buffer_weights_address0">out, 5, ap_memory, bit_buffer_weights, array</column>
+<column name="bit_buffer_weights_ce0">out, 1, ap_memory, bit_buffer_weights, array</column>
+<column name="bit_buffer_weights_we0">out, 1, ap_memory, bit_buffer_weights, array</column>
+<column name="bit_buffer_weights_d0">out, 20, ap_memory, bit_buffer_weights, array</column>
+</table>
+</item>
+</section>
+</profile>

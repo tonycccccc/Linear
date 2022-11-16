@@ -1,0 +1,23 @@
+INFO: [SIM 2] *************** CSIM start ***************
+INFO: [SIM 4] CSIM will launch GCC as the compiler.
+   Compiling ../../../../FC_Layer_tb.cpp in debug mode
+   Compiling ../../../../FC_Layer.cpp in debug mode
+   Generating csim.exe
+Program Starts!!!!!
+Import data
+iacts data: 
+
+weights data: 
+
+oacts data: 
+
+Input Activation
+Weight Activation
+Output Activation
+
+Start Data Memory Layout
+start transferring weights
+Start layout input activation data
+Start processing linear layer
+ERR: [SIM 100] CSim failed with errors.
+INFO: [SIM 3] *************** CSIM finish ***************

@@ -1,0 +1,133 @@
+
+
+================================================================
+== Vitis HLS Report for 'DPEComputation_Pipeline_VITIS_LOOP_287_1'
+================================================================
+* Date:           Wed Nov  2 23:05:59 2022
+
+* Version:        2021.1 (Build 3247384 on Thu Jun 10 19:36:07 MDT 2021)
+* Project:        fc_layer
+* Solution:       solution1 (Vivado IP Flow Target)
+* Product family: virtexuplus
+* Target device:  xcvu11p-flga2577-1-e
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+----------+----------+------------+
+    |  Clock |  Target  | Estimated| Uncertainty|
+    +--------+----------+----------+------------+
+    |ap_clk  |  10.00 ns|  2.017 ns|     2.70 ns|
+    +--------+----------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+----------+----------+-----+-----+---------+
+    |  Latency (cycles) |  Latency (absolute) |  Interval | Pipeline|
+    |   min   |   max   |    min   |    max   | min | max |   Type  |
+    +---------+---------+----------+----------+-----+-----+---------+
+    |       22|       22|  0.220 us|  0.220 us|   22|   22|       no|
+    +---------+---------+----------+----------+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        +--------------------+---------+---------+----------+-----------+-----------+------+----------+
+        |                    |  Latency (cycles) | Iteration|  Initiation Interval  | Trip |          |
+        |      Loop Name     |   min   |   max   |  Latency |  achieved |   target  | Count| Pipelined|
+        +--------------------+---------+---------+----------+-----------+-----------+------+----------+
+        |- VITIS_LOOP_287_1  |       20|       20|         1|          1|          1|    20|       yes|
+        +--------------------+---------+---------+----------+-----------+-----------+------+----------+
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 0
+ResetActiveHigh: 1
+IsCombinational: 0
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 2
+HasVarLatency: 1
+IsPipeline: 0
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
++ Individual pipeline summary: 
+  * Pipeline-0: initiation interval (II) = 1, depth = 1
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states : 1
+* Pipeline : 1
+  Pipeline-0 : II = 1, D = 1, States = { 1 }
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 
+
+* FSM state operations: 
+
+State 1 <SV = 0> <Delay = 2.01>
+ST_1 : Operation 4 [1/1] (0.00ns)   --->   "%i = alloca i32 1"   --->   Operation 4 'alloca' 'i' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 5 [1/1] (0.46ns)   --->   "%store_ln0 = store i5 0, i5 %i"   --->   Operation 5 'store' 'store_ln0' <Predicate = true> <Delay = 0.46>
+ST_1 : Operation 6 [1/1] (0.00ns)   --->   "%br_ln0 = br void %.preheader"   --->   Operation 6 'br' 'br_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 7 [1/1] (0.00ns)   --->   "%i_10 = load i5 %i" [FC_Layer.cpp:287]   --->   Operation 7 'load' 'i_10' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 8 [1/1] (0.00ns)   --->   "%specpipeline_ln0 = specpipeline void @_ssdm_op_SpecPipeline, i32 4294967295, i32 0, i32 1, i32 0, void @p_str"   --->   Operation 8 'specpipeline' 'specpipeline_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 9 [1/1] (0.72ns)   --->   "%icmp_ln287 = icmp_eq  i5 %i_10, i5 20" [FC_Layer.cpp:287]   --->   Operation 9 'icmp' 'icmp_ln287' <Predicate = true> <Delay = 0.72> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 0.72> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 10 [1/1] (0.00ns)   --->   "%empty = speclooptripcount i32 @_ssdm_op_SpecLoopTripCount, i64 20, i64 20, i64 20"   --->   Operation 10 'speclooptripcount' 'empty' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 11 [1/1] (0.82ns)   --->   "%add_ln287 = add i5 %i_10, i5 1" [FC_Layer.cpp:287]   --->   Operation 11 'add' 'add_ln287' <Predicate = true> <Delay = 0.82> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 0.82> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 12 [1/1] (0.00ns)   --->   "%br_ln287 = br i1 %icmp_ln287, void %.split4, void %.loopexit.loopexit37.exitStub" [FC_Layer.cpp:287]   --->   Operation 12 'br' 'br_ln287' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 13 [1/1] (0.00ns)   --->   "%i_cast = zext i5 %i_10" [FC_Layer.cpp:287]   --->   Operation 13 'zext' 'i_cast' <Predicate = (!icmp_ln287)> <Delay = 0.00>
+ST_1 : Operation 14 [1/1] (0.00ns)   --->   "%local_output_buf_V_addr = getelementptr i32 %local_output_buf_V, i64 0, i64 %i_cast" [FC_Layer.cpp:288]   --->   Operation 14 'getelementptr' 'local_output_buf_V_addr' <Predicate = (!icmp_ln287)> <Delay = 0.00>
+ST_1 : Operation 15 [1/1] (0.00ns)   --->   "%specloopname_ln287 = specloopname void @_ssdm_op_SpecLoopName, void @empty_19" [FC_Layer.cpp:287]   --->   Operation 15 'specloopname' 'specloopname_ln287' <Predicate = (!icmp_ln287)> <Delay = 0.00>
+ST_1 : Operation 16 [1/1] (1.29ns)   --->   "%store_ln288 = store i32 0, i10 %local_output_buf_V_addr" [FC_Layer.cpp:288]   --->   Operation 16 'store' 'store_ln288' <Predicate = (!icmp_ln287)> <Delay = 1.29> <CoreInst = "RAM">   --->   Core 83 'RAM' <Latency = 1> <II = 1> <Delay = 1.29> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 640> <RAM>
+ST_1 : Operation 17 [1/1] (0.46ns)   --->   "%store_ln287 = store i5 %add_ln287, i5 %i" [FC_Layer.cpp:287]   --->   Operation 17 'store' 'store_ln287' <Predicate = (!icmp_ln287)> <Delay = 0.46>
+ST_1 : Operation 18 [1/1] (0.00ns)   --->   "%br_ln0 = br void %.preheader"   --->   Operation 18 'br' 'br_ln0' <Predicate = (!icmp_ln287)> <Delay = 0.00>
+ST_1 : Operation 19 [1/1] (0.00ns)   --->   "%ret_ln0 = ret"   --->   Operation 19 'ret' 'ret_ln0' <Predicate = (icmp_ln287)> <Delay = 0.00>
+
+
+============================================================
++ Verbose Summary: Timing violations
+============================================================
+Target clock period: 10ns, clock uncertainty: 2.7ns.
+
+ <State 1>: 2.02ns
+The critical path consists of the following:
+	'alloca' operation ('i') [2]  (0 ns)
+	'load' operation ('i', FC_Layer.cpp:287) on local variable 'i' [6]  (0 ns)
+	'getelementptr' operation ('local_output_buf_V_addr', FC_Layer.cpp:288) [14]  (0 ns)
+	'store' operation ('store_ln288', FC_Layer.cpp:288) of constant 0 on array 'local_output_buf_V' [16]  (1.3 ns)
+	blocking operation 0.72 ns on control path)
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+ - Input state : 
+  - Chain level:
+	State 1
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A

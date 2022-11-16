@@ -1,0 +1,63 @@
+
+****** Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1 (64-bit)
+  **** SW Build 3247384 on Thu Jun 10 19:36:07 MDT 2021
+  **** IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+    ** Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+source /tools/software/xilinx/Vitis_HLS/2021.1/scripts/vitis_hls/hls.tcl -notrace
+INFO: [HLS 200-10] Running '/tools/software/xilinx/Vitis_HLS/2021.1/bin/unwrapped/lnx64.o/vitis_hls'
+INFO: [HLS 200-10] For user 'zchen752' on host 'ece-linlabsrv01.ece.gatech.edu' (Linux_x86_64 version 4.18.0-372.9.1.el8.x86_64) on Wed Nov 16 15:25:59 EST 2022
+INFO: [HLS 200-10] On os "Red Hat Enterprise Linux release 8.6 (Ootpa)"
+INFO: [HLS 200-10] In directory '/nethome/zchen752/Linear'
+Sourcing Tcl script 'run_fc_hls.tcl'
+INFO: [HLS 200-1510] Running: open_project fc_layer 
+INFO: [HLS 200-10] Opening project '/nethome/zchen752/Linear/fc_layer'.
+INFO: [HLS 200-1510] Running: set_top LINEAR 
+INFO: [HLS 200-1510] Running: add_files FC_Layer.hpp 
+INFO: [HLS 200-10] Adding design file 'FC_Layer.hpp' to the project
+INFO: [HLS 200-1510] Running: add_files FC_Layer.cpp 
+INFO: [HLS 200-10] Adding design file 'FC_Layer.cpp' to the project
+INFO: [HLS 200-1510] Running: add_files -tb FC_Layer_tb.cpp 
+INFO: [HLS 200-10] Adding test bench file 'FC_Layer_tb.cpp' to the project
+INFO: [HLS 200-1510] Running: open_solution solution1 -flow_target vivado 
+INFO: [HLS 200-10] Opening solution '/nethome/zchen752/Linear/fc_layer/solution1'.
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xcvu11p-flga2577-1-e'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see www.xilinx.com/cgi-bin/docs/rdoc?v=2021.1;t=hls+guidance;d=200-1505.html
+INFO: [HLS 200-1510] Running: set_part xcvu11p-flga2577-1-e 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: csim_design -clean 
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+   Compiling ../../../../FC_Layer_tb.cpp in debug mode
+   Compiling ../../../../FC_Layer.cpp in debug mode
+   Generating csim.exe
+Program Starts!!!!!
+Import data
+iacts data: 
+
+weights data: 
+
+oacts data: 
+
+Input Activation
+Weight Activation
+Output Activation
+
+Start Data Memory Layout
+start transferring weights
+Start layout input activation data
+Start processing linear layer
+@E Simulation failed: SIGSEGV.
+ERROR: [SIM 211-100] CSim failed with errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO: [HLS 200-111] Finished Command csim_design CPU user time: 15.4 seconds. CPU system time: 1.34 seconds. Elapsed time: 18.16 seconds; current allocated memory: 316.240 MB.
+4
+    while executing
+"source run_fc_hls.tcl"
+    ("uplevel" body line 1)
+    invoked from within
+"uplevel \#0 [list source $arg] "
+
+INFO: [Common 17-206] Exiting vitis_hls at Wed Nov 16 15:26:21 2022...

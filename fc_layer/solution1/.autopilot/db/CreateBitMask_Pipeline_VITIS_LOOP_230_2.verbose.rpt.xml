@@ -1,0 +1,242 @@
+<profile>
+
+<section name = "Vitis HLS Report for 'CreateBitMask_Pipeline_VITIS_LOOP_230_2'" level="0">
+<item name = "Date">Wed Nov  2 23:07:45 2022
+</item>
+<item name = "Version">2021.1 (Build 3247384 on Thu Jun 10 19:36:07 MDT 2021)</item>
+<item name = "Project">fc_layer</item>
+<item name = "Solution">solution1 (Vivado IP Flow Target)</item>
+<item name = "Product family">virtexuplus</item>
+<item name = "Target device">xcvu11p-flga2577-1-e</item>
+</section>
+
+<section name = "Performance Estimates" level="0">
+<item name = "Timing">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="4">Clock, Target, Estimated, Uncertainty</keys>
+<column name="ap_clk">10.00 ns, 0.823 ns, 2.70 ns</column>
+</table>
+</item>
+</section>
+</item>
+<item name = "Latency">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="8">, min, max, min, max, min, max, Type</keys>
+<column name="">?, ?, ?, ?, ?, ?, no</column>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="0">
+<keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
+</table>
+</item>
+<item name = "Loop"><table name="" hasTotal="0">
+<keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
+<column name="- VITIS_LOOP_230_2">?, ?, 1, 1, 1, ?, yes</column>
+</table>
+</item>
+</section>
+</item>
+</section>
+</item>
+</section>
+
+<section name = "Utilization Estimates" level="0">
+<item name = "Summary"><table name="" hasTotal="1">
+<keys size="6">Name, BRAM_18K, DSP, FF, LUT, URAM</keys>
+<column name="DSP">-, -, -, -, -</column>
+<column name="Expression">-, -, 0, 64, -</column>
+<column name="FIFO">-, -, -, -, -</column>
+<column name="Instance">-, -, -, -, -</column>
+<column name="Memory">-, -, -, -, -</column>
+<column name="Multiplexer">-, -, -, 159, -</column>
+<column name="Register">-, -, 2, -, -</column>
+<specialColumn name="Available SLR">1344, 3072, 864000, 432000, 320</specialColumn>
+<specialColumn name="Utilization SLR (%)">0, 0, ~0, ~0, 0</specialColumn>
+<specialColumn name="Available">4032, 9216, 2592000, 1296000, 960</specialColumn>
+<specialColumn name="Utilization (%)">0, 0, ~0, ~0, 0</specialColumn>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="1">
+<keys size="7">Instance, Module, BRAM_18K, DSP, FF, LUT, URAM</keys>
+</table>
+</item>
+<item name = "DSP"><table name="" hasTotal="0">
+<keys size="3">Instance, Module, Expression</keys>
+</table>
+</item>
+<item name = "Memory"><table name="" hasTotal="1">
+<keys size="10">Memory, Module, BRAM_18K, FF, LUT, URAM, Words, Bits, Banks, W*Bits*Banks</keys>
+</table>
+</item>
+<item name = "FIFO"><table name="" hasTotal="1">
+<keys size="8">Name, BRAM_18K, FF, LUT, URAM, Depth, Bits, Size:D*B</keys>
+</table>
+</item>
+<item name = "Expression"><table name="" hasTotal="1">
+<keys size="7">Variable Name, Operation, DSP, FF, LUT, Bitwidth P0, Bitwidth P1</keys>
+<column name="tmp10_nbreadreq_fu_344_p3">and, 0, 0, 2, 1, 0</column>
+<column name="tmp11_nbreadreq_fu_336_p3">and, 0, 0, 2, 1, 0</column>
+<column name="tmp12_nbreadreq_fu_328_p3">and, 0, 0, 2, 1, 0</column>
+<column name="tmp13_nbreadreq_fu_320_p3">and, 0, 0, 2, 1, 0</column>
+<column name="tmp14_nbreadreq_fu_312_p3">and, 0, 0, 2, 1, 0</column>
+<column name="tmp15_nbreadreq_fu_304_p3">and, 0, 0, 2, 1, 0</column>
+<column name="tmp16_nbreadreq_fu_296_p3">and, 0, 0, 2, 1, 0</column>
+<column name="tmp17_nbreadreq_fu_288_p3">and, 0, 0, 2, 1, 0</column>
+<column name="tmp18_nbreadreq_fu_280_p3">and, 0, 0, 2, 1, 0</column>
+<column name="tmp19_nbreadreq_fu_272_p3">and, 0, 0, 2, 1, 0</column>
+<column name="tmp20_nbreadreq_fu_264_p3">and, 0, 0, 2, 1, 0</column>
+<column name="tmp21_nbreadreq_fu_256_p3">and, 0, 0, 2, 1, 0</column>
+<column name="tmp22_nbreadreq_fu_248_p3">and, 0, 0, 2, 1, 0</column>
+<column name="tmp23_nbreadreq_fu_240_p3">and, 0, 0, 2, 1, 0</column>
+<column name="tmp24_nbreadreq_fu_232_p3">and, 0, 0, 2, 1, 0</column>
+<column name="tmp25_nbreadreq_fu_224_p3">and, 0, 0, 2, 1, 0</column>
+<column name="tmp26_nbreadreq_fu_216_p3">and, 0, 0, 2, 1, 0</column>
+<column name="tmp27_nbreadreq_fu_208_p3">and, 0, 0, 2, 1, 0</column>
+<column name="tmp28_nbreadreq_fu_200_p3">and, 0, 0, 2, 1, 0</column>
+<column name="tmp29_nbreadreq_fu_192_p3">and, 0, 0, 2, 1, 0</column>
+<column name="tmp30_nbreadreq_fu_184_p3">and, 0, 0, 2, 1, 0</column>
+<column name="tmp31_nbreadreq_fu_176_p3">and, 0, 0, 2, 1, 0</column>
+<column name="tmp32_nbreadreq_fu_168_p3">and, 0, 0, 2, 1, 0</column>
+<column name="tmp33_nbreadreq_fu_160_p3">and, 0, 0, 2, 1, 0</column>
+<column name="tmp3_nbreadreq_fu_400_p3">and, 0, 0, 2, 1, 0</column>
+<column name="tmp4_nbreadreq_fu_392_p3">and, 0, 0, 2, 1, 0</column>
+<column name="tmp5_nbreadreq_fu_384_p3">and, 0, 0, 2, 1, 0</column>
+<column name="tmp6_nbreadreq_fu_376_p3">and, 0, 0, 2, 1, 0</column>
+<column name="tmp7_nbreadreq_fu_368_p3">and, 0, 0, 2, 1, 0</column>
+<column name="tmp8_nbreadreq_fu_360_p3">and, 0, 0, 2, 1, 0</column>
+<column name="tmp9_nbreadreq_fu_352_p3">and, 0, 0, 2, 1, 0</column>
+<column name="tmp_nbreadreq_fu_408_p3">and, 0, 0, 2, 1, 0</column>
+</table>
+</item>
+<item name = "Multiplexer"><table name="" hasTotal="1">
+<keys size="5">Name, LUT, Input Size, Bits, Total Bits</keys>
+<column name="ap_done_int">9, 2, 1, 2</column>
+<column name="ap_phi_mux_phi_ln136_phi_fu_419_p64">150, 33, 1, 33</column>
+</table>
+</item>
+<item name = "Register"><table name="" hasTotal="1">
+<keys size="5">Name, FF, LUT, Bits, Const Bits</keys>
+<column name="ap_CS_fsm">1, 0, 1, 0</column>
+<column name="ap_done_reg">1, 0, 1, 0</column>
+</table>
+</item>
+</section>
+</item>
+</section>
+
+<section name = "Interface" level="0">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="6">RTL Ports, Dir, Bits, Protocol, Source Object, C Type</keys>
+<column name="ap_clk">in, 1, ap_ctrl_hs, CreateBitMask_Pipeline_VITIS_LOOP_230_2, return value</column>
+<column name="ap_rst">in, 1, ap_ctrl_hs, CreateBitMask_Pipeline_VITIS_LOOP_230_2, return value</column>
+<column name="ap_start">in, 1, ap_ctrl_hs, CreateBitMask_Pipeline_VITIS_LOOP_230_2, return value</column>
+<column name="ap_done">out, 1, ap_ctrl_hs, CreateBitMask_Pipeline_VITIS_LOOP_230_2, return value</column>
+<column name="ap_idle">out, 1, ap_ctrl_hs, CreateBitMask_Pipeline_VITIS_LOOP_230_2, return value</column>
+<column name="ap_ready">out, 1, ap_ctrl_hs, CreateBitMask_Pipeline_VITIS_LOOP_230_2, return value</column>
+<column name="i_t">in, 5, ap_none, i_t, scalar</column>
+<column name="weights_stream_0_0_0_0_dout">in, 32, ap_fifo, weights_stream_0_0_0_0, pointer</column>
+<column name="weights_stream_0_0_0_0_empty_n">in, 1, ap_fifo, weights_stream_0_0_0_0, pointer</column>
+<column name="weights_stream_0_0_0_0_read">out, 1, ap_fifo, weights_stream_0_0_0_0, pointer</column>
+<column name="weights_stream_0_0_0_01_dout">in, 32, ap_fifo, weights_stream_0_0_0_01, pointer</column>
+<column name="weights_stream_0_0_0_01_empty_n">in, 1, ap_fifo, weights_stream_0_0_0_01, pointer</column>
+<column name="weights_stream_0_0_0_01_read">out, 1, ap_fifo, weights_stream_0_0_0_01, pointer</column>
+<column name="weights_stream_0_0_0_02_dout">in, 32, ap_fifo, weights_stream_0_0_0_02, pointer</column>
+<column name="weights_stream_0_0_0_02_empty_n">in, 1, ap_fifo, weights_stream_0_0_0_02, pointer</column>
+<column name="weights_stream_0_0_0_02_read">out, 1, ap_fifo, weights_stream_0_0_0_02, pointer</column>
+<column name="weights_stream_0_0_0_03_dout">in, 32, ap_fifo, weights_stream_0_0_0_03, pointer</column>
+<column name="weights_stream_0_0_0_03_empty_n">in, 1, ap_fifo, weights_stream_0_0_0_03, pointer</column>
+<column name="weights_stream_0_0_0_03_read">out, 1, ap_fifo, weights_stream_0_0_0_03, pointer</column>
+<column name="weights_stream_0_0_0_04_dout">in, 32, ap_fifo, weights_stream_0_0_0_04, pointer</column>
+<column name="weights_stream_0_0_0_04_empty_n">in, 1, ap_fifo, weights_stream_0_0_0_04, pointer</column>
+<column name="weights_stream_0_0_0_04_read">out, 1, ap_fifo, weights_stream_0_0_0_04, pointer</column>
+<column name="weights_stream_0_0_0_05_dout">in, 32, ap_fifo, weights_stream_0_0_0_05, pointer</column>
+<column name="weights_stream_0_0_0_05_empty_n">in, 1, ap_fifo, weights_stream_0_0_0_05, pointer</column>
+<column name="weights_stream_0_0_0_05_read">out, 1, ap_fifo, weights_stream_0_0_0_05, pointer</column>
+<column name="weights_stream_0_0_0_06_dout">in, 32, ap_fifo, weights_stream_0_0_0_06, pointer</column>
+<column name="weights_stream_0_0_0_06_empty_n">in, 1, ap_fifo, weights_stream_0_0_0_06, pointer</column>
+<column name="weights_stream_0_0_0_06_read">out, 1, ap_fifo, weights_stream_0_0_0_06, pointer</column>
+<column name="weights_stream_0_0_0_07_dout">in, 32, ap_fifo, weights_stream_0_0_0_07, pointer</column>
+<column name="weights_stream_0_0_0_07_empty_n">in, 1, ap_fifo, weights_stream_0_0_0_07, pointer</column>
+<column name="weights_stream_0_0_0_07_read">out, 1, ap_fifo, weights_stream_0_0_0_07, pointer</column>
+<column name="weights_stream_0_0_0_08_dout">in, 32, ap_fifo, weights_stream_0_0_0_08, pointer</column>
+<column name="weights_stream_0_0_0_08_empty_n">in, 1, ap_fifo, weights_stream_0_0_0_08, pointer</column>
+<column name="weights_stream_0_0_0_08_read">out, 1, ap_fifo, weights_stream_0_0_0_08, pointer</column>
+<column name="weights_stream_0_0_0_09_dout">in, 32, ap_fifo, weights_stream_0_0_0_09, pointer</column>
+<column name="weights_stream_0_0_0_09_empty_n">in, 1, ap_fifo, weights_stream_0_0_0_09, pointer</column>
+<column name="weights_stream_0_0_0_09_read">out, 1, ap_fifo, weights_stream_0_0_0_09, pointer</column>
+<column name="weights_stream_0_0_0_010_dout">in, 32, ap_fifo, weights_stream_0_0_0_010, pointer</column>
+<column name="weights_stream_0_0_0_010_empty_n">in, 1, ap_fifo, weights_stream_0_0_0_010, pointer</column>
+<column name="weights_stream_0_0_0_010_read">out, 1, ap_fifo, weights_stream_0_0_0_010, pointer</column>
+<column name="weights_stream_0_0_0_011_dout">in, 32, ap_fifo, weights_stream_0_0_0_011, pointer</column>
+<column name="weights_stream_0_0_0_011_empty_n">in, 1, ap_fifo, weights_stream_0_0_0_011, pointer</column>
+<column name="weights_stream_0_0_0_011_read">out, 1, ap_fifo, weights_stream_0_0_0_011, pointer</column>
+<column name="weights_stream_0_0_0_012_dout">in, 32, ap_fifo, weights_stream_0_0_0_012, pointer</column>
+<column name="weights_stream_0_0_0_012_empty_n">in, 1, ap_fifo, weights_stream_0_0_0_012, pointer</column>
+<column name="weights_stream_0_0_0_012_read">out, 1, ap_fifo, weights_stream_0_0_0_012, pointer</column>
+<column name="weights_stream_0_0_0_013_dout">in, 32, ap_fifo, weights_stream_0_0_0_013, pointer</column>
+<column name="weights_stream_0_0_0_013_empty_n">in, 1, ap_fifo, weights_stream_0_0_0_013, pointer</column>
+<column name="weights_stream_0_0_0_013_read">out, 1, ap_fifo, weights_stream_0_0_0_013, pointer</column>
+<column name="weights_stream_0_0_0_014_dout">in, 32, ap_fifo, weights_stream_0_0_0_014, pointer</column>
+<column name="weights_stream_0_0_0_014_empty_n">in, 1, ap_fifo, weights_stream_0_0_0_014, pointer</column>
+<column name="weights_stream_0_0_0_014_read">out, 1, ap_fifo, weights_stream_0_0_0_014, pointer</column>
+<column name="weights_stream_0_0_0_015_dout">in, 32, ap_fifo, weights_stream_0_0_0_015, pointer</column>
+<column name="weights_stream_0_0_0_015_empty_n">in, 1, ap_fifo, weights_stream_0_0_0_015, pointer</column>
+<column name="weights_stream_0_0_0_015_read">out, 1, ap_fifo, weights_stream_0_0_0_015, pointer</column>
+<column name="weights_stream_0_0_0_016_dout">in, 32, ap_fifo, weights_stream_0_0_0_016, pointer</column>
+<column name="weights_stream_0_0_0_016_empty_n">in, 1, ap_fifo, weights_stream_0_0_0_016, pointer</column>
+<column name="weights_stream_0_0_0_016_read">out, 1, ap_fifo, weights_stream_0_0_0_016, pointer</column>
+<column name="weights_stream_0_0_0_017_dout">in, 32, ap_fifo, weights_stream_0_0_0_017, pointer</column>
+<column name="weights_stream_0_0_0_017_empty_n">in, 1, ap_fifo, weights_stream_0_0_0_017, pointer</column>
+<column name="weights_stream_0_0_0_017_read">out, 1, ap_fifo, weights_stream_0_0_0_017, pointer</column>
+<column name="weights_stream_0_0_0_018_dout">in, 32, ap_fifo, weights_stream_0_0_0_018, pointer</column>
+<column name="weights_stream_0_0_0_018_empty_n">in, 1, ap_fifo, weights_stream_0_0_0_018, pointer</column>
+<column name="weights_stream_0_0_0_018_read">out, 1, ap_fifo, weights_stream_0_0_0_018, pointer</column>
+<column name="weights_stream_0_0_0_019_dout">in, 32, ap_fifo, weights_stream_0_0_0_019, pointer</column>
+<column name="weights_stream_0_0_0_019_empty_n">in, 1, ap_fifo, weights_stream_0_0_0_019, pointer</column>
+<column name="weights_stream_0_0_0_019_read">out, 1, ap_fifo, weights_stream_0_0_0_019, pointer</column>
+<column name="weights_stream_0_0_0_020_dout">in, 32, ap_fifo, weights_stream_0_0_0_020, pointer</column>
+<column name="weights_stream_0_0_0_020_empty_n">in, 1, ap_fifo, weights_stream_0_0_0_020, pointer</column>
+<column name="weights_stream_0_0_0_020_read">out, 1, ap_fifo, weights_stream_0_0_0_020, pointer</column>
+<column name="weights_stream_0_0_0_021_dout">in, 32, ap_fifo, weights_stream_0_0_0_021, pointer</column>
+<column name="weights_stream_0_0_0_021_empty_n">in, 1, ap_fifo, weights_stream_0_0_0_021, pointer</column>
+<column name="weights_stream_0_0_0_021_read">out, 1, ap_fifo, weights_stream_0_0_0_021, pointer</column>
+<column name="weights_stream_0_0_0_022_dout">in, 32, ap_fifo, weights_stream_0_0_0_022, pointer</column>
+<column name="weights_stream_0_0_0_022_empty_n">in, 1, ap_fifo, weights_stream_0_0_0_022, pointer</column>
+<column name="weights_stream_0_0_0_022_read">out, 1, ap_fifo, weights_stream_0_0_0_022, pointer</column>
+<column name="weights_stream_0_0_0_023_dout">in, 32, ap_fifo, weights_stream_0_0_0_023, pointer</column>
+<column name="weights_stream_0_0_0_023_empty_n">in, 1, ap_fifo, weights_stream_0_0_0_023, pointer</column>
+<column name="weights_stream_0_0_0_023_read">out, 1, ap_fifo, weights_stream_0_0_0_023, pointer</column>
+<column name="weights_stream_0_0_0_024_dout">in, 32, ap_fifo, weights_stream_0_0_0_024, pointer</column>
+<column name="weights_stream_0_0_0_024_empty_n">in, 1, ap_fifo, weights_stream_0_0_0_024, pointer</column>
+<column name="weights_stream_0_0_0_024_read">out, 1, ap_fifo, weights_stream_0_0_0_024, pointer</column>
+<column name="weights_stream_0_0_0_025_dout">in, 32, ap_fifo, weights_stream_0_0_0_025, pointer</column>
+<column name="weights_stream_0_0_0_025_empty_n">in, 1, ap_fifo, weights_stream_0_0_0_025, pointer</column>
+<column name="weights_stream_0_0_0_025_read">out, 1, ap_fifo, weights_stream_0_0_0_025, pointer</column>
+<column name="weights_stream_0_0_0_026_dout">in, 32, ap_fifo, weights_stream_0_0_0_026, pointer</column>
+<column name="weights_stream_0_0_0_026_empty_n">in, 1, ap_fifo, weights_stream_0_0_0_026, pointer</column>
+<column name="weights_stream_0_0_0_026_read">out, 1, ap_fifo, weights_stream_0_0_0_026, pointer</column>
+<column name="weights_stream_0_0_0_027_dout">in, 32, ap_fifo, weights_stream_0_0_0_027, pointer</column>
+<column name="weights_stream_0_0_0_027_empty_n">in, 1, ap_fifo, weights_stream_0_0_0_027, pointer</column>
+<column name="weights_stream_0_0_0_027_read">out, 1, ap_fifo, weights_stream_0_0_0_027, pointer</column>
+<column name="weights_stream_0_0_0_028_dout">in, 32, ap_fifo, weights_stream_0_0_0_028, pointer</column>
+<column name="weights_stream_0_0_0_028_empty_n">in, 1, ap_fifo, weights_stream_0_0_0_028, pointer</column>
+<column name="weights_stream_0_0_0_028_read">out, 1, ap_fifo, weights_stream_0_0_0_028, pointer</column>
+<column name="weights_stream_0_0_0_029_dout">in, 32, ap_fifo, weights_stream_0_0_0_029, pointer</column>
+<column name="weights_stream_0_0_0_029_empty_n">in, 1, ap_fifo, weights_stream_0_0_0_029, pointer</column>
+<column name="weights_stream_0_0_0_029_read">out, 1, ap_fifo, weights_stream_0_0_0_029, pointer</column>
+<column name="weights_stream_0_0_0_030_dout">in, 32, ap_fifo, weights_stream_0_0_0_030, pointer</column>
+<column name="weights_stream_0_0_0_030_empty_n">in, 1, ap_fifo, weights_stream_0_0_0_030, pointer</column>
+<column name="weights_stream_0_0_0_030_read">out, 1, ap_fifo, weights_stream_0_0_0_030, pointer</column>
+<column name="weights_stream_0_0_0_031_dout">in, 32, ap_fifo, weights_stream_0_0_0_031, pointer</column>
+<column name="weights_stream_0_0_0_031_empty_n">in, 1, ap_fifo, weights_stream_0_0_0_031, pointer</column>
+<column name="weights_stream_0_0_0_031_read">out, 1, ap_fifo, weights_stream_0_0_0_031, pointer</column>
+</table>
+</item>
+</section>
+</profile>

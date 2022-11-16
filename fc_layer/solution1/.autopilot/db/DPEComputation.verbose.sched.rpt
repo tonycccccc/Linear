@@ -1,0 +1,168 @@
+
+
+================================================================
+== Vitis HLS Report for 'DPEComputation'
+================================================================
+* Date:           Wed Nov  2 23:06:04 2022
+
+* Version:        2021.1 (Build 3247384 on Thu Jun 10 19:36:07 MDT 2021)
+* Project:        fc_layer
+* Solution:       solution1 (Vivado IP Flow Target)
+* Product family: virtexuplus
+* Target device:  xcvu11p-flga2577-1-e
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+----------+----------+------------+
+    |  Clock |  Target  | Estimated| Uncertainty|
+    +--------+----------+----------+------------+
+    |ap_clk  |  10.00 ns|  5.468 ns|     2.70 ns|
+    +--------+----------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+-----------+-----------+------+------+---------+
+    |  Latency (cycles) |   Latency (absolute)  |   Interval  | Pipeline|
+    |   min   |   max   |    min    |    max    |  min |  max |   Type  |
+    +---------+---------+-----------+-----------+------+------+---------+
+    |     1331|     1331|  13.310 us|  13.310 us|  1331|  1331|       no|
+    +---------+---------+-----------+-----------+------+------+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        N/A
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 0
+ResetActiveHigh: 1
+IsCombinational: 0
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 0
+HasVarLatency: 1
+IsPipeline: 0
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states : 6
+* Pipeline : 0
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 2 
+2 --> 3 
+3 --> 4 
+4 --> 5 
+5 --> 6 
+6 --> 
+
+* FSM state operations: 
+
+State 1 <SV = 0> <Delay = 3.16>
+ST_1 : Operation 7 [1/1] (0.00ns)   --->   "%specmemcore_ln0 = specmemcore void @_ssdm_op_SpecMemCore, i640 %processing_buffer, i64 666, i64 30, i64 1"   --->   Operation 7 'specmemcore' 'specmemcore_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 8 [1/1] (0.00ns)   --->   "%block_idx_y_read = read i6 @_ssdm_op_Read.ap_auto.i6, i6 %block_idx_y"   --->   Operation 8 'read' 'block_idx_y_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 9 [1/1] (0.00ns)   --->   "%block_idx_x_read = read i27 @_ssdm_op_Read.ap_auto.i27, i27 %block_idx_x"   --->   Operation 9 'read' 'block_idx_x_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 10 [1/1] (0.00ns)   --->   "%local_output_buf_V = alloca i64 1" [FC_Layer.cpp:284]   --->   Operation 10 'alloca' 'local_output_buf_V' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 11 [1/1] (0.84ns)   --->   "%icmp_ln286 = icmp_eq  i27 %block_idx_x_read, i27 0" [FC_Layer.cpp:286]   --->   Operation 11 'icmp' 'icmp_ln286' <Predicate = true> <Delay = 0.84> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 0.84> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 12 [1/1] (0.00ns)   --->   "%br_ln286 = br i1 %icmp_ln286, void %codeRepl38, void %.preheader.preheader" [FC_Layer.cpp:286]   --->   Operation 12 'br' 'br_ln286' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 13 [1/1] (0.00ns)   --->   "%tmp = bitconcatenate i10 @_ssdm_op_BitConcatenate.i10.i6.i4, i6 %block_idx_y_read, i4 0" [FC_Layer.cpp:292]   --->   Operation 13 'bitconcatenate' 'tmp' <Predicate = (!icmp_ln286)> <Delay = 0.00>
+ST_1 : Operation 14 [1/1] (0.00ns)   --->   "%tmp_s = bitconcatenate i8 @_ssdm_op_BitConcatenate.i8.i6.i2, i6 %block_idx_y_read, i2 0" [FC_Layer.cpp:292]   --->   Operation 14 'bitconcatenate' 'tmp_s' <Predicate = (!icmp_ln286)> <Delay = 0.00>
+ST_1 : Operation 15 [1/1] (0.00ns)   --->   "%zext_ln292 = zext i8 %tmp_s" [FC_Layer.cpp:292]   --->   Operation 15 'zext' 'zext_ln292' <Predicate = (!icmp_ln286)> <Delay = 0.00>
+ST_1 : Operation 16 [1/1] (0.93ns)   --->   "%add_ln292 = add i10 %tmp, i10 %zext_ln292" [FC_Layer.cpp:292]   --->   Operation 16 'add' 'add_ln292' <Predicate = (!icmp_ln286)> <Delay = 0.93> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 0.93> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 17 [2/2] (2.23ns)   --->   "%call_ln292 = call void @DPEComputation_Pipeline_VITIS_LOOP_291_2, i10 %add_ln292, i32 %buffer_out, i32 %local_output_buf_V" [FC_Layer.cpp:292]   --->   Operation 17 'call' 'call_ln292' <Predicate = (!icmp_ln286)> <Delay = 2.23> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_1 : Operation 18 [2/2] (0.00ns)   --->   "%call_ln0 = call void @DPEComputation_Pipeline_VITIS_LOOP_287_1, i32 %local_output_buf_V"   --->   Operation 18 'call' 'call_ln0' <Predicate = (icmp_ln286)> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 2 <SV = 1> <Delay = 0.00>
+ST_2 : Operation 19 [1/2] (0.00ns)   --->   "%call_ln292 = call void @DPEComputation_Pipeline_VITIS_LOOP_291_2, i10 %add_ln292, i32 %buffer_out, i32 %local_output_buf_V" [FC_Layer.cpp:292]   --->   Operation 19 'call' 'call_ln292' <Predicate = (!icmp_ln286)> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_2 : Operation 20 [1/1] (0.00ns)   --->   "%br_ln0 = br void %.loopexit"   --->   Operation 20 'br' 'br_ln0' <Predicate = (!icmp_ln286)> <Delay = 0.00>
+ST_2 : Operation 21 [1/2] (0.00ns)   --->   "%call_ln0 = call void @DPEComputation_Pipeline_VITIS_LOOP_287_1, i32 %local_output_buf_V"   --->   Operation 21 'call' 'call_ln0' <Predicate = (icmp_ln286)> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_2 : Operation 22 [1/1] (0.00ns)   --->   "%br_ln0 = br void %.loopexit"   --->   Operation 22 'br' 'br_ln0' <Predicate = (icmp_ln286)> <Delay = 0.00>
+
+State 3 <SV = 2> <Delay = 0.00>
+ST_3 : Operation 23 [2/2] (0.00ns)   --->   "%call_ln0 = call void @DPEComputation_Pipeline_VITIS_LOOP_296_3, i32 %IACT_TEMP_BUFFER, i640 %processing_buffer, i20 %bit_buffer_weights, i32 %local_output_buf_V"   --->   Operation 23 'call' 'call_ln0' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 4 <SV = 3> <Delay = 0.00>
+ST_4 : Operation 24 [1/2] (0.00ns)   --->   "%call_ln0 = call void @DPEComputation_Pipeline_VITIS_LOOP_296_3, i32 %IACT_TEMP_BUFFER, i640 %processing_buffer, i20 %bit_buffer_weights, i32 %local_output_buf_V"   --->   Operation 24 'call' 'call_ln0' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 5 <SV = 4> <Delay = 1.86>
+ST_5 : Operation 25 [1/1] (0.00ns)   --->   "%tmp_11 = bitconcatenate i10 @_ssdm_op_BitConcatenate.i10.i6.i4, i6 %block_idx_y_read, i4 0" [FC_Layer.cpp:305]   --->   Operation 25 'bitconcatenate' 'tmp_11' <Predicate = true> <Delay = 0.00>
+ST_5 : Operation 26 [1/1] (0.00ns)   --->   "%tmp_12 = bitconcatenate i8 @_ssdm_op_BitConcatenate.i8.i6.i2, i6 %block_idx_y_read, i2 0" [FC_Layer.cpp:305]   --->   Operation 26 'bitconcatenate' 'tmp_12' <Predicate = true> <Delay = 0.00>
+ST_5 : Operation 27 [1/1] (0.00ns)   --->   "%zext_ln305 = zext i8 %tmp_12" [FC_Layer.cpp:305]   --->   Operation 27 'zext' 'zext_ln305' <Predicate = true> <Delay = 0.00>
+ST_5 : Operation 28 [1/1] (0.93ns)   --->   "%add_ln305 = add i10 %tmp_11, i10 %zext_ln305" [FC_Layer.cpp:305]   --->   Operation 28 'add' 'add_ln305' <Predicate = true> <Delay = 0.93> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 0.93> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_5 : Operation 29 [2/2] (0.93ns)   --->   "%call_ln305 = call void @DPEComputation_Pipeline_VITIS_LOOP_303_4, i10 %add_ln305, i32 %buffer_out, i32 %local_output_buf_V" [FC_Layer.cpp:305]   --->   Operation 29 'call' 'call_ln305' <Predicate = true> <Delay = 0.93> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 6 <SV = 5> <Delay = 0.00>
+ST_6 : Operation 30 [1/2] (0.00ns)   --->   "%call_ln305 = call void @DPEComputation_Pipeline_VITIS_LOOP_303_4, i10 %add_ln305, i32 %buffer_out, i32 %local_output_buf_V" [FC_Layer.cpp:305]   --->   Operation 30 'call' 'call_ln305' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_6 : Operation 31 [1/1] (0.00ns)   --->   "%ret_ln309 = ret" [FC_Layer.cpp:309]   --->   Operation 31 'ret' 'ret_ln309' <Predicate = true> <Delay = 0.00>
+
+
+============================================================
++ Verbose Summary: Timing violations
+============================================================
+Target clock period: 10ns, clock uncertainty: 2.7ns.
+
+ <State 1>: 3.16ns
+The critical path consists of the following:
+	wire read operation ('block_idx_y_read') on port 'block_idx_y' [8]  (0 ns)
+	'add' operation ('add_ln292', FC_Layer.cpp:292) [17]  (0.933 ns)
+	'call' operation ('call_ln292', FC_Layer.cpp:292) to 'DPEComputation_Pipeline_VITIS_LOOP_291_2' [18]  (2.23 ns)
+
+ <State 2>: 0ns
+The critical path consists of the following:
+
+ <State 3>: 0ns
+The critical path consists of the following:
+
+ <State 4>: 0ns
+The critical path consists of the following:
+
+ <State 5>: 1.87ns
+The critical path consists of the following:
+	'add' operation ('add_ln305', FC_Layer.cpp:305) [28]  (0.933 ns)
+	'call' operation ('call_ln305', FC_Layer.cpp:305) to 'DPEComputation_Pipeline_VITIS_LOOP_303_4' [29]  (0.933 ns)
+
+ <State 6>: 0ns
+The critical path consists of the following:
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+ - Input state : 
+  - Chain level:
+	State 1
+	State 2
+	State 3
+	State 4
+	State 5
+	State 6
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A

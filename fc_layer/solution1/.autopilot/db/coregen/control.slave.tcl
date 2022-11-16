@@ -1,0 +1,2 @@
+dict set slaves control {ports {ifc1_offset {type i_ap_none width 64} ifc2_offset {type i_ap_none width 64} ifc3_offset {type i_ap_none width 64} ifc4_offset {type i_ap_none width 64} ifc5_offset {type i_ap_none width 64} ifc6_offset {type i_ap_none width 64} ifc7 {type i_ap_none width 64} X {type i_ap_none width 32} Y {type i_ap_none width 32} Wt_X {type i_ap_none width 32} Wt_Y {type i_ap_none width 32} bias {type i_ap_none width 32}} mems {} has_ctrl 0}
+set datawidth 32

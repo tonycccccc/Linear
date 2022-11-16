@@ -1,0 +1,156 @@
+
+
+================================================================
+== Synthesis Summary Report of 'LINEAR'
+================================================================
++ General Information: 
+    * Date:           Wed Nov  2 23:07:57 2022
+    * Version:        2021.1 (Build 3247384 on Thu Jun 10 19:36:07 MDT 2021)
+    * Project:        fc_layer
+    * Solution:       solution1 (Vivado IP Flow Target)
+    * Product family: virtexuplus
+    * Target device:  xcvu11p-flga2577-1-e
+    
+
++ Performance & Resource Estimates: 
+    
+    PS: '+' for module; 'o' for loop; '*' for dataflow
+    +-------------------------------------------------------------------------------------------+--------+-------+---------+-----------+----------+---------+------+----------+----------+----------+------------+--------------+-----------+
+    |                                          Modules                                          |  Issue |       | Latency |  Latency  | Iteration|         | Trip |          |          |          |            |              |           |
+    |                                          & Loops                                          |  Type  | Slack | (cycles)|    (ns)   |  Latency | Interval| Count| Pipelined|   BRAM   |    DSP   |     FF     |      LUT     |    URAM   |
+    +-------------------------------------------------------------------------------------------+--------+-------+---------+-----------+----------+---------+------+----------+----------+----------+------------+--------------+-----------+
+    |+ LINEAR*                                                                                  |  Timing|  -0.00|        -|          -|         -|        -|     -|  dataflow|  207 (5%)|  288 (3%)|  80751 (3%)|  170873 (13%)|  284 (29%)|
+    | + grp_ReadFromMem_fu_714                                                                  |  Timing|  -0.00|        -|          -|         -|        -|     -|        no|         -|  219 (2%)|  65525 (2%)|  143907 (11%)|          -|
+    |  + grp_ReadFromMem_Pipeline_VITIS_LOOP_27_1_VITIS_LOOP_32_2_fu_576                        |  Timing|  -0.00|        -|          -|         -|        -|     -|        no|         -|  108 (1%)|  8785 (~0%)|    13630 (1%)|          -|
+    |   o VITIS_LOOP_27_1_VITIS_LOOP_32_2                                                       |       -|   7.30|        -|          -|        36|        4|     -|       yes|         -|         -|           -|             -|          -|
+    |  + grp_ReadFromMem_Pipeline_VITIS_LOOP_153_8_fu_747                                       |  Timing|  -0.00|        -|          -|         -|        -|     -|        no|         -|         -|   668 (~0%)|     989 (~0%)|          -|
+    |   o VITIS_LOOP_153_8                                                                      |      II|   7.30|        -|          -|        21|       12|     -|       yes|         -|         -|           -|             -|          -|
+    |  + grp_ReadFromMem_Pipeline_VITIS_LOOP_168_11_VITIS_LOOP_177_13_fu_757                    |       -|   2.57|        -|          -|         -|        -|     -|        no|         -|         -|   131 (~0%)|    2561 (~0%)|          -|
+    |   o VITIS_LOOP_168_11_VITIS_LOOP_177_13                                                   |       -|   7.30|        -|          -|         1|        1|     -|       yes|         -|         -|           -|             -|          -|
+    |  + grp_ReadFromMem_Pipeline_VITIS_LOOP_187_14_VITIS_LOOP_189_15_VITIS_LOOP_192_16_fu_767  |       -|   0.07|        -|          -|         -|        -|     -|        no|         -|  84 (~0%)|  53207 (2%)|   117069 (9%)|          -|
+    |   o VITIS_LOOP_187_14_VITIS_LOOP_189_15_VITIS_LOOP_192_16                                 |      II|   7.30|        -|          -|        59|       20|     -|       yes|         -|         -|           -|             -|          -|
+    |  + grp_ReadFromMem_Pipeline_VITIS_LOOP_216_18_fu_980                                      |       -|   3.97|        -|          -|         -|        -|     -|        no|         -|         -|    35 (~0%)|     108 (~0%)|          -|
+    |   o VITIS_LOOP_216_18                                                                     |       -|   7.30|        -|          -|         2|        1|     -|       yes|         -|         -|           -|             -|          -|
+    |  o VITIS_LOOP_89_4                                                                        |       -|   7.30|        9|     90.000|         1|        -|     9|        no|         -|         -|           -|             -|          -|
+    | + call_ret8_Block_split10_proc_fu_929                                                     |       -|   0.57|        0|      0.000|         -|        0|     -|        no|         -|   3 (~0%)|    58 (~0%)|     316 (~0%)|          -|
+    | + grp_RunDataFlow_fu_935                                                                  |       -|   1.04|        -|          -|         -|        -|     -|        no|  39 (~0%)|  63 (~0%)|  4500 (~0%)|    17557 (1%)|          -|
+    |  + grp_CreateBitMask_fu_171                                                               |       -|   1.04|        -|          -|         -|        -|     -|        no|         -|         -|   722 (~0%)|   12525 (~0%)|          -|
+    |   + grp_CreateBitMask_Pipeline_VITIS_LOOP_230_2_fu_114                                    |       -|   6.48|        -|          -|         -|        -|     -|        no|         -|         -|     2 (~0%)|     223 (~0%)|          -|
+    |    o VITIS_LOOP_230_2                                                                     |       -|   7.30|        -|          -|         1|        1|     -|       yes|         -|         -|           -|             -|          -|
+    |   + grp_CreateBitMask_Pipeline_VITIS_LOOP_237_3_VITIS_LOOP_241_4_fu_183                   |       -|   1.04|      642|  6.420e+03|         -|      642|     -|        no|         -|         -|   703 (~0%)|   11796 (~0%)|          -|
+    |    o VITIS_LOOP_237_3_VITIS_LOOP_241_4                                                    |       -|   7.30|      640|  6.400e+03|         2|        1|   640|       yes|         -|         -|           -|             -|          -|
+    |   o VITIS_LOOP_229_1                                                                      |       -|   7.30|        -|          -|         -|        -|     -|        no|         -|         -|           -|             -|          -|
+    |  + grp_RunDataFlow_Pipeline_VITIS_LOOP_341_1_fu_243                                       |       -|   3.97|       34|    340.000|         -|       34|     -|        no|         -|         -|    15 (~0%)|      72 (~0%)|          -|
+    |   o VITIS_LOOP_341_1                                                                      |       -|   7.30|       32|    320.000|         2|        1|    32|       yes|         -|         -|           -|             -|          -|
+    |  + grp_DPEComputation_fu_250                                                              |       -|   1.83|     1331|  1.331e+04|         -|     1331|     -|        no|   2 (~0%)|  60 (~0%)|  3402 (~0%)|    4053 (~0%)|          -|
+    |   + grp_DPEComputation_Pipeline_VITIS_LOOP_291_2_fu_58                                    |       -|   4.71|       22|    220.000|         -|       22|     -|        no|         -|         -|    13 (~0%)|      76 (~0%)|          -|
+    |    o VITIS_LOOP_291_2                                                                     |       -|   7.30|       20|    200.000|         2|        1|    20|       yes|         -|         -|           -|             -|          -|
+    |   + grp_DPEComputation_Pipeline_VITIS_LOOP_287_1_fu_67                                    |       -|   5.28|       22|    220.000|         -|       22|     -|        no|         -|         -|     7 (~0%)|      48 (~0%)|          -|
+    |    o VITIS_LOOP_287_1                                                                     |       -|   7.30|       20|    200.000|         1|        1|    20|       yes|         -|         -|           -|             -|          -|
+    |   + grp_DPEComputation_Pipeline_VITIS_LOOP_296_3_fu_73                                    |       -|   1.83|     1282|  1.282e+04|         -|     1282|     -|        no|         -|  60 (~0%)|  3337 (~0%)|    3599 (~0%)|          -|
+    |    + grp_DPEUnit_fu_63                                                                    |      II|   2.10|       39|    390.000|         -|       40|     -|       yes|         -|  60 (~0%)|  3281 (~0%)|    3313 (~0%)|          -|
+    |    o VITIS_LOOP_296_3                                                                     |      II|   7.30|     1280|  1.280e+04|        41|       40|    32|       yes|         -|         -|           -|             -|          -|
+    |   + grp_DPEComputation_Pipeline_VITIS_LOOP_303_4_fu_84                                    |       -|   4.71|       22|    220.000|         -|       22|     -|        no|         -|         -|    18 (~0%)|      93 (~0%)|          -|
+    |    o VITIS_LOOP_303_4                                                                     |       -|   7.30|       20|    200.000|         2|        1|    20|       yes|         -|         -|           -|             -|          -|
+    |  o VITIS_LOOP_352_1                                                                       |       -|   7.30|        -|          -|         -|        -|     -|        no|         -|         -|           -|             -|          -|
+    |   o VITIS_LOOP_357_2                                                                      |       -|   7.30|        -|          -|      1333|        -|     -|        no|         -|         -|           -|             -|          -|
+    | + ifc7_c_channel_entry_proc_fu_975                                                        |       -|   7.30|        0|      0.000|         -|        0|     -|        no|         -|         -|    66 (~0%)|      20 (~0%)|          -|
+    | + grp_OutputBuffer_fu_980                                                                 |  Timing|  -0.00|        -|          -|         -|        -|     -|        no|         -|   3 (~0%)|   367 (~0%)|     615 (~0%)|          -|
+    |  + grp_OutputBuffer_Pipeline_VITIS_LOOP_329_1_fu_85                                       |  Timing|  -0.00|        -|          -|         -|        -|     -|        no|         -|         -|   173 (~0%)|     212 (~0%)|          -|
+    |   o VITIS_LOOP_329_1                                                                      |      II|   7.30|        -|          -|         4|        2|     -|       yes|         -|         -|           -|             -|          -|
+    +-------------------------------------------------------------------------------------------+--------+-------+---------+-----------+----------+---------+------+----------+----------+----------+------------+--------------+-----------+
+
+
+================================================================
+== HW Interfaces
+================================================================
+* M_AXI
++------------+------------+---------------+---------+--------+----------+-----------+--------------+--------------+-------------+-------------+
+| Interface  | Data Width | Address Width | Latency | Offset | Register | Max Widen | Max Read     | Max Write    | Num Read    | Num Write   |
+|            | (SW->HW)   |               |         |        |          | Bitwidth  | Burst Length | Burst Length | Outstanding | Outstanding |
++------------+------------+---------------+---------+--------+----------+-----------+--------------+--------------+-------------+-------------+
+| m_axi_ifc1 | 128 -> 128 | 64            | 0       | slave  | 0        | 0         | 16           | 16           | 16          | 16          |
+| m_axi_ifc2 | 128 -> 128 | 64            | 0       | slave  | 0        | 0         | 16           | 16           | 16          | 16          |
+| m_axi_ifc3 | 128 -> 128 | 64            | 0       | slave  | 0        | 0         | 16           | 16           | 16          | 16          |
+| m_axi_ifc4 | 128 -> 128 | 64            | 0       | slave  | 0        | 0         | 16           | 16           | 16          | 16          |
+| m_axi_ifc5 | 128 -> 128 | 64            | 0       | slave  | 0        | 0         | 16           | 16           | 16          | 16          |
+| m_axi_ifc6 | 128 -> 128 | 64            | 0       | slave  | 0        | 0         | 16           | 16           | 16          | 16          |
++------------+------------+---------------+---------+--------+----------+-----------+--------------+--------------+-------------+-------------+
+
+* S_AXILITE
++---------------+------------+---------------+--------+----------+
+| Interface     | Data Width | Address Width | Offset | Register |
++---------------+------------+---------------+--------+----------+
+| s_axi_control | 32         | 8             | 16     | 0        |
++---------------+------------+---------------+--------+----------+
+
+* TOP LEVEL CONTROL
++-----------+------------+-----------------------------------+
+| Interface | Type       | Ports                             |
++-----------+------------+-----------------------------------+
+| ap_clk    | clock      | ap_clk                            |
+| ap_rst_n  | reset      | ap_rst_n                          |
+| ap_ctrl   | ap_ctrl_hs | ap_done ap_idle ap_ready ap_start |
++-----------+------------+-----------------------------------+
+
+
+================================================================
+== SW I/O Information
+================================================================
+* Top Function Arguments
++----------+-----------+---------------+
+| Argument | Direction | Datatype      |
++----------+-----------+---------------+
+| ifc1     | inout     | ap_uint<128>* |
+| ifc2     | in        | ap_uint<128>* |
+| ifc3     | in        | ap_uint<128>* |
+| ifc4     | in        | ap_uint<128>* |
+| ifc5     | in        | ap_uint<128>* |
+| ifc6     | in        | ap_uint<128>* |
+| ifc7     | inout     | ap_uint<128>* |
+| X        | in        | int           |
+| Y        | in        | int           |
+| Wt_X     | in        | int           |
+| Wt_Y     | in        | int           |
+| bias     | in        | int           |
++----------+-----------+---------------+
+
+* SW-to-HW Mapping
++----------+----------------------+-----------+----------+-----------------------+
+| Argument | HW Name              | HW Type   | HW Usage | HW Info               |
++----------+----------------------+-----------+----------+-----------------------+
+| ifc1     | m_axi_ifc1           | interface |          |                       |
+| ifc1     | s_axi_control        | interface | offset   |                       |
+| ifc2     | m_axi_ifc2           | interface |          |                       |
+| ifc2     | s_axi_control        | interface | offset   |                       |
+| ifc3     | m_axi_ifc3           | interface |          |                       |
+| ifc3     | s_axi_control        | interface | offset   |                       |
+| ifc4     | m_axi_ifc4           | interface |          |                       |
+| ifc4     | s_axi_control        | interface | offset   |                       |
+| ifc5     | m_axi_ifc5           | interface |          |                       |
+| ifc5     | s_axi_control        | interface | offset   |                       |
+| ifc6     | m_axi_ifc6           | interface |          |                       |
+| ifc6     | s_axi_control        | interface | offset   |                       |
+| ifc7     | m_axi_ifc1           | interface |          |                       |
+| ifc7     | s_axi_control ifc7_1 | register  | offset   | offset=0x58, range=32 |
+| ifc7     | s_axi_control ifc7_2 | register  | offset   | offset=0x5c, range=32 |
+| X        | s_axi_control X      | register  |          | offset=0x64, range=32 |
+| Y        | s_axi_control Y      | register  |          | offset=0x6c, range=32 |
+| Wt_X     | s_axi_control Wt_X   | register  |          | offset=0x74, range=32 |
+| Wt_Y     | s_axi_control Wt_Y   | register  |          | offset=0x7c, range=32 |
+| bias     | s_axi_control bias   | register  |          | offset=0x84, range=32 |
++----------+----------------------+-----------+----------+-----------------------+
+
+
+================================================================
+== M_AXI Burst Information
+================================================================
+* Burst Summary
++--------------+------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------+
+| HW Interface | Loop             | Message                                                                                                                                                                                                                         | Location            |
++--------------+------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------+
+| m_axi_ifc6   | VITIS_LOOP_156_9 | Multiple burst reads of length 6 and bit width 128. These bursts requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings.         | FC_Layer.cpp:156:27 |
+| m_axi_ifc1   | VITIS_LOOP_329_1 | Multiple burst writes of variable length and bit width 128. These bursts requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings. | FC_Layer.cpp:329:23 |
++--------------+------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------+
+
+
