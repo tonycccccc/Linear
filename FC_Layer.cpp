@@ -240,9 +240,6 @@ void ReadFromMem(
                     ap_uint<WEIGHT_NUM_PER_ROW_URAM*WEIGHTS_DATAWIDTH> load = weight_buffer[base_offset+idx_x];
                     weights_stream[i].write(load.range((idx_y + 1) * WEIGHTS_DATAWIDTH - 1, (idx_y) * WEIGHTS_DATAWIDTH));
                     //std::cout << base_offset+idx_x << "Address Offset!!!!!" << std::endl;
-#ifdef DEBUG
-
-#endif
                     //std::cout << weights_stream[i] << ", ";
                 }
                 //std::cout << std::endl;
@@ -277,7 +274,7 @@ void CreateBitMask(hls::stream<ap_uint<WEIGHTS_DATAWIDTH>> weights_stream[PARALL
 //  change loop order to smooth the pipeline
     for (int i = 0; i < PARALLEL_K; ++i)
     { 
-        ap_uint<PARALLEL_N*WEIGHTS_DATAWIDTH> payload = 0;
+        ap_uint<PARALLEL_N*WEIGHTS_DATAWIDTH> payload = 0; //payload -> PARALLEL_N*WEIGHTS_DATA_WIDTH*(WT_Y/PARALLEL_N)
         ap_uint<PARALLEL_N> bitmask = 0;
         for (int j = 0; j < PARALLEL_N;++j) {
 #pragma HLS PIPELINE II = 1
@@ -288,6 +285,21 @@ void CreateBitMask(hls::stream<ap_uint<WEIGHTS_DATAWIDTH>> weights_stream[PARALL
         processing_buffer[i] = payload;
         bit_buffer_weights[i] = bitmask;
     }
+
+    /**Optimized Design**/
+    processing_buffer = 0;
+    bit_buffer_weights = 0;
+    for (int i = 0; i < PROCESSING_BUFFER_DEPTH; ++i) {
+        for (int j = 0; j < PARALLEL_K; ++j) {
+            for (int k = 0; k < PARALLEL_N; ++k) {
+                ap_uint<WEIGHTS_DATAWIDTH> data = weights_stream[i].read();
+                processing_buffer[j][k].range((i+1)*WEIGHTS_DATAWIDTH-1, i*WEIGHTS_DATAWIDTH) = data;
+                bit_buffer_weights[j][k].range(i, i) = data == 0? 0 : 1;
+            }
+        }
+    }
+    /********/
+
     //std::cout << "Mask created" << std::endl;
 }
 
@@ -316,11 +328,73 @@ void DPEUnit(data_t iact_value, int iact_idx, ap_uint<PARALLEL_N * WEIGHTS_DATAW
 #endif
         }
     }
+
+    /******************Optimized Structure********************/
+    if (k_idx != 0) {
+        for (int i = 0; i < PARALLEL_N; ++i) {
+            output_buf[k_idx][i] = output_buf[k_idx-1][i];
+        }
+    }
+    assert(iact_idx == k_idx)
+    if (iact_idx == -1) return;
+    ap_uint<PROCESSING_BUFFER_DEPTH> *bitmask = &bit_buffer_weights[iact_idx];
+    ap_uint<PROCESSING_BUFFER_DEPTH * WEIGHTS_DATAWIDTH> *weight_row = &processing_buffer[iact_idx];
+    int load_idx = loop_count - k_idx; //Find the correct pos to load weight value
+    for (int i = 0; i < PARALLEL_N; ++i) {
+#pragma HLS UNROLL
+        ap_uint<1> bit = *(bitmask+i).range(load_idx, load_idx);
+        if (bit == 1) {
+            data_t weight = 0;
+            weight.range(WEIGHTS_DATAWIDTH-1, 0) = *(weight_row+i).range((load_idx+1)*WEIGHTS_DATAWIDTH-1, load_idx*WEIGHTS_DATAWIDTH);
+            output_buf[iact_idx][i] += weight * iact_value;
+        }        
+    }
+    /******************Optimized Structure Ends********************/
 }
 
 //batch_num here is for recording how many groups of PARALLEL_K we have processed
 void DPEComputation(int batch_num, data_t IACT_TEMP_BUFFER[PARALLEL_K], int block_idx_x, int block_idx_y,  ap_uint<PARALLEL_N * WEIGHTS_DATAWIDTH> processing_buffer[PARALLEL_K],
                     ap_uint<PARALLEL_N> bit_buffer_weights[PARALLEL_K],  data_t buffer_out[MAX_WT_Y/PARALLEL_N][PARALLEL_N], int Wt_X, int Wt_Y) {
+
+    /******************Optimized Structure********************/
+    int broadcast_idx = 0;
+    data_t local_output_buf[PARALLEL_K][Wt_Y];
+    if (block_idx_x == 0) {
+        for (int i = 0; i < PROCESSING_BUFFER_DEPTH; ++i) {
+            for (int j = 0; j < PARALLEL_N; ++j) {
+                local_output_buf[0][i*PARALLEL_N + j] = 0;
+            }
+        }
+    } else {
+        for (int i = 0; i < PROCESSING_BUFFER_DEPTH; ++i) {
+            for (int j = 0; j < PARALLEL_N; ++j) {
+                local_output_buf[0][i*PARALLEL_N + j] = buffer_out[i][j];
+            }
+        }
+    }
+    int OUTER_LOOP_DIM = PROCESSING_BUFFER_DEPTH + PARALLEL_K;
+    for (int i = 0; i < OUTER_LOOP_DIM; ++i) {
+#pragma HLS PIPELINE
+        int INNER_LOOP_DIM = i >= PARALLEL_K ? PARALLEL_K : i; //From start to fully loading
+        if (i > PROCESSING_BUFFER_DEPTH) {
+            INNER_LOOP_DIM -= (i - PROCESSING_BUFFER_DEPTH); //Wrap up part
+        }
+        for (int j = 0; j < INNER_LOOP_DIM; ++j) {
+            broadcast_idx = IACT_TEMP_BUFFER[j] == 0 ? -1:i;
+            DPEUnit(IACT_TEMP_BUFFER[i], broadcast_idx, processing_buffer, bit_buffer_weights, local_output_buf, i, block_idx_y, loop_count);
+        }
+    }
+    for (int i = 0; i < PARALLEL_K; ++i) {
+#pragma HLS PIPELINE
+        DPEUnit(IACT_TEMP_BUFFER[i], broadcast_idx, processing_buffer, bit_buffer_weights, local_output_buf, i, block_idx_y);
+    }
+    for (int i = 0; i < PROCESSING_BUFFER_DEPTH; ++i) {
+        for (int j = 0; j < PARALLEL_N; ++j) {
+            buffer_out[i][j] = local_output_buf[PARALLEL_K-1][i*PARALLEL_N+j];
+        }
+    }
+
+    /******************Optimized Structure Ends********************/
     //broadcast nonzero iact values
 #ifdef LOGGING_DPECOMPUTATION_FUNC
     std::cout << "DPE Computation" << std::endl;
@@ -328,7 +402,8 @@ void DPEComputation(int batch_num, data_t IACT_TEMP_BUFFER[PARALLEL_K], int bloc
     int broadcast_idx = 0;
     data_t local_output_buf[PARALLEL_K][PARALLEL_N]; //should be a global value
     // propagate the first row of local_out_buffer
-    if (block_idx_x == 0) {
+    //if (block_idx_x == 0) {
+    if (block_idx_y == 0) {
         for (int i = 0; i < PARALLEL_N; ++i) {
             local_output_buf[0][i] = 0;
         }
@@ -403,6 +478,26 @@ void RunDataFlow(int block_num_x, int block_num_y, hls::stream<data_t> &iacts_st
             data_t output_buf[MAX_WT_Y/PARALLEL_N][PARALLEL_N], ap_uint<PARALLEL_N * WEIGHTS_DATAWIDTH> first_processing_buffer[PARALLEL_K], ap_uint<PARALLEL_N * WEIGHTS_DATAWIDTH> second_processing_buffer[PARALLEL_K],
             ap_uint<PARALLEL_N> first_bit_buffer_weights[PARALLEL_K], ap_uint<PARALLEL_N> second_bit_buffer_weights[PARALLEL_K], int Wt_X, int Wt_Y)
 {
+#pragma HLS DATAFLOW
+
+    /***********Optimized Structure*************/
+    CreateBitMask(weights_stream, first_processing_buffer, first_bit_buffer_weights);
+    for (int i = 0; i < block_num_x; ++i) {
+        ReadIactBuff(iacts_stream, IACT_TEMP_BUFFER);
+        if (batch != block_num_x - 1) {
+            if (batch & 1 != 0) { //even case
+                CreateBitMask(weights_stream, second_processing_buffer, second_bit_buffer_weights);
+                DPEComputation(batch, IACT_TEMP_BUFFER, i, j, first_processing_buffer, first_bit_buffer_weights, output_buf, Wt_X, Wt_Y);
+            } else {
+                CreateBitMask(weights_stream, first_processing_buffer, first_bit_buffer_weights);
+                DPEComputation(batch, IACT_TEMP_BUFFER, i, j, second_processing_buffer, second_bit_buffer_weights, output_buf, Wt_X, Wt_Y);
+            }
+        }
+        else {
+            DPEComputation(batch, IACT_TEMP_BUFFER, i, j, second_processing_buffer, second_bit_buffer_weights, output_buf, Wt_X, Wt_Y); //depends on batch_num
+        }
+    }
+    /***********Optimized Structure Ends*************/
     CreateBitMask(weights_stream, first_processing_buffer, first_bit_buffer_weights);
     for (int i = 0; i < block_num_x; ++i) {
 #ifdef LOGGING_RUNDATAFLOW_FUNC
@@ -480,6 +575,14 @@ void LINEAR(
 
     ap_uint<PARALLEL_N> first_bit_buffer_weights[PARALLEL_K];
     ap_uint<PARALLEL_N> second_bit_buffer_weights[PARALLEL_K];
+
+/**Optimized Structure**/
+    ap_uint<PROCESSING_BUFFER_DEPTH * WEIGHTS_DATAWIDTH> first_processing_buffer[PARALLEL_K][PARALLEL_N]; //-->make processing buffer a 2D array
+    ap_uint<PROCESSING_BUFFER_DEPTH * WEIGHTS_DATAWIDTH> second_processing_buffer[PARALLEL_K][PARALLEL_N];
+    ap_uint<PROCESSING_BUFFER_DEPTH> first_bit_buffer_weights[PARALLEL_K][PARALLEL_N];
+    ap_uint<PROCESSING_BUFFER_DEPTH> second_bit_buffer_weights[PARALLEL_K][PARALLEL_N];
+/**Optimized Structure Ends**/
+
     ap_uint<IACT_BRAM_WIDTH> iact_buffer[MAX_IACT_BRAM_ROW]; // need 4 brams (8 * 2k) in total
 #pragma HLS BIND_STORAGE variable = iact_buffer type = ram_t2p impl = bram latency = 1
 //#pragma HLS array_partition variable = iact_buffer type = cyclic factor = PARALLEL_K dim = 1 // read 32 elements at one time
@@ -488,22 +591,22 @@ void LINEAR(
 #pragma HLS STREAM variable = iacts_stream depth = PARALLEL_K type = fifo
 
     hls::stream<ap_uint<WEIGHTS_DATAWIDTH>> weights_stream[PARALLEL_K];
-#pragma HLS STREAM variable = weights_stream depth = 5*PARALLEL_N type = fifo
+#pragma HLS STREAM variable = weights_stream depth = 10*PARALLEL_N type = fifo
 
     hls::stream<data_t> output_stream;
 #pragma HLS STREAM variable = output_stream depth = PARALLEL_N type = fifo
 
     data_t output_buf[MAX_WT_Y/PARALLEL_N][PARALLEL_N];
     // ap_uint<OACTS_DATAWIDTH> output_buf[MAX_WT_Y/PARALLEL_N][PARALLEL_N];
-#pragma HLS BIND_STORAGE variable = iact_buffer type = ram_t2p impl = bram latency = 1
-#pragma HLS array_partition variable = iact_buffer type = complete dim = 1 // read 32 elements at one time
+#pragma HLS BIND_STORAGE variable = output_buf type = ram_t2p impl = bram latency = 1
+#pragma HLS array_partition variable = output_buf type = complete dim = 1 // read 32 elements at one time
 
     int block_num_x = Wt_X / PARALLEL_K;
     int block_num_y = Wt_Y / PARALLEL_N;
     data_t IACT_TEMP_BUFFER[PARALLEL_K];
 
     int address_ifc = block_num_x * block_num_y * BLOCK_WEIGHT_TOTAL_IFC;
-    #pragma HLS DATAFLOW
+#pragma HLS DATAFLOW
 
 #ifdef LOGGING_LINEAR_FUNC
     std::cout << "Read from memory" << std::endl;

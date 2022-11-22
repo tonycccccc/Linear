@@ -31,7 +31,7 @@ data_t bias[MAX_X*MAX_WT_Y];
 void read_bin_files(int X, int Y, int Wt_X, int Wt_Y){
     std::ifstream iacts_file("/nethome/zchen752/temp/input5.csv", ios::in);
     std::ifstream weights_file("/nethome/zchen752/temp/temp.csv", ios::in);
-//    std::ifstream weights_file("/nethome/zchen752/Linear/data/linear_weights_5.csv", ios::in);
+    //std::ifstream weights_file("/nethome/zchen752/Linear/data/linear_weights_5.csv", ios::in);
     std::ifstream reference_oacts_file("/nethome/zchen752/temp/oact5.csv", ios::in);
     //std::ifstream bias_file("/nethome/zchen752/Linear/data/linear_bias_5.pth", ios::in);
     std::cout <<"Import data" <<std::endl;

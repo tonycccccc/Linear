@@ -81,6 +81,8 @@ constexpr int PARALLEL_K = 32; // Given 2048 as k-dim size, process 32 at one ti
 constexpr int PARALLEL_N = 20; //20 //20 to get higher parallelism
 constexpr int PARALLEL_M = 1;
 
+constexpr int PROCESSING_BUFFER_DEPTH = MAX_WT_Y / PARALLEL_N;
+
 //On-chip buffer size
 constexpr int MAX_BLOCK_COUNT = MAX_WT_X * MAX_WT_Y / PARALLEL_K / PARALLEL_N;
 constexpr int MIN_BLOCK_COUNT = MIN_WT_X * MIN_WT_Y / PARALLEL_K / PARALLEL_N;
